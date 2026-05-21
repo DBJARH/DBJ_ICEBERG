@@ -9,7 +9,6 @@ This file is written for Claude. It describes this repository and how Claude sho
 - Live site: https://dbjarh.github.io/DBJ_ICEBERG/
 - Built with Hugo Extended + PaperMod theme
 - Deployed via GitHub Actions on push to `main`
-- Source of blog posts: `/blog` in `DBJ_METHOD_DEV`
 
 ## Your Role Here
 
@@ -50,18 +49,6 @@ Optional cover image (local to post folder):
 cover:
   image: "filename.jpg"
 ```
-
-## Migrating Posts from DBJ_METHOD_DEV
-
-Source posts live in `DBJ_METHOD_DEV/blog/post-name/post-name.md`.
-
-Migration steps:
-1. Create `content/posts/post-name/index.md`
-2. Add Hugo frontmatter
-3. Copy content — strip the logo/copyright footer (PaperMod handles attribution)
-4. Fix image paths — remove `../../assets/` prefixes, images are local to the bundle
-5. Copy image files into the same folder as `index.md`
-6. Convert GitHub-flavoured `>[!NOTE]` / `>[!IMPORTANT]` callouts to plain blockquotes
 
 ## Ownership
 
