@@ -6,6 +6,8 @@ tags: ["AI", "enterprise-architecture", "sovereignty", "infrastructure"]
 author: "Dusan B. Jovanovic"
 ---
 
+![](/the dark bottom dbj.png)
+
 ## Aleph Alpha: The Right Model
 
 Aleph Alpha, founded in Heidelberg in 2019 by Jonas Andrulis, built **Luminous** — a full LLM. Not a wrapper, not a fine-tune of someone else's weights. Their own architecture, their own training, their own inference. They sit in the same category as OpenAI and Anthropic: model creators, not mills.

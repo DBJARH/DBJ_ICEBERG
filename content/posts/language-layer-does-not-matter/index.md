@@ -6,6 +6,8 @@ tags: ["software-engineering", "AI", "C", "systems"]
 author: "Dusan B. Jovanovic"
 ---
 
+![](/the dark bottom dbj.png)
+
 ## The Language Layer Does Not Matter
 
 Andrej Karpathy does not use C. He does not need to. His work sits at the model research and pedagogy layer where Python is the lingua franca. The real compute happens in C and CUDA underneath, but that layer is invisible to him. Training a model takes ten hours in C++ and ten hours in Python — the GPU is the bottleneck, not the host language.

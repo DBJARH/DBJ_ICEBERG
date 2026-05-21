@@ -6,6 +6,8 @@ tags: ["software-history", "architecture", "rust", "C"]
 author: "Dusan B. Jovanovic"
 ---
 
+![](/the dark bottom dbj.png)
+
 ## The Paper Everyone Forgot — Almost
 
 Tony Hoare published "Record Handling" in 1966. Before Simula 67. Before Smalltalk. Before anyone had coined the term object-oriented programming.
