@@ -6,7 +6,7 @@ This file is written for Claude. It describes this repository and how Claude sho
 
 **DBJ_ICEBERG** is the public blog for DBJ Method — EA AI ROI advice for SMEs navigating AI adoption.
 
-- Live site: https://dbjarh.github.io/DBJ_ICEBERG/
+- Live site: https://iceberg.dbj.org/
 - Built with Hugo Extended + PaperMod theme
 - Deployed via GitHub Actions on push to `main`
 
