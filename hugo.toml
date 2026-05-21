@@ -20,9 +20,9 @@ paginate = 10
 [params.profileMode]
   enabled = false
 
-[[params.socialIcons]]
-  name = 'github'
-  url = 'https://github.com/DBJARH'
+# [[params.socialIcons]]
+#  name = 'github'
+#  url = 'https://github.com/DBJARH'
 
 [outputs]
   home = ['HTML', 'RSS', 'JSON']
