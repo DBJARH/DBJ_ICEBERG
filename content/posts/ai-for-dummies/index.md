@@ -4,7 +4,6 @@ date: 2025-02-03
 description: ""
 tags: ["AI", "enterprise-architecture"]
 author: "Dusan B. Jovanovic"
-draft: true
 cover:
   image: "ai-for-dummies.png"
 ---

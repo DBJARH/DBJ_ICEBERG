@@ -4,7 +4,6 @@ date: 2025-02-02
 description: ""
 tags: ["AI", "agents", "enterprise-architecture"]
 author: "Dusan B. Jovanovic"
-draft: true
 cover:
   image: "humans-and-agents.png"
 ---

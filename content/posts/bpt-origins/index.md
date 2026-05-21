@@ -4,7 +4,6 @@ date: 2025-02-06
 description: ""
 tags: ["enterprise-architecture", "BPT", "DBJ-Method"]
 author: "Dusan B. Jovanovic"
-draft: true
 cover:
   image: "bpt-origin-sketch.png"
 ---

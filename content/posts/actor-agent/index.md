@@ -4,7 +4,6 @@ date: 2025-02-01
 description: ""
 tags: ["AI", "enterprise-architecture", "agents"]
 author: "Dusan B. Jovanovic"
-draft: true
 cover:
   image: "actor-agent.png"
 ---

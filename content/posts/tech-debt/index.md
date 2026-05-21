@@ -4,7 +4,6 @@ date: 2025-02-14
 description: ""
 tags: ["technical-debt", "enterprise-architecture", "legacy"]
 author: "Dusan B. Jovanovic"
-draft: true
 cover:
   image: "tech-debt-moment-of-truth.png"
 ---

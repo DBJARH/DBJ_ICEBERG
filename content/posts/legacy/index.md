@@ -4,7 +4,6 @@ date: 2025-02-10
 description: ""
 tags: ["legacy", "enterprise-architecture", "technical-debt"]
 author: "Dusan B. Jovanovic"
-draft: true
 cover:
   image: "legacy.png"
 ---

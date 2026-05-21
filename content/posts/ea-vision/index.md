@@ -4,7 +4,6 @@ date: 2025-02-08
 description: ""
 tags: ["enterprise-architecture", "AI"]
 author: "Dusan B. Jovanovic"
-draft: true
 cover:
   image: "business-with-vision-wins.png"
 ---
