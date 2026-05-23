@@ -6,7 +6,7 @@ tags: ["AI", "enterprise-architecture", "sovereignty", "infrastructure"]
 author: "Dusan B. Jovanovic"
 ---
 
-![](/the dark bottom dbj.png)
+![](/the_dark_bottom_dbj.png)
 
 ## Aleph Alpha: The Right Model
 

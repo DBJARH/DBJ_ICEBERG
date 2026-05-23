@@ -6,7 +6,7 @@ tags: ["software-engineering", "AI", "C", "systems"]
 author: "Dusan B. Jovanovic"
 ---
 
-![](/the dark bottom dbj.png)
+![](/the_dark_bottom_dbj.png)
 
 ## The Language Layer Does Not Matter
 

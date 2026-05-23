@@ -6,7 +6,7 @@ tags: ["software-history", "architecture", "rust", "C"]
 author: "Dusan B. Jovanovic"
 ---
 
-![the+_ark_bottom_dbj](/the dark bottom dbj.png)
+![](/the_dark_bottom_dbj.png)
 
 ## The Paper Everyone Forgot — Almost
 
