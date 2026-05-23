@@ -4,6 +4,7 @@ date: 2025-02-04
 description: ""
 tags: ["enterprise-architecture", "AI"]
 author: "Dusan B. Jovanovic"
+draft: true
 ---
 
 ![](amateur-is-most-expensive.png)

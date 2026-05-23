@@ -4,6 +4,7 @@ date: 2025-02-13
 description: ""
 tags: ["enterprise-architecture", "AI"]
 author: "Dusan B. Jovanovic"
+draft: true
 ---
 
 ![](social-as-a-service.jpg)

@@ -4,6 +4,7 @@ date: 2025-01-05
 description: "Plato's allegory reframed: the shadows on the wall are your legacy systems, and the light outside is architecture."
 tags: ["enterprise-architecture", "technical-debt", "legacy"]
 author: "Dusan B. Jovanovic"
+draft: false
 ---
 
 ![](/the_dark_bottom_dbj.png)

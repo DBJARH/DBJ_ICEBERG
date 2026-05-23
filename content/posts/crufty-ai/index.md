@@ -4,6 +4,7 @@ date: 2025-01-03
 description: "You can't get intelligence out of a system that was never coherent to begin with. The fix isn't a better model. It's architecture."
 tags: ["AI", "enterprise-architecture", "technical-debt"]
 author: "Dusan B. Jovanovic"
+draft: false
 ---
 
 There's a word MIT hackers coined in the 1950s: **cruft** — useless, tangled, accumulated junk that makes a system incomprehensible and impossible to build on.

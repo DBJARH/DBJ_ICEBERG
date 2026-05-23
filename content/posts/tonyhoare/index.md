@@ -4,6 +4,7 @@ date: 2025-01-01
 description: "The paper everyone forgot — almost. On Hoare's 1966 record handling, the 35-year mistake, and what Rust got back."
 tags: ["software-history", "architecture", "rust", "C"]
 author: "Dusan B. Jovanovic"
+draft: false
 ---
 
 ![](/the_dark_bottom_dbj.png)

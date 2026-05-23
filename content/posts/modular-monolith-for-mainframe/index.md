@@ -4,6 +4,7 @@ date: 2025-01-09
 description: "Modular monoliths are highly suitable for mainframe modernization. Here is why, and how."
 tags: ["mainframe", "architecture", "modernization", "legacy"]
 author: "Dusan B. Jovanovic"
+draft: false
 ---
 
 ![](modular-monolith-for-mainframe.png)

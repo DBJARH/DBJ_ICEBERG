@@ -4,6 +4,7 @@ date: 2025-02-09
 description: ""
 tags: ["enterprise-architecture", "AI"]
 author: "Dusan B. Jovanovic"
+draft: true
 ---
 
 ![](icl-beacon-no-ai.png)

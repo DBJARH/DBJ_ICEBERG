@@ -4,6 +4,7 @@ date: 2025-01-11
 description: "On llama.cpp, inference engines, and why the host language is irrelevant when the GPU is the bottleneck."
 tags: ["software-engineering", "AI", "C", "systems"]
 author: "Dusan B. Jovanovic"
+draft: false
 ---
 
 ![](/the_dark_bottom_dbj.png)
