@@ -4,7 +4,7 @@ date: 2025-01-06
 description: "Exhausted by AI hype? DBJ.METHOD offers structural recovery — architecture-first, not LLM-first."
 tags: ["enterprise-architecture", "AI", "TOGAF", "CMM"]
 author: "Dusan B. Jovanovic"
-draft: false
+draft: true
 ---
 
 ![](business-safe-harbour.png)
