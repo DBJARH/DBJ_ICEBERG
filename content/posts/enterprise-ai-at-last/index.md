@@ -1,6 +1,6 @@
 ---
 title: "Enterprise AI, at Last"
-date: 2025-01-12
+date: 2026-05-13
 description: "Aleph Alpha's on-premises model normalises LLM infrastructure the same way RDBMS was normalised in the 1990s. The procurement model is finally familiar."
 tags: ["AI", "enterprise-architecture", "sovereignty", "infrastructure"]
 author: "Dusan B. Jovanovic"
