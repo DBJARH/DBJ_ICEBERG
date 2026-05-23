@@ -1,5 +1,5 @@
 ---
-title: "Distributed AI, at Last"
+title: "Enterprise AI, at Last"
 date: 2025-01-12
 description: "Aleph Alpha's on-premises model normalises LLM infrastructure the same way RDBMS was normalised in the 1990s. The procurement model is finally familiar."
 tags: ["AI", "enterprise-architecture", "sovereignty", "infrastructure"]
