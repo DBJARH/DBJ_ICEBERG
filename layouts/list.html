@@ -88,6 +88,7 @@
   <footer class="entry-footer">
     {{- partial "post_meta.html" . -}}
     {{- with .Params.tags }}
+    <hr style="margin: 4px 0; opacity: 0.3;" />
     <span class="entry-tags">
       {{- range . }}<a href="{{ "/tags/" | relURL }}{{ . | urlize }}/">{{ . }}</a> {{ end }}
     </span>
