@@ -9,7 +9,7 @@ draft: false
 
 There's a word MIT hackers coined in the 1950s: **cruft** — useless, tangled, accumulated junk that makes a system incomprehensible and impossible to build on.
 
-![](cruft-origins.jpg)
+<img src="cruft-origins.jpg" alt="" width="75%" />
 
 Sound familiar?
 

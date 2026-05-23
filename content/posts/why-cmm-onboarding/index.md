@@ -7,7 +7,7 @@ author: "Dusan B. Jovanovic"
 draft: false
 ---
 
-![](why-cmm-intro-sketch.png)
+<img src="why-cmm-intro-sketch.png" alt="" width="75%" />
 
 **Question:** Why does DBJ begin with Capability Maturity Model assessment rather than jumping straight into technical delivery?
 

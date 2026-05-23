@@ -11,7 +11,7 @@ draft: false
 Clear roles == Clear communication == Safe Sailing
 ```
 
-![](ai-or-iceberg.png)
+<img src="ai-or-iceberg.png" alt="" width="75%" />
 
 In the words of [Susanne Kaiser](https://www.linkedin.com/in/suksr/): *"if the underlying system does not evolve..."* — here are some risk examples:
 

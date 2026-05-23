@@ -7,7 +7,7 @@ author: "Dusan B. Jovanovic"
 draft: false
 ---
 
-![](/the_dark_bottom_dbj.png)
+<img src="/the_dark_bottom_dbj.png" alt="" width="75%" />
 
 ## The Paper Everyone Forgot — Almost
 

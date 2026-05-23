@@ -7,7 +7,7 @@ author: "Dusan B. Jovanovic"
 draft: false
 ---
 
-![The Incompetence Is Out of Hand](the-incomptenence-is-out-if-hand.png)
+<img src="the-incomptenence-is-out-if-hand.png" alt="The Incompetence Is Out of Hand" width="75%" />
 
 **The AI hype cycle is running on fumes — and the fumes are labeled "Future," "Promise," and "More AI!"**
 

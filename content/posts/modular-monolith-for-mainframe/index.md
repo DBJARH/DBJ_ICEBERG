@@ -7,7 +7,7 @@ author: "Dusan B. Jovanovic"
 draft: false
 ---
 
-![](modular-monolith-for-mainframe.png)
+<img src="modular-monolith-for-mainframe.png" alt="" width="75%" />
 
 **Why they fit mainframes:**
 

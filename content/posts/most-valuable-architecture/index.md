@@ -7,7 +7,7 @@ author: "Dusan B. Jovanovic"
 draft: false
 ---
 
-![](most-valuable-architecture.jpg)
+<img src="most-valuable-architecture.jpg" alt="" width="75%" />
 
 ```
 CMM --> MVA --> AI --> ROI
