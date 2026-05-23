@@ -1,6 +1,6 @@
 ---
 title: "Why CMM Onboarding Is DBJ.METHOD's First Step"
-date: 2025-01-07
+date: 2026-02-23
 description: "Transformation fails without measurable organizational readiness. CMM onboarding establishes the foundations before any work begins."
 tags: ["CMM", "TOGAF", "enterprise-architecture", "onboarding"]
 author: "Dusan B. Jovanovic"

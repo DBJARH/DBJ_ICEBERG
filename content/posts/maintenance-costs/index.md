@@ -1,6 +1,6 @@
 ---
 title: "Maintenance Costs"
-date: 2025-02-11
+date: 2026-04-27
 description: ""
 tags: ["enterprise-architecture", "technical-debt", "legacy"]
 author: "Dusan B. Jovanovic"

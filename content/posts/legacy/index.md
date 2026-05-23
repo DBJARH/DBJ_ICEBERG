@@ -1,6 +1,6 @@
 ---
 title: "Legacy"
-date: 2025-02-10
+date: 2026-04-23
 description: ""
 tags: ["legacy", "enterprise-architecture", "technical-debt"]
 author: "Dusan B. Jovanovic"

@@ -1,6 +1,6 @@
 ---
 title: "Actor Agent"
-date: 2025-02-01
+date: 2026-03-21
 description: ""
 tags: ["AI", "enterprise-architecture", "agents"]
 author: "Dusan B. Jovanovic"

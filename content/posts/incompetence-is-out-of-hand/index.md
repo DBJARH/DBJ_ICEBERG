@@ -1,6 +1,6 @@
 ---
 title: "The Incompetence Is Out of Hand"
-date: 2025-01-04
+date: 2026-02-12
 description: "What's actually out of hand isn't AI. It's the organizational incompetence that AI is being asked to hide."
 tags: ["AI", "enterprise-architecture", "governance"]
 author: "Dusan B. Jovanovic"

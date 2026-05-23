@@ -1,6 +1,6 @@
 ---
 title: "Agentic AI"
-date: 2025-02-02
+date: 2026-03-25
 description: ""
 tags: ["AI", "agents", "enterprise-architecture"]
 author: "Dusan B. Jovanovic"

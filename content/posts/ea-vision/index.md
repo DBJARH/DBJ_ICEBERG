@@ -1,6 +1,6 @@
 ---
 title: "EA Vision"
-date: 2025-02-08
+date: 2026-04-16
 description: ""
 tags: ["enterprise-architecture", "AI"]
 author: "Dusan B. Jovanovic"

@@ -1,6 +1,6 @@
 ---
 title: "Crufty AI"
-date: 2025-01-03
+date: 2026-02-08
 description: "You can't get intelligence out of a system that was never coherent to begin with. The fix isn't a better model. It's architecture."
 tags: ["AI", "enterprise-architecture", "technical-debt"]
 author: "Dusan B. Jovanovic"

@@ -1,6 +1,6 @@
 ---
 title: "Departure from the Cave of Technical Debt"
-date: 2025-01-05
+date: 2026-02-16
 description: "Plato's allegory reframed: the shadows on the wall are your legacy systems, and the light outside is architecture."
 tags: ["enterprise-architecture", "technical-debt", "legacy"]
 author: "Dusan B. Jovanovic"

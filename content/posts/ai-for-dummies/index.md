@@ -1,6 +1,6 @@
 ---
 title: "AI for Dummies"
-date: 2025-02-03
+date: 2026-03-29
 description: ""
 tags: ["AI", "enterprise-architecture"]
 author: "Dusan B. Jovanovic"

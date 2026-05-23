@@ -1,6 +1,6 @@
 ---
 title: "BPT Origins"
-date: 2025-02-06
+date: 2026-04-09
 description: ""
 tags: ["enterprise-architecture", "BPT", "DBJ-Method"]
 author: "Dusan B. Jovanovic"

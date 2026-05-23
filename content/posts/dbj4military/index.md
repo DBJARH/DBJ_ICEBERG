@@ -1,6 +1,6 @@
 ---
 title: "AI in a Military Context"
-date: 2025-01-14
+date: 2026-03-17
 description: "ETL, ELT, MLOps, Data Mesh, and TOGAF capability framing — mapped to AI readiness in regulated and military environments."
 tags: ["AI", "enterprise-architecture", "TOGAF", "MLOps", "data"]
 author: "Dusan B. Jovanovic"

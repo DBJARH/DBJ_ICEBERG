@@ -1,6 +1,6 @@
 ---
 title: "The Language Layer Does Not Matter"
-date: 2025-01-11
+date: 2026-03-10
 description: "On llama.cpp, inference engines, and why the host language is irrelevant when the GPU is the bottleneck."
 tags: ["software-engineering", "AI", "C", "systems"]
 author: "Dusan B. Jovanovic"

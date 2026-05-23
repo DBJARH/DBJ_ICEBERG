@@ -1,6 +1,6 @@
 ---
 title: "Cognitive Debt"
-date: 2025-02-07
+date: 2026-04-12
 description: ""
 tags: ["enterprise-architecture", "technical-debt", "AI"]
 author: "Dusan B. Jovanovic"

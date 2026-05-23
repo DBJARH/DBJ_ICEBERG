@@ -1,6 +1,6 @@
 ---
 title: "No EA, No Balance"
-date: 2025-02-12
+date: 2026-05-01
 description: ""
 tags: ["enterprise-architecture", "governance"]
 author: "Dusan B. Jovanovic"

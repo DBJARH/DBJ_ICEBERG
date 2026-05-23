@@ -1,6 +1,6 @@
 ---
 title: "Woke AI"
-date: 2025-02-15
+date: 2026-05-12
 description: ""
 tags: ["AI", "enterprise-architecture"]
 author: "Dusan B. Jovanovic"

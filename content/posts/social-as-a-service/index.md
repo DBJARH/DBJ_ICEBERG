@@ -1,6 +1,6 @@
 ---
 title: "Social as a Service"
-date: 2025-02-13
+date: 2026-05-05
 description: ""
 tags: ["enterprise-architecture", "AI"]
 author: "Dusan B. Jovanovic"

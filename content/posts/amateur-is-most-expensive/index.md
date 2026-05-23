@@ -1,6 +1,6 @@
 ---
 title: "The Amateur Is the Most Expensive"
-date: 2025-02-04
+date: 2026-04-01
 description: ""
 tags: ["enterprise-architecture", "AI"]
 author: "Dusan B. Jovanovic"

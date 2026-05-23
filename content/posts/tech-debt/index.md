@@ -1,6 +1,6 @@
 ---
 title: "Technical Debt"
-date: 2025-02-14
+date: 2026-05-08
 description: ""
 tags: ["technical-debt", "enterprise-architecture", "legacy"]
 author: "Dusan B. Jovanovic"
