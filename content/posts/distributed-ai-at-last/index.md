@@ -7,7 +7,7 @@ author: "Dusan B. Jovanovic"
 draft: false
 ---
 
-<img src="/the_dark_bottom_dbj.png" alt="" width="75%" />
+![alt text](image.png)
 
 ## Aleph Alpha: The Right Model
 
@@ -73,3 +73,5 @@ The question is whether the Cohere merger preserves it.
 ---
 
 *Dušan Jovanović — Enterprise Architect, DBJ.METHOD*
+
+<img src="/the_dark_bottom_dbj.png" alt="" width="25%" />
