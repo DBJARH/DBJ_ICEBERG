@@ -4,8 +4,6 @@ date: 2025-01-02
 description: "Kunihiko Fukushima's Neocognitron in 1979, WABOT-1 in 1973, and the deep roots of what is being sold as new."
 tags: ["AI", "history"]
 author: "Dusan B. Jovanovic"
-cover:
-  image: "ai-history.png"
 ---
 
 Is this post card from the past or is this a post card from the future?

@@ -4,8 +4,6 @@ date: 2025-01-10
 description: "Clear roles, clear communication, safe sailing. How DBJ.METHOD addresses the structural risks AI amplifies."
 tags: ["enterprise-architecture", "AI", "TOGAF", "governance"]
 author: "Dusan B. Jovanovic"
-cover:
-  image: "ai-or-iceberg.png"
 ---
 
 ```

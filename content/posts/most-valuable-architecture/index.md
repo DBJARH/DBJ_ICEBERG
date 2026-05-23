@@ -4,8 +4,6 @@ date: 2025-01-08
 description: "CMM → MVA → AI → ROI. Stop funding experiments. Start building equity."
 tags: ["enterprise-architecture", "AI", "technical-debt", "ROI"]
 author: "Dusan B. Jovanovic"
-cover:
-  image: "most-valuable-architecture.jpg"
 ---
 
 ![](most-valuable-architecture.jpg)

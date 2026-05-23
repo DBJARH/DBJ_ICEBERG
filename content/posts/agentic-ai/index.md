@@ -4,8 +4,6 @@ date: 2025-02-02
 description: ""
 tags: ["AI", "agents", "enterprise-architecture"]
 author: "Dusan B. Jovanovic"
-cover:
-  image: "humans-and-agents.png"
 ---
 
 ![](claude-code-need-no-skill.png)

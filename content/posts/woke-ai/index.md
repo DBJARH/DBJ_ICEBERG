@@ -4,8 +4,6 @@ date: 2025-02-15
 description: ""
 tags: ["AI", "enterprise-architecture"]
 author: "Dusan B. Jovanovic"
-cover:
-  image: "woke-ai.png"
 ---
 
 ![](woke-ai.png)

@@ -4,8 +4,6 @@ date: 2025-01-07
 description: "Transformation fails without measurable organizational readiness. CMM onboarding establishes the foundations before any work begins."
 tags: ["CMM", "TOGAF", "enterprise-architecture", "onboarding"]
 author: "Dusan B. Jovanovic"
-cover:
-  image: "why-cmm-intro-sketch.png"
 ---
 
 ![](why-cmm-intro-sketch.png)

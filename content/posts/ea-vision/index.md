@@ -4,8 +4,6 @@ date: 2025-02-08
 description: ""
 tags: ["enterprise-architecture", "AI"]
 author: "Dusan B. Jovanovic"
-cover:
-  image: "business-with-vision-wins.png"
 ---
 
 ![](AI-DIVERGENCE.png)
