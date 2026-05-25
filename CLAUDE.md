@@ -59,4 +59,4 @@ cover:
 
 1. **No padding.** No summaries, no affirmations.
 2. **Do not invent URLs.**
-3. **Repo map is `repos.md`** in root — check it for the full ecosystem context.
+3. **Repo map is `repos_index.md` in METAREPO.** The authoritative map of all repos is at `G:\METAREPO\repos_index.md`. Do not look for `repos.md` in this repo — it no longer exists here.
