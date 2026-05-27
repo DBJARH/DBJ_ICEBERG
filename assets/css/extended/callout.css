@@ -1,0 +1,62 @@
+blockquote {
+    border-left: 4px solid var(--primary);
+    background: var(--code-bg);
+    margin: 1.5rem 0;
+    padding: 0.75rem 1.25rem;
+    border-radius: 0 4px 4px 0;
+}
+
+blockquote p {
+    margin: 0;
+    font-style: normal;
+}
+
+/* Shortcode callouts */
+.callout {
+    border-left: 4px solid;
+    border-radius: 0 4px 4px 0;
+    margin: 1.5rem 0;
+    padding: 0.75rem 1.25rem;
+}
+
+.callout-label {
+    display: block;
+    font-size: 0.75rem;
+    font-weight: 700;
+    letter-spacing: 0.08em;
+    margin-bottom: 0.4rem;
+}
+
+.callout-body > *:last-child {
+    margin-bottom: 0;
+}
+
+.callout-note {
+    border-color: #4a90d9;
+    background: #e8f0fb;
+}
+.callout-note .callout-label { color: #4a90d9; }
+
+.callout-tip {
+    border-color: #2ea44f;
+    background: #e6f4ea;
+}
+.callout-tip .callout-label { color: #2ea44f; }
+
+.callout-important {
+    border-color: #8957e5;
+    background: #f0eaff;
+}
+.callout-important .callout-label { color: #8957e5; }
+
+.callout-warning {
+    border-color: #d29922;
+    background: #fff8e1;
+}
+.callout-warning .callout-label { color: #d29922; }
+
+/* Dark mode overrides */
+.dark .callout-note    { background: #1a2a3a; }
+.dark .callout-tip     { background: #162a1e; }
+.dark .callout-important { background: #221a38; }
+.dark .callout-warning { background: #2a2210; }
