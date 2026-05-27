@@ -56,9 +56,9 @@ blockquote p {
 .callout-warning .callout-label { color: #d29922; }
 
 /* Dark mode overrides */
-.dark .callout { color: var(--primary); }
-.dark .callout-note    { background: #1a2a3a; }
-.dark .callout-tip     { background: #162a1e; }
-.dark .callout-important { background: #2a1f40; border-color: #a78bfa; }
-.dark .callout-important .callout-label { color: #a78bfa; }
-.dark .callout-warning { background: #2a2210; }
+[data-theme="dark"] .callout { color: var(--primary); }
+[data-theme="dark"] .callout-note    { background: #1a2a3a; }
+[data-theme="dark"] .callout-tip     { background: #162a1e; }
+[data-theme="dark"] .callout-important { background: #2a1f40; border-color: #a78bfa; }
+[data-theme="dark"] .callout-important .callout-label { color: #a78bfa; }
+[data-theme="dark"] .callout-warning { background: #2a2210; }
