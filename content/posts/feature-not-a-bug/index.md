@@ -1,4 +1,4 @@
----
+﻿---
 title: "Feature, Not a Bug"
 date: 2026-05-27
 description: "LLMs compound prediction errors into hallucinations — and you pay for the noise bundled with the signal."
@@ -8,6 +8,7 @@ draft: false
 ---
 
 ![LLMs create compounding errors through next-token prediction](feature-notabug.jpg)
+*© Dusan B. Jovanovic — image generated with Gemini under author's direction*
 
 Nobody told you this when you readily signed up for the API key.
 
