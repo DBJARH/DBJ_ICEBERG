@@ -7,13 +7,15 @@ author: "Dusan B. Jovanovic"
 draft: false
 ---
 
-# Feature not a Bug
-
 ![LLMs create compounding errors through next-token prediction](feature-notabug.jpg)
 
 Nobody told you this when you readily signed up for the API key.
 
-Every sequential LLM has the same training objective baked in: predict the next token. Not the next true thing. Not the next logical step. The next token — one symbol, conditioned on all the symbols before it. That’s it. That’s the whole game.
+Every LLM has the same training objective: predict the next token. Not the next true thing. Not the next logical step. 
+
+**The next token — one symbol, conditioned on all the symbols before it. **
+
+That’s it. That’s the whole game.
 
 {{< callout type="important" >}}
 It produces text that reads beautifully. It reasons the way a drunk navigates by streetlights — confident, directional, and increasingly wrong.
