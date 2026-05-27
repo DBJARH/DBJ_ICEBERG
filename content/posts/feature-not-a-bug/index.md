@@ -14,7 +14,7 @@ Nobody told you this when you readily signed up for the API key.
 
 Every LLM has the same training objective: predict the next token. Not the next true thing. Not the next logical step. 
 
-**The next token — one symbol, conditioned on all the symbols before it. **
+**The next token — one symbol, conditioned on all the symbols before it.**
 
 That’s it. That’s the whole game.
 
