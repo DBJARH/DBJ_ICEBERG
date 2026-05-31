@@ -7,8 +7,7 @@ author: "Dusan B. Jovanovic"
 cover:
   image: "ea-is-an-instrument.png"
 ---
-
-Regarding the phrase "EA has to align with AI" — a revolutionary flag being waved high.
+Regarding the phrase "EA has to align with AI" — a revolutionary flag being waved high. This time by Gartner:
 
 https://lnkd.in/d9F9_QZZ
 
