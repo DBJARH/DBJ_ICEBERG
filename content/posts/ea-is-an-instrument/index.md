@@ -1,6 +1,6 @@
 ---
 title: "EA Is an Instrument"
-date: 2026-06-01
+date: 2026-05-31
 description: "EA does not redesign itself around the thing it is measuring. For 50 years, EA has matured into a vital tool that tells you whether a business is truly aligned with its technology."
 tags: ["EA", "AI", "enterprise-architecture"]
 author: "Dusan B. Jovanovic"
