@@ -24,6 +24,20 @@ paginate = 10
 #  name = 'github'
 #  url = 'https://github.com/DBJARH'
 
+[params.giscus]
+  repo = "DBJARH/DBJ_ICEBERG"
+  repoId = "R_kgDOSkKOjw"
+  category = "General"
+  categoryId = "DIC_kwDOSkKOj84C-RO1"
+  mapping = "pathname"
+  strict = "0"
+  reactionsEnabled = "1"
+  emitMetadata = "0"
+  inputPosition = "top"
+  theme = "preferred_color_scheme"
+  lang = "en"
+  loading = "lazy"
+
 [markup.goldmark.renderer]
   unsafe = true
 
