@@ -50,6 +50,15 @@ cover:
   image: "filename.jpg"
 ```
 
+## Comments (Giscus)
+
+Comments are enabled via [Giscus](https://giscus.app), backed by GitHub Discussions on this repo.
+
+- **Partial:** `layouts/_partials/comments.html` — overrides PaperMod's blank stub with the Giscus script
+- **Config:** `hugo.toml` has `comments = true` under `[params]` and a `[params.giscus]` block with repo/category IDs
+- **Discussion category:** `General` (`DIC_kwDOSkKOj84C-RO1`)
+- PaperMod's built-in `comments.html` is an empty stub — the override in `layouts/_partials/` is required
+
 ## Ownership
 
 - &copy; dbj@dbj.org
