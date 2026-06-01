@@ -13,6 +13,7 @@ paginate = 10
   ShowBreadCrumbs = true
   ShowCodeCopyButtons = true
   ShowToc = false
+  comments = true
   TocOpen = false
   defaultTheme = 'auto'
   homeInfoParams = { Title = 'DBJ Iceberg', Content = 'Enterprise Architecture advice for SMEs navigating AI adoption. Grounded in TOGAF, free of hype.' }
