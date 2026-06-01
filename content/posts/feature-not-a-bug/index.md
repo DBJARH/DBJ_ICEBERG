@@ -5,9 +5,10 @@ description: "LLMs compound prediction errors into hallucinations — and you pa
 tags: ["AI", "LLM", "hallucination"]
 author: "Dusan B. Jovanovic"
 draft: false
+cover:
+  image: "feature-notabug.jpg"
 ---
 
-![LLMs create compounding errors through next-token prediction](feature-notabug.jpg)
 *© Dusan B. Jovanovic — image generated with Gemini under author's direction*
 
 Nobody told you this when you readily signed up for the API key.

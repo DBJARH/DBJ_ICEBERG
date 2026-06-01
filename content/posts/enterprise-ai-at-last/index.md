@@ -5,9 +5,9 @@ description: "Aleph Alpha's on-premises model normalises LLM infrastructure the 
 tags: ["AI", "enterprise-architecture", "sovereignty", "infrastructure"]
 author: "Dusan B. Jovanovic"
 draft: false
+cover:
+  image: "image.png"
 ---
-
-![alt text](image.png)
 
 ## Aleph Alpha: The Right Model
 

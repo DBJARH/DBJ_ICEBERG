@@ -5,11 +5,11 @@ description: "You can't get intelligence out of a system that was never coherent
 tags: ["AI", "enterprise-architecture", "technical-debt"]
 author: "Dusan B. Jovanovic"
 draft: false
+cover:
+  image: "cruft-origins.jpg"
 ---
 
 There's a word MIT hackers coined in the 1950s: **cruft** — useless, tangled, accumulated junk that makes a system incomprehensible and impossible to build on.
-
-<img src="cruft-origins.jpg" alt="" width="75%" />
 
 Sound familiar?
 

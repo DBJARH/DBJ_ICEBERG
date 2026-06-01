@@ -5,9 +5,9 @@ description: "CMM → MVA → AI → ROI. Stop funding experiments. Start buildi
 tags: ["enterprise-architecture", "AI", "technical-debt", "ROI"]
 author: "Dusan B. Jovanovic"
 draft: false
+cover:
+  image: "most-valuable-architecture.jpg"
 ---
-
-<img src="most-valuable-architecture.jpg" alt="" width="75%" />
 
 ```
 CMM --> MVA --> AI --> ROI

@@ -5,9 +5,9 @@ description: "Transformation fails without measurable organizational readiness. 
 tags: ["CMM", "TOGAF", "enterprise-architecture", "onboarding"]
 author: "Dusan B. Jovanovic"
 draft: false
+cover:
+  image: "why-cmm-intro-sketch.png"
 ---
-
-<img src="why-cmm-intro-sketch.png" alt="" width="75%" />
 
 **Question:** Why does DBJ begin with Capability Maturity Model assessment rather than jumping straight into technical delivery?
 

@@ -5,9 +5,9 @@ description: "What's actually out of hand isn't AI. It's the organizational inco
 tags: ["AI", "enterprise-architecture", "governance"]
 author: "Dusan B. Jovanovic"
 draft: false
+cover:
+  image: "the-incomptenence-is-out-if-hand.png"
 ---
-
-<img src="the-incomptenence-is-out-if-hand.png" alt="The Incompetence Is Out of Hand" width="75%" />
 
 **The AI hype cycle is running on fumes — and the fumes are labeled "Future," "Promise," and "More AI!"**
 
