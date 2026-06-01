@@ -5,13 +5,12 @@ description: "Clear roles, clear communication, safe sailing. How DBJ.METHOD add
 tags: ["enterprise-architecture", "AI", "TOGAF", "governance"]
 author: "Dusan B. Jovanovic"
 draft: false
+cover:
+  image: "ai-or-iceberg.png"
 ---
 
-```
-Clear roles == Clear communication == Safe Sailing
-```
+> Clear roles == Clear communication == Safe Sailing
 
-<img src="ai-or-iceberg.png" alt="" width="75%" />
 
 In the words of [Susanne Kaiser](https://www.linkedin.com/in/suksr/): *"if the underlying system does not evolve..."* — here are some risk examples:
 
