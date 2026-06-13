@@ -8,8 +8,6 @@ cover:
   image: "superplane_over_the_glue_abyss.png"
 ---
 
-
-
 Platform engineering teams write a lot of glue. CI finishes — someone triggers a deploy script. An alert fires — someone pings Slack, opens a Jira, checks the last five deployments manually. A release train needs three repos to be green before the coordinated push — someone watches dashboards and hits the button when the moment looks right.
 
 This glue lives in a dozen places: GitHub Actions, bash scripts, cron jobs, Slack bots, Rundeck, internal wikis with "runbook" in the title. It works, until it doesn't — and when it doesn't, nobody knows which piece failed or why.
