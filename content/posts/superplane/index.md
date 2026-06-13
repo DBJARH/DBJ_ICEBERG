@@ -4,7 +4,11 @@ date: 2026-06-13
 description: "An open-source event-driven control plane for platform engineering — and what it gets right about operational workflows."
 tags: ["platform engineering", "open source", "AI", "DevOps"]
 author: "Dusan B. Jovanovic"
+cover:
+  image: "superplane_over_the_glue_abyss.png"
 ---
+
+
 
 Platform engineering teams write a lot of glue. CI finishes — someone triggers a deploy script. An alert fires — someone pings Slack, opens a Jira, checks the last five deployments manually. A release train needs three repos to be green before the coordinated push — someone watches dashboards and hits the button when the moment looks right.
 
