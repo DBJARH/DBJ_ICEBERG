@@ -29,8 +29,6 @@ Calling all four "workflow" is the unfortunate terminology overflow. Once you se
 
 WFL2026 sits in the T domain of the BPT. If a business rule changes at the BPT, Loop level, the logical flow in P may need updating — but the physical (application) workflow in T appears as a black box that executes whatever logic it's given. The BPT loop doesn't notice and shouldn't have to. WFL2026 consist of implementation artifacts on a lower levels of granularity.
 
-![](dbj_bpt_left_to_right.png)
-
 This is the same principle as architecture generally: lower levels of abstraction don't redefine higher ones. (And a correction worth keeping precise — architecture isn't *a system*, deterministic or otherwise. Architecture is the **formal description** of a system and its parts.)
 
 Treating WFL2026 as encapsulated in the (T) domain — something that turns the T's definitions into stateful, recoverable reality — keeps the boundary clean. The Operational Loop governs; the implementation artifact executes.
