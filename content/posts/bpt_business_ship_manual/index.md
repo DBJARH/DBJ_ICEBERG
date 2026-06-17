@@ -22,7 +22,7 @@ cover:
 
 Most customers have never thought about an "operational model" as something they need to know about. BPT is new to them. So let's skip the taxonomy and use an analogy:
 
-- **BPT Operational Loop = the Flight Plan.** The strategic path. How the organization spots an opportunity, builds something, and validates it. Not a software diagram.
+- **[BPT](https://method.dbj.org/shop/) Operational Loop = the Flight Plan.** The strategic path. How the organization spots an opportunity, builds something, and validates it. Not a software diagram.
 - **The Autopilot.** The AI Agents Machinery that keeps execution on course through turbulence — service crashes, timeouts, retries — without the human ship pilot manually steering every adjustment.
 
 The narrative that lands well with new customers:
@@ -33,14 +33,18 @@ The narrative that lands well with new customers:
 
 ## The Ship Analogy
 
-**TOGAF is the sextant.** The Enterprise Architect is the navigator who reads it. The C-room steers the ship. **BPT is the set of behavioral rules in the operational manual** — how the whole crew is expected to run things, regardless of which instruments are belowdecks.
+**TOGAF is the sextant.** The Enterprise Architect is the navigator who reads it. The C-room steers the ship. **[BPT](https://method.dbj.org/shop/bpt-logic-map.html) is the set of behavioral rules in the operational manual** — how the whole crew is expected to run things, regardless of which instruments are belowdecks.
 
 <!-- ![The TOGAF sextant, the navigator, and the C-room steering toward the BPT operational loop](image.png) -->
 
-To be allowed on the bridge, crew must pass the DBJ CMM course. Based on TOGAF CMM, but adjusted for the business, So now the whole ship operates at CMM Level 5 — not just the navigator.
+To be allowed on the bridge, crew must pass the DBJ CMM course. Based on TOGAF CMM, but adjusted for the business, So that the whole ship operates at CMM Level 5 — not just the navigator.
 
-Below deck, in the **Technology engine room**, is where the technical artifact live: services, microservices and agents it coordinates, encrypted comms, stateful storage, modern low level "workflows as code". None of it is visible from the bridge, and none of it should need to be.
+<!-- Below deck, in the **Technology engine room**, is where the technical artifact live: services, microservices and agents it coordinates, encrypted comms, stateful storage, modern low level "workflows as code". None of it is visible from the bridge, and none of it should need to be. -->
 
 ## The takeaway
 
-BPT is the operational manual. It doesn't live in a repo, and it doesn't get exported as BPMN XML. It's the operational manual the whole ship runs on.
+You are the captain. BPT is the operational manual for the crew on your business ship. It doesn't live in a repo, and it doesn't get exported as some kind of implementation artifact. 
+
+It's the operational manual. The whole ship runs on.
+
+![](https://method.dbj.org/assets/ai-or-iceberg.png)
