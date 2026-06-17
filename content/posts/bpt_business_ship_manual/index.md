@@ -8,7 +8,17 @@ cover:
   image: "prepared-ship.png"
 ---
 
+
 ## The Flight Plan and the Autopilot
+
+#### The elusive goal of the "Competitive Advantage"
+
+> What will "give" the "competitive advantage" is the **Operational model**, in order to navigate the whole organization around that huge iceberg of legacy.
+>
+> https://method.dbj.org/shop/
+>
+> OP model introduction is not simple. But its worth it. Especially if organization is small(ish) and not too calcified. Just decide on one OP model, implement it and follow it. AI or no AI.
+> 
 
 Most customers have never thought about an "operational model" as something they need to know about. BPT is new to them. So let's skip the taxonomy and use an analogy:
 
