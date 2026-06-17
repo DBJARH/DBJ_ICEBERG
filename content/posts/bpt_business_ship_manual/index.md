@@ -5,7 +5,7 @@ description: "BPT explained through one analogy: the bridge, the engine room, an
 tags: ["BPT", "architecture", "DBJ Method", "workflow"]
 author: "Dusan B. Jovanovic"
 cover:
-  image: "prepared-ship.png"
+  image: "ai-or-iceberg.png"
 ---
 
 
@@ -45,6 +45,5 @@ To be allowed on the bridge, crew must pass the DBJ CMM course. Based on TOGAF C
 
 You are the captain. BPT is the operational manual for the crew on your business ship. It doesn't live in a repo, and it doesn't get exported as some kind of implementation artifact. 
 
-It's the operational manual. The whole ship runs on.
+It's the operational manual. The whole ship runs on. Not just the Captain and the Navigator.
 
-![](https://method.dbj.org/assets/ai-or-iceberg.png)
