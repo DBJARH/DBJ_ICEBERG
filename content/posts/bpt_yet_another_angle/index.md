@@ -1,39 +1,37 @@
 ---
-title: "BPT In One Image"
+title: "BPT Birth In One Image"
 date: 2026-06-21
 description: "Every executive nods along to AI buzzwords. Few ask what they mean. BPT exists for the moment after the nodding stops."
 tags: ["BPT", "AI", "DBJ Method", "enterprise-architecture"]
 author: "Dusan B. Jovanovic"
 cover:
-  image: "bpt-purpose-in-one-image.png"
+  image: "bpt-birth-in-one-image.png"
 ---
 
-> **Note:** Dilbert has IP rights.[^1]
-
-That's not a joke about forever confused Dilbert CEO. It's the default state of most AI hopefuls. Calling themselves: "rollouts".
+That's not a joke about forever confused CEO. It's the default state of most AI hopefuls.
 
 ## The Perpetual State of Confusion
 
 Every vendor pitch, every all-hands, every roadmap slide is full of words everyone nods at: "agentic," "AI-native," "transformation." Nobody stops the meeting to ask what they actually mean for *this* business, *this* process, *this* P&L line.
 
-So the nodding continues. Budgets get approved. Pilots get funded. And six months later, nobody can explain why the thing doesn't work — because nobody could explain, at the start, what "working" was supposed to look like.
+So the nodding continues. Budgets get approved. (AI) Pilot gets funded. And six months later, nobody can explain why the thing doesn't work — because nobody could explain, at the start, what "working" was supposed to look like.
 
-That's not a model problem. It's a comprehension problem wearing a model's clothes.
+That's not a model problem. It's a comprehension problem.
 
 ## The Gap isn't Between "AI" and "no AI.
 
 It's between people who can say what a process actually does and people who are nodding along because the words sound right. 
 
-## The Operational Model Was Always Missing, AI Just Made it Obvious
+**The Operational Model Was Always Missing, AI Just Made it Obvious**
 
-If you can't say it in BPT, you don't understand it yet. You're just nodding. The [BPT](https://method.dbj.org/onboarding/section-03.html) OP model doesn't add more vocabulary to nod at. 
+The [BPT](https://method.dbj.org/onboarding/section-03.html) OP model doesn't add more vocabulary to nod at. If you can't say it in BPT, you don't understand it yet. You're just nodding. 
 
 AI doesn't expose who has the best model. AI exposes who actually knew what they meant. 
 
-Get the second part right first. Deploy the [BPT Operational Model](https://method.dbj.org/bpt). With all the crew on the [CMM Level 5](https://method.dbj.org/cmm#levels).
+Get the second image part right first. Deploy the [BPT Operational Model](https://method.dbj.org/bpt). With all the crew on the [CMM Level 5](https://method.dbj.org/cmm#levels), as a precondition.
 
-Funny as it seems that is a true picture of three Dilbert&trade; characters enjoying the BPT OP model. While having the coffee.
+Funny as it seems, that right one is a true picture of three roles enjoying the BPT OP model. While having the coffee.
 
 ___
 
-[^1]: Scott Adams Inc. is the undeniable owner of Dilbert IP
+
