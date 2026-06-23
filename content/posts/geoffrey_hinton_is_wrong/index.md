@@ -1,8 +1,8 @@
 ---
 title: "AI Consciousness Philosophy: Confident wrongness of Geofrrey Hinton"
-date: 2026-02-05
+date: 2026-06-22
 description: "Geofrrey Hinton: Current beliefs in machine consciousness are no different from religious beliefs"
-tags: ["AI", "history"]
+tags: ["AI", "intelligence", "Jeoffrey Hinton", "Richard Campbell"]
 author: "Dusan B. Jovanovic"
 draft: false
 cover:
