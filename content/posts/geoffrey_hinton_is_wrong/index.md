@@ -1,6 +1,6 @@
 ---
 title: "AI Consciousness Philosophy: Confident wrongness of Geofrrey Hinton"
-date: 2026-06-22
+date: 2026-06-23
 description: "Geofrrey Hinton: Current beliefs in machine consciousness are no different from religious beliefs"
 tags: ["AI", "intelligence", "Jeoffrey Hinton", "Richard Campbell"]
 author: "Dusan B. Jovanovic"
@@ -22,6 +22,13 @@ He says: Physics does not care about our need to feel special. Intelligence may 
 ---
 
 > Find the full discussion in the Big Technology Podcast episode: "[AI Pioneer Geoffrey Hinton: AI Is Conscious, Superintelligence is Coming, And We Should Be Worried.](https://youtu.be/p7t1Q_p2gZs)" The specific remarks on consciousness occur near the 12:57 mark.
+
+
+## But wait there is more !
+
+![alt text](image.png)
+
+Every true science is complex and hard. That is it. That is in another galaxy from social network popular reading. That requires you to think. To go from chapter to chapter without a long pause is just not humanely possible. But this time it is really necessary.
 
 
 
