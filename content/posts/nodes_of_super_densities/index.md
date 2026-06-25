@@ -9,9 +9,15 @@ cover:
   image: "human_agent_driver.png"
 ---
 
-# Nodes of Super Densities
+> Do you prefer the calm and ordered [B-P-T operational model](https://method.dbj.org/onboarding/section-03.html) to "Nodes of Super Density"?
+>
+> We do
 
-Very dense new team shape. All to All at once all the time. Is that a sustainable operating model?
+## Nodes of Super Densities
+
+This is how we call this **very dense** new team shape. All to All at once All the time. 
+
+Is that a sustainable operating model for an organization?
 
 - Can organization consist of these "Super Densities" and be successful in the long run? 
 - Who does customer support? 
@@ -20,4 +26,7 @@ Very dense new team shape. All to All at once all the time. Is that a sustainabl
 - Who or what does the maintenance?
 
 
-> **Who answers the questions?**
+> Is chaos just a calm landscape from another point of view?
+
+
+
