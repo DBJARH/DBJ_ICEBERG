@@ -1,6 +1,6 @@
 ---
 title: "You Didn't Discover Lazy Loading. You Excavated It."
-date: 2025-04-21
+date: 2026-06-28
 description: "A friendly rebuttal to a not-viral iOS lazy-loading post — dlopen and dlsym are not a 2025 discovery, they're a 1988 result the Apple toolchain buried."
 tags: ["iOS", "Software Engineering", "History", "Dynamic Linking"]
 author: "Dusan B. Jovanovic"
