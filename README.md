@@ -1,26 +1,11 @@
-# DBJ Iceberg
 
-> EA AI ROI — Enterprise Architecture advice for organisations that feel small, poor, and vulnerable.
+# DBJ Method&trade; = DBJ CMM&trade; + DBJ BPT&trade;
 
-Public blog by [Dusan B. Jovanovic](https://method.dbj.org), Enterprise Architect, TOGAF-certified since 2011.
+![alt text](docs/assets_unused/dbj-ea-iceberg.png)
 
-**Live site:** https://dbjarh.github.io/DBJ_ICEBERG/
+### EA sees the full picture, DBJ Method turns it into core asset for AI Readiness
 
-## What this is
+#### [IP Advisory about DBJ.ORG products](content/ip_advisory.md)
 
-Practical EA advice for SMEs navigating AI adoption. Grounded in TOGAF and DBJ Method. Free of hype.
-
-Topics: enterprise architecture, AI readiness, technical debt, legacy modernization, CMM onboarding, EA AI ROI.
-
-## Built with
-
-- [Hugo](https://gohugo.io/) + [PaperMod](https://github.com/adityatelange/hugo-PaperMod)
-- Deployed via GitHub Actions to GitHub Pages
-
-## Related
-
-- [DBJ Method](https://method.dbj.org) — the methodology behind the blog
-
----
-
-&copy; dbj@dbj.org | MIT License
+>[!NOTE]
+Unless otherwise declared &copy; by dbj@dbj.org  | CC BY SA 4.0 
