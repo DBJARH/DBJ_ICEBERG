@@ -8,7 +8,7 @@ cover:
   image: "image.png"
 ---
 
-Stripping away the hesitancy, here is analysis of the actual content and philosophy encapsulated in the opinion abut the [DBJ Method Shop](https://method.dbj.org/shop/).
+Analysis of the actual content and philosophy encapsulated in the opinion (of the "secret admirer") abut the [DBJ Method Shop](https://method.dbj.org/shop/).
 
 ### 1. Organizational Topology
 
