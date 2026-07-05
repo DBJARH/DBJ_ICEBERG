@@ -8,11 +8,11 @@ cover:
   image: "do-we-have-the-right-set-of-skills.png"
 ---
 
-## Observations and Comments
+## DBJ Observations and Comments
 
-1. Observation: runtime infrastructure != deployment infrastructure
+1. **Observation**: runtime infrastructure != deployment infrastructure
    1. Agreed. In the era of the general lack of experienced engineers that has to be said. Plainly.
-2. Observation: Skill is runtime artifact. That is the key problem keeping the whole agent harness non-deterministic
+2. **Observation**: Skill is runtime artifact. That is the key problem keeping the whole agent harness non-deterministic
    1. It's not Skill, it's the inherent mechanism Skill is used by — fuzzy natural-language matching against a description, decided by the model at invocation time rather than fixed dispatch. 
     2. That same mechanism is what makes deferred-tool loading (ToolSearch), subagent selection. Also the ordinary tool choice (Grep vs Read vs Agent) non-deterministic too. 
     3. Skills are just the most visible facet of the LLM non-determinism because they're named and listed explicitly. But used non deterministically.
