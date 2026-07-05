@@ -5,11 +5,16 @@ description: "The paper everyone forgot — almost. On Hoare's 1966 record handl
 tags: ["software-history", "architecture", "rust", "C"]
 author: "Dusan B. Jovanovic"
 draft: false
+cover:
+  image: "image.png"
 ---
 
-<img src="/the_dark_bottom_dbj.png" alt="" width="75%" />
+(Image source: https://cs.stanford.edu/people/eroberts/courses/soco/projects/2008-09/tony-hoare/images/hoare%20main.jpg)
 
-## The Paper Everyone Forgot — Almost
+
+> In case you like code more than prose about the code, [here is the code](https://godbolt.org/z/sb7MTeGax). That is vibed. Quality is average, bordering on bad. I spent some time, in between other tasks, and made what is I might claim, elegant, human optimised code. ( https://godbolt.org/z/9M8oj34TT ) Those improvements need never stop, of course. 
+
+## The Foundation Everyone Forgot — Almost
 
 Tony Hoare published "Record Handling" in 1966. Before Simula 67. Before Smalltalk. Before anyone had coined the term object-oriented programming.
 
