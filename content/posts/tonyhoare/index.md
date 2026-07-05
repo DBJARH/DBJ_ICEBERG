@@ -6,10 +6,10 @@ tags: ["software-history", "architecture", "rust", "C"]
 author: "Dusan B. Jovanovic"
 draft: false
 cover:
-  image: "image.png"
+  image: "image-1.png"
 ---
 
-(Image source: https://cs.stanford.edu/people/eroberts/courses/soco/projects/2008-09/tony-hoare/images/hoare%20main.jpg)
+(Image source: `https://cs.stanford.edu/people/eroberts/courses/soco/projects/2008-09/tony-hoare/images/hoare%20main.jpg` )
 
 
 > In case you like code more than prose about the code, [here is the code](https://godbolt.org/z/sb7MTeGax). That is vibed. Quality is average, bordering on bad. I spent some time, in between other tasks, and made what is I might claim, elegant, human optimised code. ( https://godbolt.org/z/9M8oj34TT ) Those improvements need never stop, of course. 
