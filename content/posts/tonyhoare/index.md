@@ -16,19 +16,40 @@ cover:
 
 ## The Foundation Everyone Forgot — Almost
 
-Tony Hoare published "Record Handling" in 1966. Before Simula 67. Before Smalltalk. Before anyone had coined the term object-oriented programming.
+Before Simula 67. Before Smalltalk. Before anyone had coined the term object-oriented programming. Tony Hoare formalized the concept of the discriminated union in his seminal 1965 paper, "Record Handling."
 
-He wasn't thinking about objects sending messages to each other. He was thinking about something much simpler: data with a type tag, and code that switches on that tag.
+In this paper, Hoare introduced the idea of a record (a data structure grouping related fields) and proposed that records could have a "variant part." By looking at a specific "tag" field within the record, the program could determine which variant of the record was currently active.
+
+This concept was highly influential and was directly implemented in the programming language ALGOL W (which Hoare co-designed with Niklaus Wirth in 1966) and later became a staple of Pascal and Ada.
+
+He wasn't thinking about objects sending messages to each other. He was thinking about something much simpler: data with a type tag, and code that switches on that tag. Example (Pascal-style Variant Record):
+
+```javascript
+type
+  ShapeTag = (Circle, Square, Triangle);
+  Shape = record
+    case tag: ShapeTag of
+      Circle: (radius: Real);
+      Square: (sideLength: Real);
+      Triangle: (base, height: Real);
+  end;
+```
+
+In this structure, the tag field guarantees that if a program tries to access shape.radius, the compiler can verify that shape.tag is actually Circle.
 
 ---
 
-## What He Actually Proposed
+### What He Actually Proposed
 
 You have a record. The record knows what it is — it carries a tag. You have a dispatch function that looks at the tag and calls the right handler. The handler takes storage and params. That's it.
 
 No object. No `this`. No method lookup. No vtable. A record, a tag, and a switch.
 
-It's almost embarrassingly simple. Which is probably why it got overlooked.
+It's almost embarrassingly simple. Which is probably why it got overlooked. Hoare’s creation was a massive leap forward in type safety. Untagged Unions (C/C++): If you misinterpret the data in a C union (e.g., writing an integer and reading it as a pointer), the compiler will let you, resulting in memory corruption or crashes.
+
+Tagged Unions (Hoare's model): The compiler enforces that the tag and the data match, preventing a whole class of bugs before the program even runs.
+
+If you are reading about Tony Hoare and unions, you are reading about the moment he added type safety to composite data structures. By inventing the discriminated union (variant record), he gave programmers a way to securely model data that can take on multiple different forms, a concept that remains central to software engineering today.
 
 ---
 
