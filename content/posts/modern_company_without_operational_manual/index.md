@@ -9,7 +9,6 @@ cover:
 ---
 
 
-
 A company running without an operational manual is a modern ship of fools: a full crew, might be fast engine, and no chart.
 
 Everyone on board is busy. Decisions get made, fires get put out, quarters get closed. But none of it is guide by any method — so none of it survives contact with a new hire, a departure, or a bad week. The knowledge lived in heads, not in process. The ship sails on momentum, not on navigation.
