@@ -16,11 +16,14 @@ Just as we have different kinds of Architecture, we have different kind of Workf
 
 ## Four things, one word
 
-1. **WORKFLOW 2026 abbr. WFL2026 — the implementation artifact.** Epitomized in [Dapr](https://dapr.io/) and [Temporal](https://temporal.io/), and their relatives: code-first, durable orchestration for distributed systems. It is a promise of persistent state, survived crashes, managed retries. It exists because modern applications are shaping up as constellations of microservices and AI agents landing in production as containers; and someone has to keep track of where each one is "right now" in its execution. **WFL2026** lives entirely in the **Technology (T)** domain of the BPT op model. And it's optional — a product can be built without it.
+1. **System engineering Workflow** Aka: WORKFLOW 2026 abbr. WFL2026. Simply an implementation artifact. Epitomized in [Dapr](https://dapr.io/) and [Temporal](https://temporal.io/), and their relatives: code-first, durable orchestration for distributed systems. It is a promise of persistent state, survived crashes, managed retries. It exists because modern applications are shaping up as constellations of microservices and AI agents landing in production as containers; and someone has to keep track of where each one is "right now" in its execution. **WFL2026** lives entirely in the **Technology (T)** domain of the BPT op model. And it's optional — a product can be built without it.
 2. **The analytical workflow — a Business Analyst's tool.** This is the diagram in [Cawemo](https://cawemo.com/) or a [BPMN](https://www.omg.org/spec/BPMN/) chart: **a description used to align stakeholders on a business process**. It belongs to the **Product (P)** domain, the domain of Business Analysts, who use it to detail and describe the business logic, in a form that will be consumed by the Technology (T) domain. **Business (B)** itself — the domain of business roles — doesn't need this tool. TOGAF's Business Architecture is one segment among eight; workflow is barely in it.
-3. **[BPT](https://method.dbj.org/bpt) — the Operational Loop.** Not a workflow at all. BPT is the governance structure that deliberately decouples B from T, with P as the bridge. It's the "what" and "why" — the rhythm and viability of the organization — not a diagram and not code.
-4. **TODO — the fourth category from the DBJ Taxonomy.**
+  
+3. **The Operational Loop.** Example: [BPT](https://method.dbj.org/bpt) — Not a workflow at all. BPT is the governance structure that deliberately decouples B from T, with P as the bridge. It's the "what" and "why" — the rhythm and viability of the organization — not a diagram and not code.
+  
+4. **TODO — the fourth category **
 
+From the DBJ Taxonomy.
 ![](https://method.dbj.org/assets/dbj-methodology-clogs.png)
 
 Calling all four "workflow" is the unfortunate terminology overflow. Once you separate them by the level of abstraction they cover, a lot of confusion dissolves on its own.
