@@ -23,9 +23,9 @@ Naturally those accused of "operating under the illusion of agility", will be (v
 
 Here is a simple clarification. 
 
-## [BPT](#bpt) vs Agile — not competitors 
+## [BPT](#bpt) and Agile are not competitors 
 
-They are "different layers". How? Examples.
+They are "different levels". How? Examples.
 
 | | BPT (operating model) | Agile |
 |---|---|---|
