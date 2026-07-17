@@ -1,0 +1,8 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(git -C g:/DBJARH/DBJ_ICEBERG add content/posts/agile_bpt/)",
+      "Bash(git -C g:/DBJARH/DBJ_ICEBERG status)"
+    ]
+  }
+}

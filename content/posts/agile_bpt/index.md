@@ -6,7 +6,7 @@ description: "Are BPT adopters Agile?"
 tags: ["BPT", "agile", "BCG"]
 author: "Dusan B. Jovanovic"
 cover:
-  image: "ai-or-iceberg.png"
+  image: "image.png"
 ---
 
 The other day I stumbled upon good article (again) on the BCG (Boston Consulting Group) site:
