@@ -1,5 +1,5 @@
 ---
-title: "C++ DBJ Error Concept, at Last — Revisited"
+title: "Why revisit it now?"
 date: 2026-07-19
 draft: false
 description: "Revisiting a 2019 idea: VALSTAT, a value-and-status alternative to C++ error handling — and why the AND still holds up."
@@ -9,9 +9,13 @@ cover:
   image: "So little C++ so much good.png"
 ---
 
-Back in 2019 I wrote [C++ DBJ Error Concept, at last](https://dbj.org/c-dbj-error-concept-at-last/), proposing **VALSTAT** — Value & Status — as an answer to a gap ISO C++ has never closed: there is no standard C++ concept for "how did this call actually go."
+**C++ DBJ Error Concept — Revisited**
+
+Back in 2019 I wrote [C++ DBJ Error Concept, at last](https://dbj.org/c-dbj-error-concept-at-last/), proposing **[VALSTAT](https://github.com/valstat)** — Value & Status — as an answer to a gap ISO C++ has never closed: there is no standard C++ concept for "how did this call actually go."
 
 Seven years on, the standard still doesn't have one. The idea might be worth restating.
+
+(Certainly `std::expected` seems not to be widely adopted)
 
 ## The naming correction
 
@@ -19,13 +23,13 @@ Key realisation: "Error handling" was the wrong name for the theme. Not every re
 
 The C++ community's instinct, then and now, was to frame this as **value OR error** — `std::expected<T, E>`, exceptions, error codes, all variations on "did it work, yes or no." 
 
-**VALSTAT**
+**[VALSTAT](https://github.com/valstat)**
 
 VALSTAT reframed it as **value AND status**: both present, independently, at the same time.
 
 ## The mechanism, unchanged
 
-The implementation was — deliberately — almost nothing:
+The implementation was (then and [now](https://github.com/valstat)) — deliberately — almost nothing:
 
 ```cpp
 template <typename T1_, typename T2_>
