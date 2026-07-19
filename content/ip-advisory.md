@@ -1,11 +1,11 @@
 ﻿---
 title: IP Advisory
-description: DBJ Method IP rights — CC BY SA 4.0 and commercial licensing.
+description: DBJ.ORG IP rights — CC BY SA 4.0 and commercial licensing.
 url: /ip-advisory/
 ---
-- [Advisory on the DBJ.METHOD IP rights](#advisory-on-the-dbjmethod-ip-rights)
+- [Advisory on the IP rights](#advisory-on-the-ip-rights)
     - [Author: Dusan B. Jovanovic (dbj@dbj.org)](#author-dusan-b-jovanovic-dbjdbjorg)
-    - [DBJ Method is dual-licensed.](#dbj-method-is-dual-licensed)
+    - [This site content is dual-licensed.](#this-site-content-is-dual-licensed)
   - [User rights and obligations under CC BY SA 4.0](#user-rights-and-obligations-under-cc-by-sa-40)
   - [What the User does NOT have to do](#what-the-user-does-not-have-to-do)
   - [Practical risk for the User](#practical-risk-for-the-user)
@@ -14,15 +14,15 @@ url: /ip-advisory/
 
 ---
 
-# Advisory on the DBJ.METHOD IP rights
+# Advisory on the IP rights
 
 ### Author: Dusan B. Jovanovic (dbj@dbj.org)
 
-> DBJ Method support and general enquiries: info@dbj.org
+> Support and general enquiries: info@dbj.org
 
 Active License: **CC BY SA 4.0 — Creative Commons Attribution-ShareAlike 4.0 International**
 
-### DBJ Method is dual-licensed.
+### This site content is dual-licensed.
 
 > The public license is **CC BY SA 4.0** — it applies to all Users by default.  
 > 
