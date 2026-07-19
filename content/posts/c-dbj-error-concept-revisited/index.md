@@ -15,7 +15,7 @@ Back in 2019 I wrote [C++ DBJ Error Concept, at last](https://dbj.org/c-dbj-erro
 
 Seven years on, the standard still doesn't have one. The idea might be worth restating.
 
-(Certainly `std::expected` seems not to be widely adopted)
+(Certainly `std::expected` seems not to be widely adopted. My own assertion.)
 
 ## The naming correction
 
