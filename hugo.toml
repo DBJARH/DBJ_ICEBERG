@@ -16,7 +16,7 @@ paginate = 10
   comments = true
   TocOpen = false
   defaultTheme = 'auto'
-  homeInfoParams = { Title = 'DBJ Iceberg', Content = 'Enterprise Architecture advice for SMEs navigating AI adoption. Grounded in TOGAF, free of hype.' }
+  homeInfoParams = { Title = 'DBJ Iceberg', Content = 'Enterprise Architecture advice for navigating the AI adoption. Free of hype.' }
   homeGridStyle = true
 
 [params.profileMode]
