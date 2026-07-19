@@ -5,6 +5,8 @@ description: "Kunihiko Fukushima's Neocognitron in 1979, WABOT-1 in 1973, and th
 tags: ["AI", "history"]
 author: "Dusan B. Jovanovic"
 draft: false
+cover:
+  image: "ai-history.png"
 ---
 
 Is this post card from the past or is this a post card from the future?

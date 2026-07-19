@@ -5,6 +5,8 @@ description: "On llama.cpp, inference engines, and why the host language is irre
 tags: ["software-engineering", "AI", "C", "systems"]
 author: "Dusan B. Jovanovic"
 draft: false
+cover:
+  image: "iceberg-banner-1200x630.jpg"
 ---
 
 <img src="/the_dark_bottom_dbj.png" alt="" width="75%" />

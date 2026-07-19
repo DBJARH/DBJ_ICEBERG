@@ -9,22 +9,23 @@ cover:
   image: "human_agent_driver.png"
 ---
 
-> Do you prefer the calm and ordered [B-P-T operational model](https://method.dbj.org/onboarding/section-03.html) to "Nodes of Super Density"?
->
-> We do
+Do you prefer the calm and ordered [B-P-T operational model](https://method.dbj.org/onboarding/section-03.html) to "Nodes of Super Density"?
 
-## Nodes of Super Densities
+> We prefer the order of B-P-T
 
-This is how we call this **very dense** new team shape. All to All at once All the time. 
+## Ad-Hoc Challenging Nodes of Super Densities
 
-Is that a sustainable operating model for an organization?
+This is how we call this **very dense** new team shape. All the ad-hoc. Communication pattern is inevitably:  all to all at once all the time.  
 
-- Can organization consist of these "Super Densities" and be successful in the long run? 
-- Who does customer support? 
-- Who are the customers? 
-- Where are the customers?
-- Who or what does the maintenance?
+AI or not AI. Is that a sustainable operating model for an organization?
 
+- Can organization consist of these "Super Dense Clumps" and be successful in the long run? 
+- How customer does understand those "clumps"? 
+- How the "C room" does follow? 
+- How does this map to infrastructure?
+- Who or what does the maintenance stage?
+
+We might be wrong.
 
 > Is chaos just a calm landscape from another point of view?
 

@@ -4,6 +4,7 @@ date: 2026-06-21
 description: "Every executive nods along to AI buzzwords. Few ask what they mean. BPT is born so that the nodding stops."
 tags: ["BPT", "AI", "DBJ Method", "Operational Model"]
 author: "Dusan B. Jovanovic"
+featured: true
 cover:
   image: "bpt-birth-in-one-image.png"
 ---

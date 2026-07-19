@@ -1,5 +1,5 @@
 ---
-title: "In the Era of AI Slop"
+title: "Remember the Unicorn?"
 date: 2026-06-09
 description: "AI slop doesn't kill quality work. It makes it invisible. That's worse."
 tags: ["AI", "content", "quality"]
@@ -10,7 +10,7 @@ cover:
 
 The unicorn is still there. Exactly where it always was.
 
-But. Nobody is looking.
+But. Nobody is looking. Under the avalanche of AI Slop
 
 A goat walked to the side of the moat and it's fine up there — visible, unremarkable, good enough. The goat didn't defeat the unicorn. It is just vibed up in greater numbers, at lower cost, faster than anyone could count.
 

@@ -6,6 +6,8 @@ tags: ["platform engineering", "open source", "AI", "DevOps"]
 author: "Dusan B. Jovanovic"
 cover:
   image: "superplane_over_the_glue_abyss.png"
+featured: true
+pinned: true
 ---
 
 An open-source event-driven control plane for platform engineering — and what it gets right about operational workflows.
