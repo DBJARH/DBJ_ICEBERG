@@ -59,6 +59,10 @@ Comments are enabled via [Giscus](https://giscus.app), backed by GitHub Discussi
 - **Discussion category:** `General` (`DIC_kwDOSkKOj84C-RO1`)
 - PaperMod's built-in `comments.html` is an empty stub — the override in `layouts/_partials/` is required
 
+## .claude/settings.json Policy
+
+`.claude/settings.json` (and `.claude/settings.local.json`) must **not** be tracked in git. This repo is worked on from both Windows and Linux, and this file accumulates machine-specific Bash permission allowlist entries (e.g. absolute Windows paths like `g:/DBJARH/DBJ_ICEBERG/...`) that are meaningless or wrong on the other OS. Each dev/OS keeps their own local copy; it is gitignored. Do not re-add it to tracking or commit changes to it.
+
 ## Ownership
 
 - &copy; dbj@dbj.org
