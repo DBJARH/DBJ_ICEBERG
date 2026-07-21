@@ -1,5 +1,5 @@
 ---
-title: "Nodes of Super Densities"
+title: "Accidental Nodes of Super Densities"
 date: 2026-06-23
 description: "We need to prove this can not be a software product team. Or do we?"
 tags: ["AI", "Team", "New Shape of Things", "B-P-T role is not clear. Or is it not?"]
@@ -9,23 +9,23 @@ cover:
   image: "human_agent_driver.png"
 ---
 
-Do you prefer the calm and ordered [B-P-T operational model](https://method.dbj.org/onboarding/section-03.html) to "Nodes of Super Density"?
+Do you prefer the calm and ordered [B-P-T operational model](https://method.dbj.org/onboarding/section-03.html) to "Accidental Nodes of Super Density"?
 
 > We prefer the order of B-P-T
 
 ## Challenging Accidental Nodes of Super Densities
 
-This is how we call this **very dense** new team shape. All the ad-hoc, all the time. Communication pattern grown here (in a ad-hoc manner) is:  all is talking to all, at once all the time. Probably proud of Slack presence. 
+This is how we call this **very dense** possibly emerging team shape. All the ad-hoc, all the time. Communication pattern home grown here (in a ad-hoc manner) is:  all is talking to all, at once all the time. Probably proud of Slack presence. And that includes the Agents too.
 
 AI or not AI. Is that a sustainable operating model for an organization?
 
-- Can organization consist of these "Super Dense Clumps" and be successful in the long run? 
+- Can organization consist of these "Super Dense Clumps" as "Teams", and be successful in the long run? 
 - How customer does understand those "clumps"? 
-- How the "C room" does follow? 
+- How the "C room" does follow the shaped shifting of the company landscape? 
 - How does this map to infrastructure?
-- How is landscape of these Team Clumps observed?
+- How is landscape of these Team Clumps controlled? And planned.
 
-We might be wrong. 
+**We might be wrong. **
 
 > Is the chaos we see, just a superior AI landscape from your point of view?
 
