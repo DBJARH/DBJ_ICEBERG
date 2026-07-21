@@ -9,6 +9,19 @@ body:not(.list) .main {
     max-width: 70vw;
 }
 
+@media (max-width: 900px) {
+    .home-grid-wrap {
+        width: 100%;
+        max-width: 100%;
+        margin-left: 0;
+        transform: none;
+    }
+
+    body:not(.list) .main {
+        max-width: 100%;
+    }
+}
+
 .home-grid-tagline {
     margin: 0 0 1.5rem;
     color: var(--primary);
@@ -116,14 +129,30 @@ body:not(.list) .main {
     border-color: var(--primary);
 }
 
-@media (max-width: 768px) {
+@media (max-width: 900px) {
     .home-grid {
-        grid-template-columns: repeat(3, 1fr);
-        gap: 0.5rem;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 0.7rem;
+    }
+}
+
+@media (max-width: 600px) {
+    .home-grid {
+        grid-template-columns: 1fr;
+        gap: 0.7rem;
     }
 
     .home-grid-title {
-        padding: 0.4rem;
-        font-size: 0.8rem;
+        padding: 0.5rem 0.7rem 0.3rem;
+        font-size: 0.95rem;
+    }
+
+    .home-grid--pinned .home-grid-title {
+        font-size: 1.2rem;
+        padding: 0.8rem 1rem 0.3rem;
+    }
+
+    .home-grid-tagline {
+        font-size: 1.2rem;
     }
 }
