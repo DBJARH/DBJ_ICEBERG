@@ -25,7 +25,7 @@ AI or not AI. Is that a sustainable operating model for an organization?
 - How does this map to infrastructure?
 - How is landscape of these Team Clumps observed?
 
-We might be wrong. Prove we are.
+We might be wrong. 
 
 > Is the chaos we see, just a superior AI landscape from your point of view?
 
