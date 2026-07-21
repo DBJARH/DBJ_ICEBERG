@@ -13,7 +13,7 @@ Do you prefer the calm and ordered [B-P-T operational model](https://method.dbj.
 
 > We prefer the order of B-P-T
 
-## Ad-Hoc Challenging Nodes of Super Densities
+## Challenging Accidental Nodes of Super Densities
 
 This is how we call this **very dense** new team shape. All the ad-hoc, all the time. Communication pattern grown here (in a ad-hoc manner) is:  all is talking to all, at once all the time. Probably proud of Slack presence. 
 
