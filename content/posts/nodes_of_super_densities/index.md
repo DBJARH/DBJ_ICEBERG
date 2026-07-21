@@ -15,7 +15,7 @@ Do you prefer the calm and ordered [B-P-T operational model](https://method.dbj.
 
 ## Ad-Hoc Challenging Nodes of Super Densities
 
-This is how we call this **very dense** new team shape. All the ad-hoc. Communication pattern is inevitably:  all to all at once all the time.  
+This is how we call this **very dense** new team shape. All the ad-hoc, all the time. Communication pattern grown here (in a ad-hoc manner) is:  all is talking to all, at once all the time. Probably proud of Slack presence. 
 
 AI or not AI. Is that a sustainable operating model for an organization?
 
@@ -23,11 +23,11 @@ AI or not AI. Is that a sustainable operating model for an organization?
 - How customer does understand those "clumps"? 
 - How the "C room" does follow? 
 - How does this map to infrastructure?
-- Who or what does the maintenance stage?
+- How is landscape of these Team Clumps observed?
 
-We might be wrong.
+We might be wrong. Prove we are.
 
-> Is chaos just a calm landscape from another point of view?
+> Is the chaos we see, just a superior AI landscape from your point of view?
 
 
 
