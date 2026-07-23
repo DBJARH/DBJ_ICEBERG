@@ -7,21 +7,39 @@ author: "Dusan B. Jovanovic"
 cover:
   image: "do-we-have-the-right-set-of-skills.png"
 ---
+{{< callout type="important" >}}
+Summary: skill.md is not guaranteed to be used
+{{< /callout >}}
 
 ## DBJ Observations and Comments
 
-1. **Observation**: runtime infrastructure != deployment infrastructure
-   1. Agreed. In the era of the general lack of experienced engineers that has to be said. Plainly.
-2. **Observation**: Skill is runtime artifact. That is the key problem keeping the whole agent harness non-deterministic
-   1. It's not Skill, it's the inherent mechanism Skill is used by — fuzzy natural-language matching against a description, decided by the model at invocation time rather than fixed dispatch. 
-    2. That same mechanism is what makes deferred-tool loading (ToolSearch), subagent selection. Also the ordinary tool choice (Grep vs Read vs Agent) non-deterministic too. 
-    3. Skills are just the most visible facet of the LLM non-determinism because they're named and listed explicitly. But used non deterministically.
-        1. The classical-software analogue is late binding / reflection-based plugin dispatch
-        2. Trading a fixed call graph for runtime flexibility, and paying for it in determinism missing. 
-    4. It is not "Skill" that is the problem, it is that harness resolves most capability binding (skills, tools, subagents, memory recall) via probabilistic matching instead of a deterministic dispatch table — and that's a structural property of the whole LLM architecture, not a flaw isolated to the Skills.
-    5. There is no deterministic table dispatch. It is as simple as that
+1. **Observation**: runtime infrastructure **is not** deployment infrastructure
+   1. Agreed, so what? 
+      1. In the era of the general lack of experienced engineers that has to be said. Plainly.
+2. **Observation**: Skill is key problem is, it is keeping the whole agent scaffolding non-deterministic
+   1. It's not Skill, it's the mechanism that is supposed to use the Skill. 
+      1. Fuzzy natural-language matching against a description, decided by the model at invocation time rather than part of a fixed dispatch. 
+    2. same mechanism is what makes deferred-tool loading (ToolSearch), subagent selection. 
+       1. Also the ordinary tool choice (Grep vs Read vs Agent) is then non-deterministic too. 
+    3. Skills are just the most visible facet of the LLM non-determinism because they're named and listed explicitly. 
+       1. But skills are used non deterministically.
+   2. The classical-software analogue is late binding / reflection-based plugin dispatch
+   3. Skill mechanism is trading a fixed call graph for runtime flexibility, and paying for it in determinism lacking. 
+   4. Repeating. It is not "Skill" that is the problem, it is that harness resolves most capability binding (skills, tools, subagents, memory recall) via probabilistic matching instead of a deterministic dispatch table
+      1. And that's a structural feature of the whole LLM architecture, not a flaw isolated to the Skills.
+   5. There is no deterministic table dispatch. It is as simple as that
 
+{{< callout type="important" >}}
+The Message
 
+Skills-as-currently-specified are not a component LLM users can put a hard SLA on. They're a heuristic layer, not infrastructure. Any system using them needs a deterministic fallback/verification layer above the fuzzy dispatch.That is the core.
+{{< /callout >}}
+
+## The whole point, stated correctly.
+
+Consequence: treat Skills/Tools/subagent selection as an untrusted heuristic router — **never as the control plane**. 
+
+Put a deterministic layer above it that verifies *after* the fact (did the right capability actually fire, did the output satisfy the contract) rather than trusting selection *before* the fact.
 
 
 
