@@ -35,12 +35,12 @@ The Message
 Skills-as-currently-specified are not a component LLM users can put a hard SLA on. They're a heuristic layer, not infrastructure. Any system using them needs a deterministic fallback/verification layer above the fuzzy dispatch.That is the core.
 {{< /callout >}}
 
-## The whole point, stated correctly.
+## Consequence
 
-Consequence: treat Skills/Tools/subagent selection as an untrusted heuristic router — **never as the control plane**. 
+Treat Skills/Tools/subagent selection as an untrusted heuristic router — **never as the control plane**. 
 
-Put a deterministic layer above it that verifies *after* the fact (did the right capability actually fire, did the output satisfy the contract) rather than trusting selection *before* the fact.
+Put a deterministic layer that verifies *after* the fact (did the right capability actually fire, did the output satisfy the contract).
 
+![alt text](skills_heuristic_vs_deterministic_gate.png)
 
-
-
+LLM roll the dice on **which** skill; a deterministic gate decides if the output survives.
