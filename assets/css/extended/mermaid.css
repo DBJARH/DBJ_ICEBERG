@@ -1,0 +1,20 @@
+/* Mermaid diagrams stay black-on-white in both site themes. */
+pre.mermaid {
+    background: #ffffff;
+    padding: 1rem;
+    margin: 1rem 0;
+    border-radius: var(--radius);
+    text-align: center;
+    overflow-x: auto;
+}
+
+/* Before mermaid.run() replaces the text with SVG, keep the source invisible
+   rather than flashing raw diagram markup on slow connections. */
+pre.mermaid:not([data-processed]) {
+    color: transparent;
+}
+
+pre.mermaid svg {
+    max-width: 100%;
+    height: auto;
+}
