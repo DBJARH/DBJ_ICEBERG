@@ -8,7 +8,7 @@ cover:
   image: "do-we-have-the-right-set-of-skills.png"
 ---
 {{< callout type="important" >}}
-Summary: skill.md is not guaranteed to be used
+One Liner Summary: skill.md is not guaranteed to be used
 {{< /callout >}}
 
 ## DBJ Observations and Comments
@@ -43,4 +43,4 @@ Put a deterministic layer that verifies *after* the fact (did the right capabili
 
 ![alt text](skills_heuristic_vs_deterministic_gate.png)
 
-LLM roll the dice on **which** skill; a deterministic gate decides if the output survives.
+LLM rolls the dice on **which** skill; a deterministic gate decides if the output survives.
