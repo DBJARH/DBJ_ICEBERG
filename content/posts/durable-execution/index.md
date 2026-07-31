@@ -96,5 +96,5 @@ What practitioners actually use circa 2026:
 
 ![alt text](durablexecution.png)
 
-The conclusion this post already rests on: **"durable execution"** is the closest thing to an industry-standard term for this narrow scope, and it is worth adopting rather than coining past.
+The conclusion this post already rests on: **"durable execution"** is the closest thing to an industry-standard term for this narrow scope, and it is worth adopting rather than coining past. But: it is not a workflow.
 
