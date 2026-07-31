@@ -4,7 +4,10 @@ date: 2026-07-30
 description: "It solves one narrow problem — software forgets everything when it crashes. It borrowed the word \"workflow\" on the way, and that has cost more clarity than the technology is worth."
 tags: ["workflow", "durable execution", "architecture"]
 author: "Dusan B. Jovanovic"
+cover:
+  image: "wordsmith.png"
 ---
+
 
 {{< callout type="important" >}}
 Durable execution is a crash insurance for a long-running software. It is not a business process, and adopting it does not mean your organization "has a workflow."
@@ -87,6 +90,8 @@ What practitioners actually use circa 2026:
 - **"workflow-as-code"** — to contrast with visual/BPMN modeling
 
 
-# **"Durable execution"** 
-is closest to industry-standard term, for this narrow scope. Worth adopting rather than coining.
+![alt text](durablexecution.png)
+
+**"Durable execution"** 
+is closest to industry-standard term. For this narrow scope, it is worth adopting rather than coining.
 
