@@ -1,0 +1,43 @@
+### Implementationists (aka Engineers) presented
+
+#### The 2025 engineering move: put it in the database
+
+The [QCon SF 2025 talk from Edberg & Li (DBOS)](https://share.google/MS08zqZzoGdCjm0BZ) argues that instead of layering orchestration code on top of a database, you compile the workflow logic directly into it. Postgres becomes the durability and orchestration layer rather than just storage, via [DBOS](#what-dbos-is) Transact — an app-level library, not a service.
+
+The claim: your database already has most of what a workflow engine needs. Failures, poor visibility, and coordination logic scattered across services are the real pain points it removes.
+
+Architecturally this collapses the orchestration segment into the technology/data layer instead of treating it as a separate product concern — consistent with monolith-first, consolidate-before-distribute. A library rather than a new service also means no extra orchestrator to deploy.
+
+**Traditional:**
+
+```mermaid
+%%{init: {"theme":"base","themeVariables":{"background":"#ffffff","lineColor":"#000000","fontFamily":"Helvetica, Arial, sans-serif"}}}%%
+flowchart TB
+  T1["App Code"] --> T2["Orchestrator (Temporal, etc.)"]
+  T2 --> T3["Queues / Workers"]
+  T3 --> T4["Database (storage only)"]
+  T4 ~~~ TN["4 systems, no shared transactions"]
+
+  classDef default fill:#ffffff,stroke:#000000,stroke-width:2px,color:#000000;
+  classDef note fill:#ffffff,stroke:none,color:#000000,font-size:13px;
+  class TN note;
+```
+
+**Compiled into the database:**
+
+```mermaid
+%%{init: {"theme":"base","themeVariables":{"background":"#ffffff","lineColor":"#000000","fontFamily":"Helvetica, Arial, sans-serif"}}}%%
+flowchart TB
+  D1["App Code + Transact library"] --> PG["<b>PostgreSQL</b><hr/>workflow state<br/>checkpoints<br/>durability<br/>recovery<br/>data"]
+  PG ~~~ DN["1 system, transactional"]
+
+  classDef default fill:#ffffff,stroke:#000000,stroke-width:2px,color:#000000;
+  classDef note fill:#ffffff,stroke:none,color:#000000,font-size:13px;
+  classDef big fill:#ffffff,stroke:#000000,stroke-width:3px,color:#000000;
+  class DN note;
+  class PG big;
+```
+
+### What DBOS is
+
+"DataBase-Oriented Operating System" — originally a research project, now a company. The idea is to put operating-system-level concerns (scheduling, state, fault tolerance) inside the database rather than around it. What ships today is **DBOS Transact**, an MIT-licensed library (Python/TypeScript/Go/Java) that checkpoints workflow state into Postgres so a crashed process resumes from its last completed step.

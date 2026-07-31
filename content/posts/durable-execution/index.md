@@ -34,11 +34,11 @@ So the same word now names a governance rhythm, a stakeholder-alignment diagram,
 The question to ask is not "do we have a workflow?" but "what breaks if this job dies halfway, and what does that cost us?" If the answer you believe, is "nothing much," you do not need this. Plenty of working systems do not have it.
 {{< /callout >}}
 
-## What it costs
+## What are the costs
 
 Two items on the bill, and the second is the one that gets missed.
 
-The direct cost is another system to run: traditionally an orchestrator, a queue, workers, and a database, each with its own failure modes and its own operational burden. The newer approach ([see the appendix](#the-2025-move-put-it-in-the-database)) collapses that into the database you already have, which is a meaningful simplification.
+The direct cost is another system to run: traditionally an orchestrator, a queue, workers, and a database, each with its own failure modes and its own operational burden. The newer approach collapses that into the database you already have, which is a meaningful simplification.
 
 The indirect cost is architectural. Code written for a durable execution engine is shaped by that engine — steps have to be structured so they can be replayed safely. That is a coupling commitment. It is reversible, but not cheaply, and it is the sort of decision that should be made deliberately in Technology rather than inherited because someone was reading a conference talk.
 
@@ -56,74 +56,37 @@ And either way, it has no bearing on whether your operational loop works. One is
 
 ### The solution is old; the name is new
 
-For most of computing history this was called a **long-running transaction**, and the literature on it is mature:
+For most of the computing history this was called a **long-running transactions**. The literature is mature:
 
 - **[Sagas](https://sigmodrecord.org/1987/12/09/sagas/)** (1987) — Garcia-Molina and Salem, SIGMOD. A long transaction is broken into steps, each with a compensating action to undo it, because holding database locks for hours is not viable. This is still the reference model for the problem.
-- **TP monitors** — CICS, Tuxedo and relatives ran long-lived, recoverable business transactions in production for decades, with transaction logs and automatic restart.
+- **TP monitors** — [CICS](https://www.ibm.com/products/cics-transaction-server), [Tuxedo](https://www.oracle.com/middleware/technologies/tuxedo.html) and relatives ran long-lived, recoverable business transactions in production for decades, with transaction logs and automatic restart. 
 - **[WS-BPEL](https://docs.oasis-open.org/wsbpel/2.0/OS/wsbpel-v2.0-OS.html) / WS-Transaction** (early 2000s) — the same idea in the web-services era. Business Process Execution Language: an OASIS standard (2.0 ratified 2007) in which the process is declared as an XML document and handed to an engine to execute. The engine owns the state, the retries and the recovery — exactly the guarantee durable execution sells today.
-- **Java EE, BPEL engines, Camunda** — the enterprise lineage the [taxonomy table]({{< relref "/posts/four-kinds-of-workflows" >}}#the-two-axes) already lists under durable macroflow.
+- **Java EE, BPEL engines, Camunda** — the enterprise lineage the [taxonomy table]({{< relref "/posts/four-kinds-of-workflows" >}}#the-two-axes) already lists under durable `macroflow` as we call it in this doc.
 
-None of that was called "durable execution". The current name arrived through a separate product lineage from essentially one team:
+### None of that was called "durable execution"
+
+The current name arrived through a separate product lineage from essentially one team:
 
 - **AWS Simple Workflow Service** (2012) — Maxim Fateev led its public release
 - **Azure Durable Task Framework** (2015-ish) — Samar Abbas, later became Azure Durable Functions
 - **Uber Cadence** (2016) — Fateev and Abbas both led it
 - **Temporal** (2019) — same two founders, forked Cadence, and coined "durable execution" for what they had been building since AWS SWF.
 
-So the coinage is recent, the capability is not. What genuinely changed is the programming model, not the guarantee: [sagas](https://sigmodrecord.org/1987/12/09/sagas/) and [BPEL](https://docs.oasis-open.org/wsbpel/2.0/OS/wsbpel-v2.0-OS.html) asked you to declare the process as data — an XML document or a diagram — and hand it to an engine. The modern tools let you write ordinary code in your own language and make the runtime responsible for replaying it deterministically after a crash. That is a real ergonomic improvement, and it is the whole of the novelty.
+So the ad-hoc naming is recent, the capability is mature, seen and used. What genuinely changed is the programming model, not the guarantee: [sagas](https://sigmodrecord.org/1987/12/09/sagas/) and [BPEL](https://docs.oasis-open.org/wsbpel/2.0/OS/wsbpel-v2.0-OS.html) asked you to declare the process as data — an XML document or a diagram — and hand it to an engine. The modern tools let you write ordinary code in your own language and make the runtime responsible for replaying it deterministically after a crash. That is a real ergonomic improvement, and it is the whole of the novelty.
 
-Worth keeping in view when a vendor presents this as a new category. It is a better interface to a problem the industry has been solving since 1987.
+Worth keeping in view when a vendor presents this as a new category. It is a different interface to a problem the industry is solving since 1987.
 
 ### On coining a better word
 
-The temptation is to fix the collision by inventing a term — "microflow" for the technical artifact, against "macroflow" for the business process. It is a fair private label, but it introduces new vocabulary into a space already fighting over one word meaning several things.
+The temptation is to fix the collision by inventing a term — `microflow` for the technical artifact, against `macroflow` for the business process. It is a fair but private label, and it introduces new vocabulary into a space already (bitterly) fighting over one word meaning several things.
 
-What practitioners actually use:
+What practitioners actually use circa 2026:
 
 - **"durable execution"** — to distinguish from BPMN/BPEL "workflow"
 - **"virtual resiliency"** — some literature, for the predecessor concept
 - **"workflow-as-code"** — to contrast with visual/BPMN modeling
 
-**"Durable execution"** is closest to industry-standard for this narrow scope. Worth adopting rather than coining.
 
-### The 2025 move: put it in the database
+# **"Durable execution"** 
+is closest to industry-standard term, for this narrow scope. Worth adopting rather than coining.
 
-The [QCon SF 2025 talk from Edberg & Li (DBOS)](https://share.google/MS08zqZzoGdCjm0BZ) argues that instead of layering orchestration code on top of a database, you compile the workflow logic directly into it. Postgres becomes the durability and orchestration layer rather than just storage, via [DBOS](#what-dbos-is) Transact — an app-level library, not a service.
-
-The claim: your database already has most of what a workflow engine needs. Failures, poor visibility, and coordination logic scattered across services are the real pain points it removes.
-
-Architecturally this collapses the orchestration segment into the technology/data layer instead of treating it as a separate product concern — consistent with monolith-first, consolidate-before-distribute. A library rather than a new service also means no extra orchestrator to deploy.
-
-**Traditional:**
-
-```mermaid
-%%{init: {"theme":"base","themeVariables":{"background":"#ffffff","lineColor":"#000000","fontFamily":"Helvetica, Arial, sans-serif"}}}%%
-flowchart TB
-  T1["App Code"] --> T2["Orchestrator (Temporal, etc.)"]
-  T2 --> T3["Queues / Workers"]
-  T3 --> T4["Database (storage only)"]
-  T4 ~~~ TN["4 systems, no shared transactions"]
-
-  classDef default fill:#ffffff,stroke:#000000,stroke-width:2px,color:#000000;
-  classDef note fill:#ffffff,stroke:none,color:#000000,font-size:13px;
-  class TN note;
-```
-
-**Compiled into the database:**
-
-```mermaid
-%%{init: {"theme":"base","themeVariables":{"background":"#ffffff","lineColor":"#000000","fontFamily":"Helvetica, Arial, sans-serif"}}}%%
-flowchart TB
-  D1["App Code + Transact library"] --> PG["<b>PostgreSQL</b><hr/>workflow state<br/>checkpoints<br/>durability<br/>recovery<br/>data"]
-  PG ~~~ DN["1 system, transactional"]
-
-  classDef default fill:#ffffff,stroke:#000000,stroke-width:2px,color:#000000;
-  classDef note fill:#ffffff,stroke:none,color:#000000,font-size:13px;
-  classDef big fill:#ffffff,stroke:#000000,stroke-width:3px,color:#000000;
-  class DN note;
-  class PG big;
-```
-
-### What DBOS is
-
-"DataBase-Oriented Operating System" — originally a research project, now a company. The idea is to put operating-system-level concerns (scheduling, state, fault tolerance) inside the database rather than around it. What ships today is **DBOS Transact**, an MIT-licensed library (Python/TypeScript/Go/Java) that checkpoints workflow state into Postgres so a crashed process resumes from its last completed step.
