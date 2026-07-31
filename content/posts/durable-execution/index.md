@@ -13,45 +13,49 @@ cover:
 Durable execution is a crash insurance for a long-running software. It is not a business process, and adopting it does not mean your organization "has a workflow."
 {{< /callout >}}
 
-## The problem it actually solves
+## What it actually solves
 
-A program holds its state in memory, and memory does not survive the program. When a process dies halfway through a job, everything it knew is gone: which step it reached, which steps already completed, whether the payment went out once or twice.
+A program holds its state in memory, and memory does not survive the program. When a process dies halfway through a job, everything it knew is gone: which step it reached, which steps already completed, whether the payment went out once or twice. Regardless of the job.
 
-For a job lasting milliseconds this is a non-issue; you retry it. For a job lasting three days and touching six external systems, it is a real liability — and that shape of job is now common, because applications are assembled from many small services and, increasingly, AI agents that run for a long time and cost money per step.
+For a job lasting milliseconds this is a non-issue; you retry it. For a job lasting three days and touching six external systems, it is a real liability — and that shape of job is now common, because applications are assembled from many small services and, increasingly, AI agents that run for a long time and cost tokens per step.
 
-**Durable execution** is the category of software that records each step as it completes, so a crash resumes from the last good point instead of starting over.
+**Durable execution** is the category of software that records each step as it completes; a crash resumes from the last good point instead of starting over.
 
 None of this is new. The industry called it a **long-running transaction** for decades and has been solving it since the 1980s — in mainframe transaction monitors, then in BPEL engines, now in code libraries. What is new is the name and the programming model, not the capability ([the lineage](#the-solution-is-old-the-name-is-new)).
 
 That is the entire proposition. It is genuinely useful. It is also narrow.
 
-## Why it should never have been called workflow
+## It borrowed a word
 
-The people who built this category came out of distributed systems, where "workflow" already meant "a long-running job with steps." Reasonable in that room. Outside it, the word was long since occupied — by the business analyst's process diagram and by the organization's operational loop.
+> And that is annoying.
 
-So the same word now names a governance rhythm, a stakeholder-alignment diagram, and a crash-recovery library. When an engineering team says "we've adopted workflow," a board can hear that a process problem has been solved. Nothing of the sort is true.
+The people who formalized and built this category came out of distributed systems, where "workflow" already meant "a long-running business job with steps." Reasonable in that room. Outside it, the word was long since occupied — by the business analyst's process diagram and by the organization's operational loop.
+
+Comes 2025 and the same word named a governance rhythm, a stakeholder-alignment diagram, and a crash-recovery library. When an engineering team says "we've adopted a workflow," a board can hear that a process problem has been solved. But, nothing of the sort is actually true.
+
+The industry has already fixed this, and the fix is the term **durable execution** itself: it names the guarantee, claims nothing about the business, and collides with nobody. Nothing better needs coining ([the reasoning](#on-coining-a-better-word)). What remains is a usage problem — "workflow" keeps getting reached for, out of decades long habit. Also in C-rooms where it means something else entirely.
 
 {{< callout type="tip" >}}
 **Be aware of the blast radius**
 
-The question to ask is not "do we have a workflow?" but "what breaks if this job dies halfway, and what does that cost us?" If the answer you believe, is "nothing much," you do not need this. Plenty of working systems do not have it.
+The question they should ask is not "do we have a workflow?" but "what breaks if this job dies halfway, and what does that cost us?" If the answer (they believe), is "nothing much," they do not need this. Plenty of well working systems do not have "durable execution".
 {{< /callout >}}
 
 ## What are the costs
 
-Two items on the bill, and the second is the one that gets missed.
+Two items are on the bill, and the second is the one that gets missed.
 
-The direct cost is another system to run: traditionally an orchestrator, a queue, workers, and a database, each with its own failure modes and its own operational burden. The newer approach collapses that into the database you already have, which is a meaningful simplification.
+1. The direct cost is new requirement of another system to run: traditionally an orchestrator, a queue, workers, and a database, each with own failure modes and own operational burden. The newer approach collapses that into the database (already in place), which is a meaningful simplification.
 
-The indirect cost is architectural. Code written for a durable execution engine is shaped by that engine — steps have to be structured so they can be replayed safely. That is a coupling commitment. It is reversible, but not cheaply, and it is the sort of decision that should be made deliberately in Technology rather than inherited because someone was reading a conference talk.
+2. The indirect cost is implementation architecture. Code written for a durable execution engine is shaped by that engine — steps have to be structured so they can be replayed safely. That is a coupling commitment. It is reversible, but not cheaply, and it is the sort of decision that should be made deliberately in Technology rather than inherited because someone was watching a conference talk.
 
 ## The summary
 
-Durable execution is a good answer to a real question, and the question is narrow: *what happens to long-running work when the machine dies?*
+Durable execution is a good answer to a real (and narrow) question: *what happens to long-running critical work when the machine dies?*
 
-If that question keeps you up at night, then buy the insurance. If it does not, the absence of a workflow engine is not a gap in your architecture.
+If that question keeps you up at night, then buy the insurance. If it does not, the absence of a workflow engine is not a gap in your production system.
 
-And either way, it has no bearing on whether your operational loop works. One is a property of your software; the other is a property of how your organization decides. The operational model.
+And either way, it has no bearing on whether operational loop works. 
 
 ---
 
@@ -92,6 +96,5 @@ What practitioners actually use circa 2026:
 
 ![alt text](durablexecution.png)
 
-**"Durable execution"** 
-is closest to industry-standard term. For this narrow scope, it is worth adopting rather than coining.
+The conclusion this post already rests on: **"durable execution"** is the closest thing to an industry-standard term for this narrow scope, and it is worth adopting rather than coining past.
 
