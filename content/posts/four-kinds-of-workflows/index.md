@@ -1,7 +1,7 @@
 ---
-title: "Four Kinds of Workflows"
+title: "Workflow Species"
 date: 2026-07-30
-description: "\"Workflow\" names three different things your organization owns — and a fourth that borrowed the word by accident. Confusing them is why engineering tools get mistaken for strategy."
+description: "\"Workflow\" names (at least) three different things your organization owns. Confusing them is why engineering tools get mistaken for strategy."
 tags: ["BPT", "architecture", "DBJ Method", "workflow"]
 author: "Dusan B. Jovanovic"
 cover:
@@ -9,7 +9,7 @@ cover:
 ---
 
 {{< callout type="important" >}}
-When someone says "we have a workflow for that," they mean one of three things. Ask which. The answer tells you whether you are looking at a business decision, a description of one, or a piece of plumbing.
+When someone says "we have a workflow for that," they mean one of (at least) three things. Ask which. The answer tells you whether you are looking at a business decision, a description of one, or a piece of plumbing.
 {{< /callout >}}
 
 ## One word, three jobs
