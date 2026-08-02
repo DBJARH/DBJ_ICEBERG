@@ -7,7 +7,7 @@ tags: ["C++", "VALSTAT", "Error Handling", "DBJ"]
 author: "Dusan B. Jovanovic"
 cover:
   image: "So little C++ so much good.png"
-featured: true
+featured: false
 ---
 
 **C++ DBJ Error Concept — Revisited**

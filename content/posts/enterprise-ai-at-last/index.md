@@ -5,6 +5,7 @@ description: "EU vendor on-premises model normalises LLM infrastructure the same
 tags: ["AI", "enterprise-architecture", "sovereignty", "LLM"]
 author: "Dusan B. Jovanovic"
 draft: false
+featured: true
 cover:
   image: "llm-enterprise-concept.png"
 ---
