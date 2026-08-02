@@ -6,6 +6,7 @@ tags: ["AI", "enterprise-architecture", "sovereignty", "LLM"]
 author: "Dusan B. Jovanovic"
 draft: false
 featured: true
+pinned: true
 cover:
   image: "llm-enterprise-concept.png"
 ---
