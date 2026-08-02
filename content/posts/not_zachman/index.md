@@ -7,7 +7,7 @@ tags: ["DBJ", "Taxonomy", "Zachman", "TOGAF"]
 author: "Dusan B. Jovanovic"
 cover:
   image: "some_shape_different_origin.png"
-featured: true
+featured: false
 ---
 
 Someone described [DBJ Taxonomy](#taxonomy) this way: *"a taxonomy that maps to [Zachman](#zachman)-style layers (Strategic/Conceptual → Logical → Physical → Implementations)."*

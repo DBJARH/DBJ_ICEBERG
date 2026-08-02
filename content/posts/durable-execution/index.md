@@ -6,6 +6,7 @@ tags: ["workflow", "durable execution", "architecture"]
 author: "Dusan B. Jovanovic"
 cover:
   image: "wordsmith.png"
+featured: true  
 ---
 
 
