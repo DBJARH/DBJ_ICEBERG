@@ -86,3 +86,22 @@ Comments are enabled via [Giscus](https://giscus.app), backed by GitHub Discussi
 1. **No padding.** No summaries, no affirmations.
 2. **Do not invent URLs.**
 3. **Repo map is `repos_index.md` in METAREPO.** The authoritative map of all repos is at `G:\METAREPO\repos_index.md`. Do not look for `repos.md` in this repo — it no longer exists here.
+
+
+## Document versioning
+
+- Every markdown file **SHOULD** (not must) carry a decimal `version:` key in its front matter:
+
+```yaml
+---
+version: 0.1
+---
+```
+
+- `0.1` .. `1.0` — pre-releases leading up to release 1
+- `1.1` .. `2.0` — releases 1.1 through 2.0
+- and so on by the same pattern
+
+SHOULD, not MUST: skip it where this repo forbids front matter, and where front matter already exists just add the `version` key without disturbing the rest.
+
+In this repo posts already have Hugo front matter (see "Post Frontmatter" above) — add `version:` as one more key there, leave the existing keys alone.
