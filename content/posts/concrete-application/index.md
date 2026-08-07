@@ -10,9 +10,7 @@ cover:
   image: "bpt-in-mature-ai-dev-env.png"
 ---
 
-[DBJ BPT](https://method.dbj.org/onboarding/section-03.html) is an operational model. Here we will show how simple and applicable it is. 
-
-When you think about it. Everything revolves around a Product. Business thinks in terms of Products. Not Software artifacts. Product Owners and Business analyst are cycling to define WHAT business wants. Just then it is feasible to deploy the Technology people for will decide HOW will it be done. The better information they have the less time they will spend (aka waste) to "build the thing". Better means detailed, articulated, with requirements clarified.
+When you think about it. Everything revolves around a Product. Business/Industry/Investors think in terms of Products. Not Software artifacts. Product Owners and Business analyst are cycling to define WHAT business wants. Just then it is feasible to deploy the Technology people for will decide HOW will it be done. The better information they have the less time they will spend (aka waste) to "build the thing". Better means detailed, articulated, with requirements clarified.
 
 The image above is product development, inside an (well behaved) organization that has adopted BPT and has learned how to use an LLM, and how not to. Crucially under the guidance of the "BPT Loop".
 
