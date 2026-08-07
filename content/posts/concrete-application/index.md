@@ -10,7 +10,9 @@ cover:
   image: "bpt-in-mature-ai-dev-env.png"
 ---
 
-When you think about it. Everything revolves around a Product. Business/Industry/Investors think in terms of Products. Not Software artifacts. Product Owners and Business analyst are cycling to define WHAT business wants. Just then it is feasible to deploy the Technology people for will decide HOW will it be done. The better information they have the less time they will spend (aka waste) to "build the thing". Better means detailed, articulated, with requirements managed and clarified.
+> NOTE: This is true but simplified DBJ BPT implementation. Particular organizations all have slightly different agentic harnesses, product quarterly plans, etc. But all (and more) fit nicely into this simple and generic operations model.
+
+<span style="font-size:2rem;">W</span>hen you think about it. Everything revolves around a "Product". Business/Industry/Investors, all think in terms of Products. Not Software artifacts. Product Owners and business analyst are iterating to define WHAT business wants. Just then it is feasible to deploy the Technology people for will decide HOW will it be done. The better information they have the less time they will spend (aka waste) to "build the thing". Better means detailed, articulated, with requirements managed and clarified.
 
 The image above is product development, inside an (well behaved) organization that has adopted BPT and has learned how to use an LLM, and how not to. Crucially under the guidance of the "BPT Loop".
 
@@ -19,8 +21,8 @@ The image above is product development, inside an (well behaved) organization th
 Four stages, each producing an owned artifact:
 
 1. **`chat.md`** — freeform exploration. Confusion belongs here, and only here. This is where the organization finds out what it does not yet understand. WHY do they want the Product.
-2. **`goal.md`** — the distilled goal statement. Architecture, stated. Cycling between Business and Product team until it is agreed.
-3. **`plan.md`** — the concrete implementation plan. Steps, dependencies, order. Cycling between Product and Technology team until it is agreed. At this stage Product team has the visibility of the goal.md and can go back to Business to reconfirm the decisions or to provoke the goal.md revisiting.
+2. **`goal.md`** — the distilled goal statement. Architecture, stated. Iterating between Business and Product team until it is agreed.
+3. **`plan.md`** — the concrete implementation plan. Steps, dependencies, order. Iterating between Product and Technology team until it is agreed. At this stage Product team has the visibility of the goal.md and can go back to Business to reconfirm the decisions or to provoke the goal.md revisiting.
 4. **The loop** — implement, review, repeat. Bounded and stoppable, because stage 2 defined what done means. 
    1. Most important: each review will be able to backtrace two step back, to the origin. 
    2. Full trace back: the business decisions the product team decisions.
