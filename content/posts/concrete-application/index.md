@@ -1,7 +1,7 @@
 ---
 title: "A Concrete Application"
 date: 2026-08-07
-description: "One image: an organization following BPT operational model. In a mature AI dev environment. Contrasted to  the anti-pattern most post-ai-pilot organizations are self exposed to."
+description: An organization following BPT operational model. Anchored in a mature AI dev environment. Contrasted to  the anti-pattern most post-ai-pilot organizations are self exposed to."
 tags: ["DBJ", "BPT", "AI", "Method", "Operational Model", "Product", "Development"]
 author: "Dusan B. Jovanovic"
 version: 0.4
