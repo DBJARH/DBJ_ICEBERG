@@ -5,6 +5,7 @@ description: "One image: an organization running BPT as its operational model in
 tags: ["BPT", "AI", "DBJ Method", "Operational Model", "software-development"]
 author: "Dusan B. Jovanovic"
 version: 0.2
+featured: true
 cover:
   image: "bpt-in-mature-ai-dev-env.png"
 ---
