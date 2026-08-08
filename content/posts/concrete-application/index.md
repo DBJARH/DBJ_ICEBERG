@@ -10,58 +10,64 @@ cover:
   image: "bpt-in-mature-ai-dev-env.png"
 ---
 
-> NOTE: This is true but simplified DBJ BPT implementation. Particular organizations all have slightly different agentic harnesses, product quarterly plans, etc. But all (and more) fit nicely into this simple and generic operations model.
+<span style="font-size:2rem;">W</span>hen you think about it. Everything revolves around a "Product". Business/Industry/Investors, all think in terms of Products. Not Software, Architectural or some other  artifacts. After  Business decided they know WHY do the need it, product owners and business analyst are iterating to define WHAT business wants. Just then it is feasible to deploy the consistent plan to the Technology people, to decide HOW will it be done. The better information they have the less time they will spend iterating to "understand the thing". Better means detailed, articulated, with requirements managed and clarified. No ambiguities.
 
-<span style="font-size:2rem;">W</span>hen you think about it. Everything revolves around a "Product". Business/Industry/Investors, all think in terms of Products. Not Software artifacts. Product Owners and business analyst are iterating to define WHAT business wants. Just then it is feasible to deploy the Technology people for will decide HOW will it be done. The better information they have the less time they will spend (aka waste) to "build the thing". Better means detailed, articulated, with requirements managed and clarified.
-
-The image above is product development, inside an (well behaved) organization that has adopted BPT and has learned how to use an LLM, and how not to. Crucially under the guidance of the "BPT Loop".
+The image above is an product development, inside an (well behaved and organized) company; that has adopted and implemented the BPT and has learned how to use an LLM, and how not to. Crucially under the [guidance of the "BPT Method"](https://method.dbj.org/kb/BPT_Operational_Model/engagement_architecture/index).
 
 ## The Top Half: BPT Applied
 
-Four stages, each producing an owned artifact:
+Four stages, each iterating to produce an artifact:
 
 1. **`chat.md`** — freeform exploration. Confusion belongs here, and only here. This is where the organization finds out what it does not yet understand. WHY do they want the Product.
 2. **`goal.md`** — the distilled goal statement. Architecture, stated. Iterating between Business and Product team until it is agreed.
 3. **`plan.md`** — the concrete implementation plan. Steps, dependencies, order. Iterating between Product and Technology team until it is agreed. At this stage Product team has the visibility of the goal.md and can go back to Business to reconfirm the decisions or to provoke the goal.md revisiting.
-4. **The loop** — implement, review, repeat. Bounded and stoppable, because stage 2 defined what done means. 
-   1. Most important: each review will be able to backtrace two step back, to the origin. 
-   2. Full trace back: the business decisions the product team decisions.
-   3. This is very powerful OP Model capability: going back to the real source of an issue.
+4. **The primordial loop** — implement, review, repeat. Simple and stoppable. 
+   1. Most important: each technology product review activity will be able to backtrace, to the origin. Business is accountable.
+   2. Full trace back, when some says: "This is not what I wanted": all the way to the business decisions and the product team decisions.
+   3. This is very powerful capability of the BPT OP Model: going back to the real source of an issue. Outside of the confines of the technology.
 
-Design, then code. Not a new idea. What is critical is that stages 1 and 2 are now, sending product declaration artifacts, because the LLM is the consumer of them. A mature AI development environment is one where the model is given a goal and a plan, not a wish. That applied ever before, by the way.
+Design, then code. Not a new idea. What is critical is that stages B and P are now, sending fully articulated product declaration artifacts. very malleable for a mature AI development where the model is given a goal and a plan, not a wish. Not prompt and pray.
 
-Please note what this is not. It is not a tooling standard. It is not a LLM recommendation or choice. BPT defines stages, named artifacts, and ownership at each step, with a internal review loop with a stopping condition — the operational model made visible at the level of organization governing the outcome of one Product. 
+Please note what this is not. It is not a tooling standard. It is not a LLM recommendation or choice. BPT defines stages, named artifacts, and ownership at each step, with a internal review loop with backtrace feature — the simple operational model made visible at the level of everyone in the organization owning the outcome . 
 
 There are various kinds of Products. Change the information artifacts and the same OP Model governs procurement, or claims, or onboarding. Not just public software products. 
 
-## Warning: Prompt and Pray
+## Do not Prompt and Pray
 
 Market pressure is tremendous. On the same image there is an anti-pattern. One can see them both and compare straight away. A clear and colossal mistake, unfortunately many organizations do make right now. 
 
-Someone opens a chat window, types "just build the thing," and "prays" the AI hype is not a hype.
+Someone opens a chat window, types "just build the thing," and "prays". 
 
-No defined input. No defined output. No way to separate success from failure. The model produces something. Nobody can say whether it is correct, because there is nobody who can say what correct means. When it fails, the finding is "the AI model is not good enough," which is never the actual cause.
+No defined input. No defined output. No way to separate success from failure. The model produces something. Nobody can say whether it is correct, because there is nobody who can say what correct means. When it fails, the finding is "the AI model was not good enough," which was never the actual cause.
 
-This is not an AI problem. It is an undefined process running faster. Producing the puzzle.
+This is not an AI problem. It is an undefined process running faster. Producing the puzzle. The lack of operational model.
 
 ## Why do we care 2026 Q2
 
-At least half of the organizations currently in AI post-pilot zero ROI mode are running the bottom half. They have the licenses for tokens to spend, the AI team, the internal enablement deck. They ran the pilot, declared it a success, and scaled out — taking the anti-pattern with them. Costs we have seen can be catastrophical.
+At least half of the organizations currently in AI post-pilot zero ROI mode are running the bottom half. They have the licenses for tokens to spend, the AI team, the internal enablement ""something"". They ran the pilot, declared it a success, and scaled out — spreading the anti-pattern with them. Costs we have seen can be catastrophical.
 
-The pilot "succeeded" in a setting small enough where one person held the goal in their head. There was no `goal.md` because there did not need to be. Scaling that same process to an organization removes the only thing that was holding it together, and no amount of budget replaces it.
+The pilot "succeeded" in a setting small enough where one person held the goal in their head. There was no `goal.md` because there did not need to be. Scaling that same process to an organization removes the only thing that was holding it together, and no amount of budget can help it.
 
 ## The Summary
 
-Information flow is two ways between the domains. BPT is not a sequence, it is a loop: the four artifacts are not just a sequence. Namely `goal.md` and `plan.md` are the artifacts carrying information between domains, and each carries a named roles across a boundary. 
+BPT information flow is two iterations between the three domains. BPT is not a sequence, it is a loop: the four artifacts are not a waterfall sequence. Namely `goal.md` and `plan.md` are the artifacts produced iterating between domains. And each carries a named roles and origin information across a boundary. 
 
-In that BPT implementation `goal.md` and `plan.md` are boundary artifacts; each is the information passed between two domains. That is what makes them logical gates: a domain cannot function without one.
+**The Gates**. In this BPT implementation `goal.md` and `plan.md` are boundary artifacts; each carries the information passed between two domains. That is what makes them logical gates.
 
-BPT scales. An organization can run these four stages for one developer and one feature, equally sensibly as for a business unit and a transformation programme.
+**Scalability**. BPT scales. An organization can run these three stages for one developer and one feature, equally sensibly as for a business unit or a transformation programme.
 
-**Maintenance stage** is the most expensive stage of the product lifecycle. BPT categorizes and saves crucial information for the maintenance stage.
+**Product Maintenance** is the most expensive stage of the product lifecycle. BPT loop, categorizes and saves crucial information for the maintenance stage.
 
 If you want to know whether an organization is AI-ready, do not audit the tooling. Watch someone use it. If there is no visible op model, you are looking at the bottom half of the image.
 
+
+> 
+> &nbsp;
+> 
+> [CAVEAT](https://www.merriam-webster.com/dictionary/caveat): This is true but simplified DBJ BPT implementation. Organizations all have slightly different agentic harnesses, or no harnesses, or even no software products portfolio.Most have product quarterly plans, heavy JIRA managed procedures, etc. But all (and more) fit nicely into this simple and feasible operations model.
+> 
+> &nbsp;
+>
 ---
 
 ## Vocabulary
