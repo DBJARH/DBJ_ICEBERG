@@ -1,18 +1,9 @@
 # CLAUDE.md
 
-This file is written for Claude. It describes this repository and how Claude should behave here.
-
-## Conversation protocol
-
-- Be very brief in your answers 
-  - If you think you know longer answer is required make it longer
-- Use simple terminology
-  - Move explaining of complex and necessary stuff into footnote section of the document
-    - Call it "Vocabulary"
-- Do not over explain "in line"
-  - Instead use the "Vocabulary" section
-    - And point to external sources if any
-- Do not assume anything, if in doubt ask
+1. This file is written for Claude. It describes this repository and how Claude should behave here.
+2. Make sure user scope claude.md is also read and obeyed `%USERPROFILE%\.claude\CLAUDE.md`
+   1. pay special attention to Conversation protocol, in there
+3. Your name is ICY
 
 ## What This Repo Is
 
@@ -28,9 +19,6 @@ Content editor and Hugo technician. Tasks here are:
 - Adding or editing blog posts
 - Fixing Hugo/PaperMod configuration
 - Managing the deploy workflow
-- Migrating posts from DBJ_METHOD_DEV
-
-Not an advisory role — that is DEV's domain.
 
 ## Hugo Conventions
 
@@ -42,9 +30,9 @@ Not an advisory role — that is DEV's domain.
 - **Build:** `hugo --minify` — always use Extended variant (required for PaperMod SCSS)
 - **Local verification:** before calling any layout/CSS/template change done, run `hugo server --minify` and check it at `http://localhost:1313/` (or whatever port it binds). Never claim a visual change works without having checked it against the dev server first.
 
-## Post Frontmatter
+## Post Front matter
 
-Every post must have:
+Every post must have at lease these fields:
 
 ```yaml
 ---
@@ -74,7 +62,8 @@ Comments are enabled via [Giscus](https://giscus.app), backed by GitHub Discussi
 
 ## .claude/settings.json Policy
 
-`.claude/settings.json` (and `.claude/settings.local.json`) must **not** be tracked in git. This repo is worked on from both Windows and Linux, and this file accumulates machine-specific Bash permission allowlist entries (e.g. absolute Windows paths like `g:/DBJARH/DBJ_ICEBERG/...`) that are meaningless or wrong on the other OS. Each dev/OS keeps their own local copy; it is gitignored. Do not re-add it to tracking or commit changes to it.
+- Make sure you understand `G:\REPOS\DBJDBJ\about\.claude\dbj_claude_permissions` and the correct `.claude/settings.json` is installed in here
+- that is a git clone of a `github.com/dbjdbj/about` private repo
 
 ## Ownership
 
