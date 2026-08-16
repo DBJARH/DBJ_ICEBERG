@@ -32,4 +32,4 @@ To ensure system integrity, Agents operate under a strict drafting pattern:
 * **Authorization:** No action is persisted or executed without verification by a secondary service or manual human approval, ensuring that "fuzzy" LLM output never breaches the DBJ Method’s integrity.
 
 ## 4. Operational Reality
-For **DBJ.ORG** and clients like **Iron Code Labs**, Agents are a tool for reducing integration friction in legacy or human-heavy workflows. They are modular, observable, and replaceable components of a larger, high-reliability architecture. They are not magic; they are just another interface for data ingestion and intent classification.
+For **DBJ.ORG** and its clients, Agents are a tool for reducing integration friction in legacy or human-heavy workflows. They are modular, observable, and replaceable components of a larger, high-reliability architecture. They are not magic; they are just another interface for data ingestion and intent classification.
