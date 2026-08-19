@@ -9,7 +9,6 @@ featured: true
 cover:
   image: "bpt-and-escalation.png"
 ---
-![alt text](bpt-and-escalation.png)
 <span style="font-size:2rem;">T</span>hink about it. Everything revolves around a "Product". Business/Industry/Investors, all actors think in terms of Products. Not Software, Architectural or some other  artifacts. After  Business decided they know WHY do the need it, product owners and business analyst are iterating to define WHAT business wants. Just then it is feasible to deploy the consistent plan to the Technology people, to decide HOW will it be done. The better information they have the less time they will spend iterating to "understand the thing". Better means detailed, articulated, with requirements managed and clarified. No ambiguities.
 
 The image above is an product development Operational Model, inside an (well behaved and organized) company. Company that has adopted and implemented the BPT and has learned how to use an LLM, and how not to. Crucially under the [guidance of the "BPT Method"](https://method.dbj.org/kb/BPT_Operational_Model/engagement_architecture/index).
