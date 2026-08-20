@@ -4,10 +4,11 @@ date: 2026-08-20
 description: "Working notes on naming a firm whose product is advising businesses owning the DBJ Method."
 tags: ["DBJ Method", "naming"]
 author: "Dusan B. Jovanovic"
+draft: true
 cover:
   image: "ai-slop-ante-portas-banner-inthe-sky.png"
   caption: "Naming the company while the walls hold. Barely."
-version: 1.1
+version: 1.2
 ---
 
 There is a company to be named. Its only product is operating method + advice: how a business applies the [DBJ Method](https://method.dbj.org/shop/). Not delivery, not staffing, not a platform. Advice on structure, sold to organizations that already feel the weight of the AI Hype upon them.
