@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 620 100" width="248" height="40">
+  <rect width="620" height="100" fill="#ffffff"/>
+  <style>
+    text { font-family: Georgia, 'Times New Roman', serif; font-size: 56px; fill: #111111; }
+    .q   { font-style: italic; fill: #777777; }
+  </style>
+  <text x="10" y="68">Artificial <tspan class="q">But</tspan> Capable</text>
+</svg>
