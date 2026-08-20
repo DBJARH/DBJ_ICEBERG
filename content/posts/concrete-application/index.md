@@ -1,7 +1,7 @@
 ---
-title: "BPT simply and feasibly applied"
+title: "BPT Simple"
 date: 2026-08-07
-description: "Example of an organization feasibly following BPT operational model. Company is anchored in a mature AI dev environment. Contrasted to the anti-pattern most post-ai-pilot organizations are self exposed to."
+description: "Example of an organization feasibly following BPT operational model. Company is anchored in a mature AI dev environment. Contrasted to the ai-anti-pattern most post-ai-pilot organizations are self exposed to."
 tags: ["DBJ", "BPT", "AI", "Method", "Operational Model", "Product", "Development"]
 author: "Dusan B. Jovanovic"
 version: 0.4
@@ -10,15 +10,17 @@ cover:
   image: "bpt-and-escalation.png"
 ---
 
-## The value of the BPT 
+> **The target audience**. [SME](https://en.wikipedia.org/wiki/Small_and_medium_enterprises) regularly deploying software products.
+
+## Simple is Feasible 
 
 <span style="font-size:2rem;">T</span>hink about it. Everything revolves around a "Product". Business/Industry/Investors, all actors think in terms of Products. Not Software, Architectural or some other  artifacts. After  Business decided they know WHY do the need it, product owners and business analyst are iterating to define WHAT business wants. Just then it is feasible to deploy the consistent plan to the Technology people, to decide HOW will it be done. The better information they have the less time they will spend iterating to "understand the thing". Better means detailed, articulated, with requirements managed and clarified. No ambiguities.
 
-The image above is an product development Operational Model, inside an (well behaved and organized) company. Company that has adopted and implemented the BPT and has learned how to use an LLM, and how not to. Crucially under the [guidance of the "BPT Method"](https://method.dbj.org/kb/BPT_Operational_Model/engagement_architecture/index).
+The image above is an product development Operational Model, inside an (well behaved and organized) company. Company that has adopted and implemented the BPT Operating Model and has learned how to use an LLM, and how not to. Crucially under the [guidance of the "BPT Method"](https://method.dbj.org/kb/BPT_Operational_Model/engagement_architecture/index).
 
-> **Caveat Emptor**: DBJ BPT is not "[Product Driven Development](https://www.lyssna.com/blog/product-driven-development/)". [DBJ BPT](https://method.dbj.org/onboarding/section-03.html) is (much) wider in scope. It is organizational  operational model. Basically if adopted it changes the whole organization. And delivers ROI. AI or no AI.
+> **Caveat Emptor**: DBJ BPT is not "[Product Driven Development](https://www.lyssna.com/blog/product-driven-development/)". [DBJ BPT](https://method.dbj.org/onboarding/section-03.html) is (much) wider in scope. PDE is firmly in the Technology domain. BPT is organization  operational model. If adopted it changes the whole organization. And enables ROI. AI or no AI.
 
-Three domains, each iterating with the next, to produce two main artifact  `goal.md` and the  `plan.md` . Iterations can produce more but these are two main two.
+Notice the three domains, each iterating with the next, to produce two main artifact  `goal.md` and the  `plan.md` . Iterations can produce more but these are two main two.
 
 1. **`chat.md`** — freeform exploration. Confusion belongs here. Where the organization stake holders find out what do they not understand. WHY do they want the Product.
    1. Very often it is iterated only over between "Business" and the "Product"
@@ -34,7 +36,7 @@ Three domains, each iterating with the next, to produce two main artifact  `goal
    1. Steps, dependencies, order. Iterating between Product and Technology team until it is agreed. 
       1. At this stage Product team has the visibility of the goal.md and can go back to Business to reconfirm the decisions or to provoke the goal.md revisiting.
 
-After seeing the product release in production, someone can say: "This is not what I wanted". Engineering role "throws" the  BPT Exception out of the technology domain. Full information on the "Product" (previous) domain is available, as it was the formal request to develop and deliver.
+After seeing the product release in production, someone can say: "This is not what I wanted". At that moment, Engineering role "throws" the  BPT Exception out of the technology domain back to the Product domain. Full information on the "Product" (previous) domain is available, as it was the formal request to develop and deliver. Product then decides can it solve it, if not it rethrows the Exception back to the Business team.
 
 1. Important BPT Model feature: each technology product review activity will be able to throw the Exception back to the Product domain.
 2. Eventually arriving to the Business, if Product demands. 
@@ -51,41 +53,35 @@ Design, then code. Mature idea.
    1. tightly monitored.Simple and stoppable. 
    
 
-What is critical is that domain Business and Product are sending fully articulated product declaration and requirements artifacts. For the Product to be factorized inside the Technology domain.
-
-Very malleable for a mature AI development where the model is given a goal and a plan, not a wish. That is not a prompt and pray, anti-pattern
+What is critical is that domain Business and Product are sending forward fully articulated product declaration and requirements artifacts. For the Product to be factorized inside the Technology domain. That is very malleable for a mature AI development where the model is given a goal and a plan, not a wish. That is not a organization, following the prompt and pray, ai-anti-pattern.
 
 Please note what this is not. It is not a tooling standard. It is not a LLM recommendation or choice. BPT model defines domains, named artifacts, and roles ownership at each step. 
 
-With a internal backtrace loop made possible by the Exception feature — the simple operational model made visible at the level of the organization owning the outcome. 
+With a internal backtrace loop made possible by the Exception feature — made visible at the level of the organization owning the final outcome. 
 
-And the outcome is the Product. Hence the "Product Factory" name.
+And the outcome is the Product. Hence the "Product Factory" name, often describing the internals of the Technology domain. 
 
-There are various kinds of Products. Change the artifacts structure and the same Operating Model governs procurement, or claims, or onboarding. Not just public software products. 
+There are various kinds of Products. Change the artifacts structure and the same Operating Model governs procurement, law office, insurance claims, etc. Not just internal or public software products. 
 
 ## Do not Prompt and Pray
 
-Market pressure is tremendous. A clear and colossal mistake, many organizations do make right now. Unfortunately. 
-
-Someone opens a chat window, types "just build the thing," and "prays". 
+Market pressure is tremendous. After one or more failed AI demos, a clear and colossal mistake is very often made.Unfortunately. Someone opens a chat window, types "just build the thing," and "prays". Expecting the stories are true: finished and working software product will arrive.
 
 No KPIs. No defined input. No defined output. No way to separate success from failure. The model produces something. Nobody can say whether it is correct, because there is nobody who can say what correct means. When it fails, the finding is "the AI model was not good enough," which was never the actual cause.
 
-This is not an AI problem. It is a legacy undefined process just running faster. 
+This is not an AI problem. It is a legacy process undefined, just running faster. 
 
 ### Why do we care
 
 At least half of the organizations currently in AI post-pilot "zero ROI" mode are following the "Prompt and pray" strategy. There are licenses for tokens to spend, the AI team. They ran the pilot, no KPI of the outcome. 
 
-It is a success, and it is scaled out — spreading the anti-pattern on the company level. Costs we have seen can be catastrophical.
+Pilot is declared a success, and it is scaled out — spreading the anti-pattern on the company level. Costs we have seen can be catastrophical.
 
 ## The Summary
 
-BPT information flow is two iterations between the three domains. BPT is not a sequence, it is a loop: the two artifacts are not a waterfall sequence. Namely `goal.md` and `plan.md` are the artifacts produced by updating as a result of iterating between domains. And each carries a named roles and origin information across a boundary. 
+BPT information flow is two iterations between the three domains. BPT is not a sequence, it is a loop: the two artifacts are not a waterfall sequence. Namely `goal.md` and `plan.md` are the artifacts produced by updating as a result of iterating between domains. And each carries a named roles and origin information across a boundary. To be used by Exception throwing and by Exception solving.
 
-To be used by Exception throwing and by Exception solving.
-
-`goal.md` and `plan.md` are boundary artifacts; each carries the information passed between two domains. 
+`goal.md` and `plan.md` are boundary artifacts; each carries forward the information developed between two adjacent domains. 
 
 **Scalability**. BPT scales. An organization can run these three domains separately, for a product needing one developer and one feature; equally sensibly as for a whole business unit or a transformation programme. BPT Loops are multiple and running in parallel. It all depends on the size and complexity of the organization.
 
