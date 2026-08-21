@@ -34,10 +34,13 @@ The name has to survive being said out loud to a CEO who is late, sceptical, and
 | 7 | **Durable Returns** | ![Durable Returns](durable-returns.svg) | Outcome | The same claim without the acronym | *Durable* already lives in this vocabulary. Reads as a fund name, which is either an asset or a problem. |
 | 8 | **Return on Structure** | ![Return on Structure](return-on-structure.svg) | Outcome | ROS — the return comes from the structure, not the features | States the thesis as a financial metric. The one name here that argues rather than asserts. |
 | 9 | **ROI Discipline** | ![ROI Discipline](roi-discipline.svg) | Outcome | The outcome and the temperament required to get it | Cold, no hype, slightly severe. Closest in tone to how the method actually behaves. |
+| 10 | **Resilient Outcomes** | &nbsp; | Outcome | The results hold after the engagement ends | *Outcomes* is the word buyers already use for what they are paying for, so the name is legible on first hearing. But it sits in the crowded middle of the consulting namespace — could be healthcare analytics, could be change management. Says nothing about AI or structure. |
+| 11 | **Feasible Outcomes** | &nbsp; | Outcome | It can be done, and it will land | *Feasible* is the lowest bar in the language — nobody hires a firm for what is merely possible. Weakest name on the table. |
 
-## Current pick
+## Current choice
 
-Two survive: **Artificial But Capable** (3) and **Resilient ROI** (6).
+1. <span style="font: normal small-caps bold 2rem/1.4 Helvetica;" > ARTIFICIAL BUT CAPABLE Ltd</span> (3) 
+2. <span style="font: normal small-caps bold 2rem/1.4 Helvetica;" > Resilient ROI Ltd</span> (6).
 
 They are two different companies. ABC names an AI advisory that is structural underneath. Resilient ROI names an outcome shop that does not care what you call the method.
 
