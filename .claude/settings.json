@@ -1,0 +1,9 @@
+{
+  "permissions": {
+    "allow": [
+      "PowerShell(cd $env:USERPROFILE\\\\.claude; git rev-parse --show-toplevel 2>&1; git remote -v 2>&1)",
+      "PowerShell(Get-Item $env:USERPROFILE\\\\.claude\\\\CLAUDE.md | Select-Object FullName, LinkType, Target, Length | Format-List)",
+      "Bash(pkill -f \"hugo server\")"
+    ]
+  }
+}
