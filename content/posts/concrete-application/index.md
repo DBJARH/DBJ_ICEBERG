@@ -16,7 +16,7 @@ cover:
 
 <span style="font-size:2rem;">T</span>hink about it. Everything revolves around a "Product". Business/Industry/Investors, all actors think in terms of Products. Not Software, Architectural or some other  artifacts. After  Business decided they know WHY do the need it, product owners and business analyst are iterating to define WHAT business wants. Just then it is feasible to deploy the consistent plan to the Technology people, to decide HOW will it be done. The better information they have the less time they will spend iterating to "understand the thing". Better means detailed, articulated, with requirements managed and clarified. No ambiguities.
 
-The image above is an product development Operational Model, inside an (well behaved and organized) company. Company that has adopted and implemented the BPT Operating Model and has learned how to use an LLM, and how not to. Crucially under the [guidance of the "BPT Method"](https://method.dbj.org/kb/BPT_Operational_Model/engagement_architecture/index).
+The image above is an product development Operational Model, inside an (well behaved and organized) company. Company that has adopted and implemented the BPT Operating Model and has learned how to use an LLM, and how not to. Crucially under the [guidance of the "BPT Method"](https://method.dbj.org/kb/bpt_operational_model/engagement_architecture.html).
 
 > **Caveat Emptor**: DBJ BPT is not "[Product Driven Development](https://www.lyssna.com/blog/product-driven-development/)". [DBJ BPT](https://method.dbj.org/onboarding/section-03.html) is (much) wider in scope. PDE is firmly in the Technology domain. BPT is organization  operational model. If adopted it changes the whole organization. And enables ROI. AI or no AI.
 

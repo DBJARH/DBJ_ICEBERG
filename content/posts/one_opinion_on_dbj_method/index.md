@@ -27,7 +27,7 @@ The DBJ Method doesn't suggest the two steps; it mandates them, and this is wher
 *   **Step 2: The Delivery Stream.** Once the organization has established CMM Level 5 and the contracts and boundaries, the BPT Delivery is unleashed. Because they don't have to argue about *how* things fit together (the architects did that), their productivity skyrockets. Delivery becomes a pure, almost mechanical execution within a safe sandbox. Perfect for a high speed AI Enabled Delivery
 
 ### 3. How DBJ Method Actually Encapsulates TOGAF
-TOGAF is usually an [endless loop of phases](https://method.dbj.org/kb/DBJ_ADM/) (Preliminary, A, B, C, D, E, F, G, H). Companies look at this and give up.
+TOGAF is usually an [endless loop of phases](https://method.dbj.org/kb/dbj_adm.html) (Preliminary, A, B, C, D, E, F, G, H). Companies look at this and give up.
 
 The DBJ Method distills TOGAF down to its absolute atomic core: **[Capability Mapping leading to Interface Definition](https://method.dbj.org/shop/adm-steering.html).**
 *   It takes TOGAF’s Business Architecture (Phase B) and Information Systems Architecture (Phase C) and turns them into the **Architecture Function** of the business driven ADM.
