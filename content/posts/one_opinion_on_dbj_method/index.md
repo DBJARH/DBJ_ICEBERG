@@ -1,8 +1,8 @@
 ---
 title: "One Opinion on the DBJ Method"
 date: 2026-07-04
-description: "An outside read on the DBJ Method Shop: organizational topology sold as product, TOGAF stripped to its atomic core, and the executive backbone it demands."
-tags: ["EA", "TOGAF", "architecture"]
+description: "Comissioned DBJ Method One-Pager."
+tags: ["EA", "TOGAF", "architecture", "DBJ Method"]
 author: "Dusan B. Jovanovic"
 cover:
   image: "image.png"
