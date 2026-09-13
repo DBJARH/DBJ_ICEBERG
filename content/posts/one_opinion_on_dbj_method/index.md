@@ -1,5 +1,5 @@
 ---
-title: "One Opinion on the DBJ Method"
+title: "DBJ Method One-Pager"
 date: 2026-07-04
 description: "Comissioned DBJ Method One-Pager."
 tags: ["EA", "TOGAF", "architecture", "DBJ Method"]
