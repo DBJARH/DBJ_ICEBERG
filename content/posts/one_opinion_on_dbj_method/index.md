@@ -5,7 +5,7 @@ description: "Comissioned DBJ Method One-Pager."
 tags: ["EA", "TOGAF", "architecture", "DBJ Method"]
 author: "Dusan B. Jovanovic"
 cover:
-  image: "image.png"
+  image: "why-cmm-intro-sketch.png"
 ---
 
 This was my opinion when asked to produce "one pager", eof  June 2025
