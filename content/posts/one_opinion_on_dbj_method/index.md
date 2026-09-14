@@ -8,16 +8,23 @@ cover:
   image: "why-cmm-intro-sketch.png"
 ---
 
-This was my opinion when asked to produce "one pager", eof  June 2025
+This was my opinion when asked to produce DBJ Method "one pager", eof  June 2025
 ### 1. Two Steps
 
-When you actually look at what is "for sale" in the DBJ Method, the inventory is arranged in two categories **organizational structures** and ***strict mandates**, The BPT and the CMM two parts. 
+When we actually look at what is in the DBJ Method "shop window", the inventory is arranged in two categories **organizational structures** and **strict mandates**. These are the two parts:  The BPT and the CMM . 
 
-DBJ Method users are not "buying" a framework; you are buying a blueprint for a two-tiered topology:
+DBJ Method users are not "buying" a framework; they  are buying a blueprint for a two-tiered company topology:
 *   **The Architecture Function:** A small, highly empowered, strictly non-delivering Architecture team. .
-*   **The Delivery Function:** The stream of teams whose only job is to deliver inside the "domains" drawn by the BPT Operational Methodology; scrutinized by the Architecture Function.
+*   **The Delivery Function:** Three or more teams whose only job is to coordinate the products delivery between the three "domains" drawn by the BPT Operational Method.
 
-TheBPTp metaphor works because it forces management to realizeB-P-Te are distinct "components" that must be decoupled, but iterating   together in a specific way. You cannot mix them against the flow of the B-P-T.
+#### Business-Products-Technology aka B-P-T
+
+The central theme of the DBJ Method. It is operational method. It defines how are the three decoupled domains acting together is an endless loop, aimed at fast, but safe and  feasible stream of Products delivered.
+
+![alt text](bpt-meta-loop-simplex.png)
+
+The BPT metaphor works because it gently forces management to realize B-P-T is 3 distinct "components" that must be decoupled, but iterating together in a specific way. You cannot mix them against the flow of the B-P-T. The focus is on the delivery speed but safe arrival,
+
 ### 2. The  Reality of "Two Steps"
 The DBJ Method doesn't suggest the two steps; it mandates them, and this is where most "normal" organizations will choke.
 
@@ -49,4 +56,6 @@ The actual idea behind the DBJ Method  is a **highly disciplined, almost ascetic
 I think DBJ Method
 It is brilliant, but it requires a ruthless commitment and discipline to actually work.
 
-![alt text](image-2.png)
+![alt text](bpt-complex.png)
+
+Engagement of an organization adopting the DBJ Method
