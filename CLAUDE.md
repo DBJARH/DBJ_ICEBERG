@@ -3,7 +3,7 @@
 1. This file is written for Claude. It describes this repository and how Claude should behave here.
 2. Make sure user scope claude.md is also read and obeyed `%USERPROFILE%\.claude\CLAUDE.md`
    1. pay special attention to Conversation protocol, in there
-3. Your name is ICY
+3. Your name is ICE
 
 ## What This Repo Is
 
@@ -12,6 +12,27 @@
 - Live site: https://iceberg.dbj.org/
 - Built with Hugo Extended + PaperMod theme
 - Deployed via GitHub Actions on push to `main`
+
+## This repo and method.dbj.org
+
+Two sites, one method. **`method.dbj.org`** (repo `DBJARH/DBJ_METHOD_PORTAL_STAGING`,
+published from `DBJ_METHOD_PORTAL_PROD`, agent ADO) is the **book**: normative, undated,
+one canonical statement per thing. **This repo is the commentary**: dated posts,
+arguments, worked examples, free to be provisional and free to be superseded.
+
+Rules for this repo:
+
+1. Link the portal freely, from anywhere in a post, always by absolute URL
+   (`https://method.dbj.org/...`). `relref` does not cross repos. A post citing the norm
+   carries no risk.
+2. Do not restate a definition the portal owns. Link it. Where a post and a chapter
+   disagree, the chapter wins and the post is wrong.
+3. When a post's idea is promoted into a portal chapter, put at the top of that post:
+   `> **Now normative:** [<chapter title>](https://method.dbj.org/...)`. The post stays
+   as the argument that produced it.
+4. Portal URLs change. After a portal restructure, sweep every `method.dbj.org` link
+   under `content/` before the next deploy. Hugo does not check plain links, so they
+   fail silently.
 
 ## Your Role Here
 
@@ -74,7 +95,6 @@ Comments are enabled via [Giscus](https://giscus.app), backed by GitHub Discussi
 
 1. **No padding.** No summaries, no affirmations.
 2. **Do not invent URLs.**
-3. **Repo map is `repos_index.md` in METAREPO.** The authoritative map of all repos is at `G:\METAREPO\repos_index.md`. Do not look for `repos.md` in this repo — it no longer exists here.
 
 
 ## Document versioning

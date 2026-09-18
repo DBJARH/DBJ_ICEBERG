@@ -5,14 +5,14 @@ description: "A dotfile that tells tools and agents where a folder sits in the c
 tags: ["taxonomy", "engineering", "agents"]
 author: "Dusan B. Jovanovic"
 cover:
-    image: taxonomy_defines_locations_on_that_map.png
+    image: dbj_taxonomy_officer.png
 ---
 
-Taxonomy delivers GPS coordinates in the infospace. Content nobody can locate is content nobody finds.
+DBJ Taxonomy defined the language for GPS coordinates in the infospace. Content nobody can locate is content nobody finds.
 
 > Taxonomy defines the locations on the map the business holds firmly in its hand.
 >
-> **Taxonomy is the language for infospace orienteering instruments**
+> **Taxonomy is the language used for programming infospace orienteering instruments**
 
 The `.taxonomy` file connects the abstract taxonomy to actual content. It declares a taxonomy location using the [DBJ Core Taxonomy](https://method.dbj.org/taxonomy_core.html#core) vocabulary. Not only for code — repositories of documents, images, specifications, any kind of content.
 
