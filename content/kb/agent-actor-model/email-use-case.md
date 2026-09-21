@@ -1,11 +1,10 @@
 ---
 version: 0.1
-layout: default
 title: Email Management System — AgentActor Use Case
 description: A full worked example applying the AgentActor unified concept to organisational email management — AgentActor inventory, conversation maps, and large-payload flows.
+chapters: ["adm"]
+tags: ["agents", "actor-model"]
 ---
-
-[← Knowledge Base](/kb/index.html)
 
 # Demo: Email Management System — AgentActor Use Case
 

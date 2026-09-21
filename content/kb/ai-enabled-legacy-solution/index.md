@@ -2,11 +2,9 @@
 title: Legacy Knowledge LLM Integration Architecture
 description: AI-enabled legacy solution — LLM integration architecture.
 version: 0.1
-aliases:
-  - /kb/bpt_operational_model/ai-enabled-legacy-solution.html
+chapters: ["adm"]
+tags: ["agents", "mcp", "legacy-integration"]
 ---
-
-[← Knowledge Base](/kb/index.html)
 
 <!-- # Legacy Knowledge LLM Integration Architecture -->
 

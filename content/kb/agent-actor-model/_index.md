@@ -1,16 +1,15 @@
 ---
 version: 0.1
-layout: default
 title: Agent-Actor Architecture
 description: How the AI Agent concept merges naturally onto the Actor model — Conceptual and Logical architecture.
+chapters: ["adm"]
+tags: ["agents", "actor-model"]
 ---
 
 <div style="float: center; margin: 1em; text-align: center;">
 <img src="aiwip.png" width="90%" /><br/>
 </div>
 <div style="clear: both;"></div>
-
-[← Knowledge Base](/kb/index.html)
 
 
 > "*I just deleted all my MCPs. Skills + CLI is all you need.*
