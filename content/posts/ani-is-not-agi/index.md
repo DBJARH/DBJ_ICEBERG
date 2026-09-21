@@ -1,11 +1,11 @@
 ---
 version: 0.1
-layout: default
-title: ANI Is Not AGI
-description: Why AGI is an unreachable milestone — and why the distinction matters
+title: "ANI Is Not AGI"
+date: 2026-03-01
+description: "Why AGI is an unreachable milestone — and why the distinction matters"
+tags: ["ai", "agi", "governance"]
+author: "Dusan B. Jovanovic"
 ---
-
-[← Knowledge Base](/kb/index.html)
 
 <!-- # ANI Is Not AGI -->
 
