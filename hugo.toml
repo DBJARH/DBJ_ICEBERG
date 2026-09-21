@@ -44,6 +44,11 @@ copyright = '&copy; dbj.org'
   lang = "en"
   loading = "lazy"
 
+[taxonomies]
+  tag = 'tags'
+  category = 'categories'
+  chapter = 'chapters'
+
 [markup.goldmark.renderer]
   unsafe = true
 
@@ -56,10 +61,14 @@ copyright = '&copy; dbj.org'
     url = '/posts/'
     weight = 1
   [[menu.main]]
+    name = 'KB'
+    url = '/kb/'
+    weight = 2
+  [[menu.main]]
     name = 'Search'
     url = '/search/'
-    weight = 2
+    weight = 3
   [[menu.main]]
     name = 'DBJ Method'
     url = 'https://method.dbj.org'
-    weight = 3
+    weight = 4

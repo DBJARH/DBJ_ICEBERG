@@ -7,7 +7,7 @@
 
 ## What This Repo Is
 
-**DBJ_ICEBERG** is the public blog for DBJ Method — EA AI ROI advice for SMEs navigating AI adoption.
+**DBJ_ICEBERG** is the specialised KB and blog of DBJ Method — EA AI ROI advice for SMEs navigating AI adoption. Decoupled from method.dbj.org, integral to it.
 
 - Live site: https://iceberg.dbj.org/
 - Built with Hugo Extended + PaperMod theme
@@ -34,10 +34,28 @@ Rules for this repo:
    under `content/` before the next deploy. Hugo does not check plain links, so they
    fail silently.
 
+## Site taxonomy
+
+Iceberg is a website, not a reference manual. Keep classification shallow; over-classifying is overengineering.
+
+Two sections, both flat, one page bundle per folder:
+
+1. `content/posts/<post>/index.md` — a dated argument.
+2. `content/kb/<article>/index.md` — content that is relevant to the method but not part of it: ITIL, DORA, ISO and the like. Kept current, not superseded. Carries `version:`.
+
+Two Hugo taxonomies, both optional in front matter, zero or more values each:
+
+1. `chapters` — the book chapter a page relates to: `taxonomy`, `cmm`, `adm`, `bpt`, `method`.
+2. `tags` — keywords whose purpose is to aid search. Use them judiciously: a few per page, reuse an existing tag before adding a new one, and where a DBJ Taxonomy name fits, use it unchanged.
+
+The portal's Vocabulary is the focal point for terms. Link it, do not restate it.
+
+`content/transitioning_from_portal/` is a holding area. Each article moves to `content/kb/` or `content/posts/`.
+
 ## Your Role Here
 
 Content editor and Hugo technician. Tasks here are:
-- Adding or editing blog posts
+- Adding or editing blog posts and KB articles
 - Fixing Hugo/PaperMod configuration
 - Managing the deploy workflow
 
