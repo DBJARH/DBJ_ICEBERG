@@ -7,7 +7,7 @@ copyright = '&copy; dbj.org'
 
 [params]
   author = 'Dusan B. Jovanovic'
-  description = 'EA AI ROI — Enterprise Architecture for organisations that feel small, poor, and vulnerable.'
+  description = 'AI ROI — for the Business, Products and Technology'
   ShowReadingTime = true
   ShowShareButtons = false
   ShowPostNavLinks = true
@@ -17,7 +17,7 @@ copyright = '&copy; dbj.org'
   comments = true
   TocOpen = false
   defaultTheme = 'auto'
-  homeInfoParams = { Title = 'DBJ Iceberg', Content = 'Enterprise Architecture advice for navigating the AI adoption. Free of hype.' }
+  homeInfoParams = { Title = 'DBJ Iceberg', Content = 'Safely navigate the AI adoption. Free of hype.' }
   homeGridStyle = true
 
 [params.footer]
@@ -61,14 +61,14 @@ copyright = '&copy; dbj.org'
     url = '/posts/'
     weight = 1
   [[menu.main]]
-    name = 'KB'
-    url = '/kb/'
-    weight = 2
-  [[menu.main]]
     name = 'Search'
     url = '/search/'
-    weight = 3
+    weight = 2
   [[menu.main]]
     name = 'DBJ Method'
     url = 'https://method.dbj.org'
+    weight = 3
+  [[menu.main]]
+    name = 'Knowledge Base'
+    url = '/kb/'
     weight = 4
