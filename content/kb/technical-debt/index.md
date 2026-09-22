@@ -1,30 +1,30 @@
 ---
 title: Break that Iceberg and free your true value
-description: Technical debt and knowledge liberation.
+description: Technical debt and knowledge preservation.
 version: 0.1
 ---
 
 <!-- # Break that Iceberg and free your true value -->
 
-## Knowledge Liberation
+## Knowledge Preservation
 
 ![alt text](separating-knowledge-from-technical-debt.png)
 
 ### Technical Debt is Business Value imprisoned in the Iceberg of Legacy Technology.
 
-> Break that Iceberg and free your true value.
+> Break that Iceberg and free your business value.
 
-**Refactoring is very wide circle of pain, back to the beginning.**
+**Refactoring is very wide and slow circle of pain, always leading back to the beginning.**
 
-### BPT Domains are gravitational regions of gravitational pull for organization roles, circling around them.
+### BPT Domains are regions of gravitational pull for organization roles
 
-* Business roles to the Business Domain
-* BA roles  around the Products Domain
-* Engineers and DevOps around the Technology Domain
+* Business roles are puled to the Business Domain
+* BA roles  gravitate around the Products Domain
+* Engineers and DevOps fly above the Technology Domain
 
 ## How is Knowledge Liberated
 
-**Order of events**
+<!-- **Order of events**
 
 1. Business creates the initiative to remove the legacy technologies
 2. Business & Product declare Legacy processes and Technical Debt products, data , infrastructure etc.
@@ -39,9 +39,9 @@ version: 0.1
 9.  Business & BAs from Products decide on the conceptual and logical architecture of the new product
 10. BA's and Engineers (from Technology Domain) decide on the Physical Architecture of the new Product
 11. Technology decides on the Application Architecture of the new Product
-12. Engineers start new Product Project Cycling
+12. Engineers start new Product Project Cycling -->
 
-**The Workflow**
+**The Workflow of Knowledge Liberation**
 
 ```mermaid
 flowchart 
