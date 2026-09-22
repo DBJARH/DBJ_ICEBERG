@@ -3,8 +3,26 @@ version: 0.1
 title: Business & Technology Landscape
 description: Clickable EA landscape diagram — Business and Technology landscapes aligned by Enterprise Architecture.
 ---
+{{< callout type="warning" >}}
+This page is not light on TOGAF.
+{{< /callout >}}
 
-# Enterprise Full View — Business & Technology Landscape
+# What is the intent of this page. 
+
+Business says what it wants, technology builds it, and this page is the map showing that split plus the EA layer that keeps the two sides honest: no duplicated ownership, no orphaned systems, nothing built that nobody asked for.
+
+## Business & Technology Landscape
+
+{{< callout type="important" >}}
+The key principle: *business declares the product, technology implements it*. EA ensures that chain is intact, traceable, and free of drift in both directions.
+
+## The Model
+
+This model fulfils the obligation to map the organization info-space primary division into three regions. 
+
+* **Business Landscape** declares intent — strategy, products, capabilities, and accountability. It must be internally consolidated: no duplicate ownership, no conflicting product definitions, no orphaned processes.
+* **Technology Landscape** implements what business declares — applications, data, infrastructure, and operations. It too must be internally consolidated: rationalised application portfolio, no redundant platforms, consistent standards.
+* **EA's role** sits between them with three specific duties: align, consolidate, and govern. Technology constraints inform what business can declare, and business change drives technology evolution.
 
 {{< callout type="note" >}}
 This is clickable diagram
@@ -35,8 +53,8 @@ graph TD
         TD["**Technology debt**<br/>Gaps and consolidation items"]
     end
 
-    Business <--> EA
-    EA <--> Tech
+    Business <-->|&nbsp;&nbsp;&nbsp;Align&nbsp;&nbsp;&nbsp;| EA
+    EA <--> |&nbsp;&nbsp;&nbsp;Consolidate&nbsp;&nbsp;&nbsp;| Tech
 
     style Business fill:none,stroke:#333,stroke-dasharray: 5 5
     style Tech fill:none,stroke:#333,stroke-dasharray: 5 5
@@ -55,25 +73,9 @@ graph TD
     click RM "#roadmap" "Roadmap"
 ```
 
----
-
-## Overview
-
-The model has three obligations.
-
-**Business Landscape** declares intent — strategy, products, capabilities, and accountability. It must be internally consolidated: no duplicate ownership, no conflicting product definitions, no orphaned processes.
-
-**Technology Landscape** implements what business declares — applications, data, infrastructure, and operations. It too must be internally consolidated: rationalised application portfolio, no redundant platforms, consistent standards.
-
-**EA's role** sits between them with three specific duties: align, consolidate, and govern. Technology constraints inform what business can declare, and business change drives technology evolution.
-
-{{< callout type="important" >}}
-The key principle: *business declares the product, technology implements it*. EA ensures that chain is intact, traceable, and free of drift in both directions.
-{{< /callout >}}
-
----
-
 ## Business Landscape
+
+Is an primary asset sub-grouped by business capabilities
 
 ### Business capabilities {#business-capabilities}
 
