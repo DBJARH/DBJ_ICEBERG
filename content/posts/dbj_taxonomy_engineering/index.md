@@ -8,13 +8,13 @@ cover:
     image: dbj_taxonomy_officer.png
 ---
 
-DBJ Taxonomy defined the language for GPS coordinates in the infospace. Content nobody can locate is content nobody finds.
+DBJ Taxonomy defines the language for coordinates of the infospace. Content nobody can locate is content nobody finds.
 
 > Taxonomy defines the locations on the map the business holds firmly in its hand.
 >
-> **Taxonomy is the language used for programming infospace orienteering instruments**
+> **Taxonomy is the language used for programming infospace navigation instruments**
 
-The `.taxonomy` file connects the abstract taxonomy to actual content. It declares a taxonomy location using the [DBJ Core Taxonomy](https://method.dbj.org/taxonomy_core.html#core) vocabulary. Not only for code — repositories of documents, images, specifications, any kind of content.
+The `.taxonomy` file connects the abstract taxonomy to actual content. It declares a taxonomy location using the [DBJ Core Taxonomy](https://method.dbj.org/taxonomy_core.html#core) key-words. Any kind of content: repositories of documents, images, specifications.
 
 ## Format
 
@@ -27,7 +27,7 @@ capability = ["Deployment", "Operations"]
 
 Arrays because one folder and its offspring can hold more than one kind of work. Example: a deploy tool might contain `Deployment` and `Operations` — two capabilities at the same time. Clearly offspring of the same category.
 
-## The names are not yours to pick
+## The names are key-words
 
 Terms come from the core taxonomy. Four categories:
 
@@ -48,7 +48,7 @@ No synonyms. Not "Dev" for Development, not "Ops" for Operations, not "Infra" fo
 
 Any folder. The file covers that folder and everything under it.
 
-Put one in the repository root and it describes the whole repository. Put one deeper and it describes that subtree. A documentation repository with `architecture/`, `security-policies/` and `runbooks/` is three different places in the infospace, and one file at the root cannot say that honestly.
+Put one in the repository root and it describes the whole repository. Put one deeper and it describes that subtree. A documentation repository with `architecture/`, `security-policies/` and `runbooks/` is three different places in the infospace, and one file at the root cannot say that honestly. Add more `.taxonomy` files as you find appropriate.
 
 The file is optional. Content without one is simply non allocated. Drifting in the infospace.
 
@@ -70,12 +70,12 @@ Everything under `docs/security/` is Logical / Security. Nothing of the parent s
 
 Two reasons.
 
-Tools can place the content immediately. No heuristics over README text, no guessing from folder names, no separate registry that goes stale the moment someone forks.
+Agents use tools. Tools using the `.taxonomy` file, can place the content immediately. No heuristics over README text, no guessing from folder names, no separate registry that goes stale the moment someone forks.
 
-Agents can too. An agent asked where security work lives reads `.taxonomy` files and gets an answer instead of a search result. The declaration travels with the content and helps visitors orienteering.
+An agent asked where security work in this folder lives, reads `.taxonomy` file and gets an answer instead of a search result. The declaration travels with the content and helps visitors orienteering.
 
 ## Status
 
-This is a standard, not a tool. Nothing validates the names, nothing resolves which file applies to a given folder, nothing rejects a synonym. That is all still to be built.
+This is a recommendation, hoping to become de-facto standard, not a tool. Nothing "official" validates the names, nothing resolves which file applies to a given folder, nothing rejects a synonym. There is no reason for FOSS initiative that would build it.
 
-Until then it holds because people write it correctly. Which is worth knowing before you rely on it.
+Until then it holds because people use it correctly. Which is worth knowing before you rely on it. On company level this functions. 
