@@ -1,7 +1,7 @@
 ---
 title: "BPT Balances the Organization at AI Speed"
 date: 2026-09-24
-description: "Agentic AI moves the software cost bottleneck from programming to specification and verification. The B-P-T operating model is the structure that balances it."
+description: "The software cost risk is moved from programming to specification and verification. The B-P-T operating model is the balancing mechanism."
 tags: ["BPT", "AI-speed", "verification", "operating-model"]
 chapters: ["bpt", "cmm"]
 author: "Dusan B. Jovanovic"
