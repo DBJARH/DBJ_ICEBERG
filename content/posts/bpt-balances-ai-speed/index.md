@@ -24,7 +24,7 @@ Traditional development: programming is the bottleneck, specification work comes
 
 Agentic AI development: programming shrinks. Verification and testing becomes the bottleneck, with specification a close second. Architecture and infrastructure, including the AI harness, do grow in importance and in cost.
 
-In one DBJ line: **Do not generate the wring thing fast**
+In one DBJ line: **Do not generate the wrong thing fast**
 
 ## The risk spreads in B-P-T
 
