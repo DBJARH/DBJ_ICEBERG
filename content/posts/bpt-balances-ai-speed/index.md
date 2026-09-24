@@ -12,9 +12,7 @@ cover:
   image: "relative-costs-christensen.png"
 ---
 
-![Relative costs of traditional vs agentic AI software development activities](relative-costs-christensen.png)
-
-*Diagram: Morten M. Christensen, v1.0, 2026.*
+*Diagram: &copy; Morten M. Christensen, v1.0, 2026.*
 
 **Question:** Where does the cost of software go when agents write the code?
 
