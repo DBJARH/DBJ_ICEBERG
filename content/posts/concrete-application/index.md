@@ -1,7 +1,7 @@
 ---
-title: "BPT Simple"
+title: "BPT Exceptions"
 date: 2026-08-07
-description: "Example of an organization feasibly following BPT operational model. Company is anchored in a mature AI dev environment. Contrasted to the ai-anti-pattern most post-ai-pilot organizations are self exposed to."
+description: "Example of an organization following BPT operational model; safely anchored in a mature AI dev environment"
 tags: ["DBJ", "BPT", "AI", "Method", "Operational Model", "Product", "Development"]
 author: "Dusan B. Jovanovic"
 version: 0.4
@@ -18,7 +18,7 @@ cover:
 
 The image above is an product development Operational Model, inside an (well behaved and organized) company. Company that has adopted and implemented the BPT Operating Model and has learned how to use an LLM, and how not to. Crucially under the [guidance of the "BPT Method"](https://method.dbj.org/kb/bpt_operational_model/engagement_architecture.html).
 
-> **Caveat Emptor**: DBJ BPT is not "[Product Driven Development](https://www.lyssna.com/blog/product-driven-development/)". [DBJ BPT](https://method.dbj.org/onboarding/section-03.html) is (much) wider in scope. PDE is firmly in the Technology domain. BPT is organization  operational model. If adopted it changes the whole organization. And enables ROI. AI or no AI.
+> **Note**: DBJ BPT is not a "Product Driven Development" (PDE). [DBJ BPT](https://method.dbj.org/onboarding/section-03.html) is (much) wider in scope. PDE is firmly in the Technology domain. BPT is organization  operational model. It changes the whole organization. 
 
 Notice the three domains, each iterating with the next, to produce two main artifact  `goal.md` and the  `plan.md` . Iterations can produce more but these are two main two.
 
@@ -45,7 +45,7 @@ After seeing the product release in production, someone can say: "This is not wh
 4. This is very powerful capability of the BPT OP Model: going back to the real source of an issue. 
    1. Outside of the confines of the technology.
 
-Design, then code. Mature idea. 
+Design, then code. Is an mature idea.
 
 1. Origins are in the good old primordial loop
    1. Design, implement, review, repeat. 
@@ -63,11 +63,11 @@ And the outcome is the Product. Hence the "Product Factory" name, often describi
 
 There are various kinds of Products. Change the artifacts structure and the same Operating Model governs procurement, law office, insurance claims, etc. Not just internal or public software products. 
 
-## Do not Prompt and Pray
+## Alternative: Prompt and Pray
 
-Market pressure is tremendous. After one or more failed AI demos, a clear and colossal mistake is very often made.Unfortunately. Someone opens a chat window, types "just build the thing," and "prays". Expecting the stories are true: finished and working software product will arrive.
+Market pressure is tremendous. After one or more failed AI demo, a clear and colossal mistake is very often made. Someone opens a chat window, types "just build the thing," and "prays". Expecting the stories are true: finished and working software product arrives.(hint: It never will)
 
-No KPIs. No defined input. No defined output. No way to separate success from failure. The model produces something. Nobody can say whether it is correct, because there is nobody who can say what correct means. When it fails, the finding is "the AI model was not good enough," which was never the actual cause.
+No defined input. No way to separate success from failure. The model produces something. Nobody can say whether it is correct, because there is nobody who can say what correct means. When it fails, the finding is "the AI model was not good enough," which was never the actual cause.
 
 This is not an AI problem. It is a legacy process undefined, just running faster. 
 
