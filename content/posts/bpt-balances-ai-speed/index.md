@@ -7,6 +7,7 @@ chapters: ["bpt", "cmm"]
 author: "Dusan B. Jovanovic"
 draft: false
 version: 0.1
+featured: true
 cover:
   image: "relative-costs-christensen.png"
 ---
