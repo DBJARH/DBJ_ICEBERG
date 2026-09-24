@@ -7,7 +7,7 @@ author: "Dusan B. Jovanovic"
 version: 0.1
 pinned: true
 cover:
-  image: "gistav-dore-ai-navigator.png"
+  image: "gistav-dore-ai-navigator.jpg"
 ---
 
 Without consistent governance and architectural decoupling, organizations aren't modernizing; they're just crashing probabilistic AI demos into legacy problems.
