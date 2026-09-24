@@ -16,6 +16,7 @@ Business says what it wants, technology builds it, and this page is the map show
 
 {{< callout type="important" >}}
 The key principle: *business declares the product, technology implements it*. EA ensures that chain is intact, traceable, and free of drift in both directions.
+{{< /callout >}}
 
 ## The Model
 
