@@ -7,9 +7,9 @@ author: "Dusan B. Jovanovic"
 version: 0.1
 pinned: true
 cover:
-  image: "r-roi-navigator.png"
+  image: "gistav-dore-ai-navigator.png"
 ---
 
-Without rigorous governance and architectural decoupling, organizations aren't modernizing; they're just crashing probabilistic AI demos into legacy problems.
+Without consistent governance and architectural decoupling, organizations aren't modernizing; they're just crashing probabilistic AI demos into legacy problems.
 
 Extracting actual business value from AI requires deliberate, structured orchestration  (navigation) rather than blind ever-escaping momentum.
