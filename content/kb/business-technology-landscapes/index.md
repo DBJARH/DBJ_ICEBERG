@@ -3,6 +3,7 @@ version: 0.1
 title: Business & Technology Landscape
 description: Clickable EA landscape diagram — Business and Technology landscapes aligned by Enterprise Architecture.
 ---
+
 {{< callout type="warning" >}}
 This page is not light on TOGAF.
 {{< /callout >}}
