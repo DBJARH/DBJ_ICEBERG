@@ -48,7 +48,7 @@ Two Hugo taxonomies, both optional in front matter, zero or more values each:
 1. `chapters` — the book chapter a page relates to: `taxonomy`, `cmm`, `adm`, `bpt`, `method`.
 2. `tags` — keywords whose purpose is to aid search. Use them judiciously: a few per page, reuse an existing tag before adding a new one, and where a DBJ Taxonomy name fits, use it unchanged.
 
-The portal's Vocabulary is the focal point for terms. Link it, do not restate it.
+Terms are defined in the portal chapters; link the chapter that defines a term, do not restate it.
 
 `content/transitioning_from_portal/` is a holding area. Each article moves to `content/kb/` or `content/posts/`.
 
