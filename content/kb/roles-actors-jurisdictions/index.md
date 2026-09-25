@@ -14,12 +14,6 @@ description: Who works where in the BPT loop — roles, their jurisdictions, and
 - We do not blame it on the LLM -->
 
 
-### BPT Domains are regions of gravitational pull for organization roles, circling around them.
-
-* Business roles to the Business Domain
-* BA roles  around the Products Domain
-* Engineers and DevOps around the Technology Domain
-
 <!-- # Roles, Actors and Jurisdictions -->
 
 The [BPT loop](https://method.dbj.org/bpt/) is not free-for-all, first comes first served. Different roles are assigned to different segments. That fact defines **jurisdiction** — the boundary within which a role operates, decides, and is accountable.
@@ -28,32 +22,9 @@ Jurisdiction is not hierarchy. A Business Leader is not senior to an Engineer in
 
 ---
 
-## Roles and Jurisdictions
-
-| Roles | Jurisdiction | Activities |
-|-------|-------------|------------|
-| Business Leaders, Clients, Product Owners, BAs | **Business** | Declares products, owns outcomes |
-| Product Owners, BAs, QAs | **Product** | Bridges Business declarations and Technology capabilities — the alignment point |
-| Engineers, Developers, DevOps | **Technology** | Implements what Product defines |
-| Enterprise Architects | **Organisation** | Overarching — governs the meta-layer, guides all transitions without bottlenecking |
-
-BA — Business Analyst. QA — Quality Assurance.
-
-{{< callout type="note" >}}
-Some roles may appear in more than one BPT domain. A Product Owner sits in both Business and Product. A BA may work across all three. What changes is the *nature* of the work — declaring in Business, aligning in Product. The jurisdiction defines the role, not the person.
-{{< /callout >}}
-
----
-
 ## Enterprise Architecture jurisdiction
 
 EA's jurisdiction is the whole organisation — not a segment, not a project. This is what makes it the governing role.
-
-- Defines the principles that guide all four BPT transitions (Require / Develop / Deploy / Evaluate)
-- Ensures Product decisions maintain Business-Technology coherence
-- Governs without slowing the cycle
-- Measures alignment health through Evaluate feedback
-- Runs the [DBJ ADM wheel](https://method.dbj.org/adm/dbj_adm.html) — the governance project container.
 
 EA does not implement, does not manage products, and does not operate infrastructure. It governs the structure within which all of those happen.
 
