@@ -1,14 +1,14 @@
 ---
-title: "DBJ Agentic Agile Manifesto"
+title: "Agentic Agile Manifesto"
 date: 2026-09-26
 version: 0.1
-description: "Scrum does not fit a team of AI agents with one human authority. A working method for architecture and product development done by agents."
+description: "Written by Agents. A working method for architecture and product development done by agents."
 tags: ["agents", "agile", "DBJ Method", "DBJ Taxonomy"]
 chapters: ["method", "taxonomy"]
 author: "Dusan B. Jovanovic"
 ---
 
-A working method for one human authority and a team of AI agents doing architecture and product development, not only code.
+For one human authority and a team of AI agents doing architecture and product development, not only code.
 
 ## Why not Scrum
 
