@@ -1,7 +1,7 @@
 ---
 title: "A Tribute to C.A.R. Hoare"
 date: 2026-02-01
-description: "The paper everyone forgot — almost. On Hoare's 1966 record handling, the 35-year mistake, and what Rust got back."
+description: "The paper everyone forgot — almost. On Hoare's 1966 record handling"
 tags: ["software-history", "architecture", "rust", "C"]
 author: "Dusan B. Jovanovic"
 draft: false
@@ -12,7 +12,7 @@ cover:
 (Image source: `https://cs.stanford.edu/people/eroberts/courses/soco/projects/2008-09/tony-hoare/images/hoare%20main.jpg` )
 
 
-> In case you like code more than prose about the code, [here is the code](https://godbolt.org/z/sb7MTeGax). That is vibed. Quality is average, bordering on bad. I spent some time, in between other tasks, and made what is I might claim, elegant, human optimised code. ( https://godbolt.org/z/9M8oj34TT ) Those improvements need never stop, of course. 
+> In case you like code more than prose about the code, [here is the code](https://godbolt.org/z/sb7MTeGax). That is vibed C23. Quality is average, bordering on bad. I spent some time, in between other tasks, and made what is I might claim, elegant, human optimised C23 code. ( https://godbolt.org/z/9M8oj34TT ) Those improvements need never stop, of course. 
 
 ## The Foundation Everyone Forgot — Almost
 
@@ -76,15 +76,13 @@ One keyword. Gone.
 
 That single omission is what Casey Muratori calls the [35-year mistake](https://youtu.be/wo84LFzx5nI). C++ inherited Simula. Java inherited C++. And for decades, the mainstream got Kay's model — the one where the mechanism is hidden and the caller just has to trust.
 
----
+<!-- Leave this comment here
 
-## What Came Back Around
+## In Rust it Came Back Around
 
-Rust's `enum` + `match` is essentially what Hoare described in 1966. Explicit tags. Exhaustive checking. The compiler tells you when you've missed a case. Nothing hidden, nothing implicit.
+Rust's `enum` + `match` is essentially what Hoare described in 1966. Explicit tags. Exhaustive checking. The compiler tells you when you've missed a case. Nothing hidden, nothing implicit. -->
 
-It took 58 years to get back there.
-
----
+**It took 58 years to get back here.**
 
 Sometimes the road not taken just takes longer.
 
