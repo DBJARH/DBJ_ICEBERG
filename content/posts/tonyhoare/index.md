@@ -18,7 +18,7 @@ cover:
 
 Before Simula 67. Before Smalltalk. Before anyone had coined the term object-oriented programming. Tony Hoare formalized the concept of the discriminated union in his seminal 1965 paper, "Record Handling."
 
-In this paper, Hoare introduced the idea of a record (a data structure grouping related fields) and proposed that records could have a "variant part." By looking at a specific "tag" field within the record, the program could determine which variant of the record was currently active.
+Hoare introduced the idea of a record (a data structure grouping related fields) and proposed that records could have a "variant part." By looking at a specific "tag" field within the record, the program could determine which variant of the record was currently active.
 
 This concept was highly influential and was directly implemented in the programming language ALGOL W (which Hoare co-designed with Niklaus Wirth in 1966) and later became a staple of Pascal and Ada.
 
@@ -41,13 +41,13 @@ In this structure, the tag field guarantees that if a program tries to access sh
 
 ### What He Actually Proposed
 
-You have a record. The record knows what it is — it carries a tag. You have a dispatch function that looks at the tag and calls the right handler. The handler takes storage and params. That's it.
+You have a record. The record knows what it is — it carries a tag. You have a dispatch function that looks at the tag and calls the right handler. The handler takes storage and params.
 
 No object. No `this`. No method lookup. No vtable. A record, a tag, and a switch.
 
-It's almost embarrassingly simple. Which is probably why it got overlooked. Hoare’s creation was a massive leap forward in type safety. Untagged Unions (C/C++): If you misinterpret the data in a C union (e.g., writing an integer and reading it as a pointer), the compiler will let you, resulting in memory corruption or crashes.
+It's almost embarrassingly simple. Which is probably why it got overlooked. Hoare’s creation was a massive leap forward in type safety. Untagged Unions (C, came much later): If you misinterpret the data in a C union (e.g., writing an integer and reading it as a pointer), the compiler will let you, resulting in memory corruption or crashes.
 
-Tagged Unions (Hoare's model): The compiler enforces that the tag and the data match, preventing a whole class of bugs before the program even runs.
+<!-- Tagged Unions (Hoare's model): The compiler enforces that the tag and the data match, preventing a whole class of bugs before the program even runs. -->
 
 If you are reading about Tony Hoare and unions, you are reading about the moment he added type safety to composite data structures. By inventing the discriminated union (variant record), he gave programmers a way to securely model data that can take on multiple different forms, a concept that remains central to software engineering today.
 
@@ -55,9 +55,9 @@ If you are reading about Tony Hoare and unions, you are reading about the moment
 
 ## The Irony
 
-[Alan Kay](https://en.wikipedia.org/wiki/Alan_Kay) also called his model "message passing" — same words, completely different idea.
+[Alan Kay](https://en.wikipedia.org/wiki/Alan_Kay) also called his model "message passing" — completely different idea.
 
-In Kay's model, dispatch is implicit. It's buried in the vtable, hidden behind the dot operator. The receiver decides what to do. The caller is blind to the mechanism.
+In Kay's model, dispatch is implicit. It's buried in the `vtable`, hidden behind the dot operator. The receiver decides what to do. The caller is blind to the mechanism.
 
 In Hoare's model, dispatch is right there in front of you. The tag is visible data. The switch is visible code. You can inspect it, reason about it, have the compiler check it.
 
@@ -70,9 +70,9 @@ In Hoare's model, dispatch is right there in front of you. The tag is visible da
 
 ## Where It Went Wrong
 
-Simula read Hoare's paper. They kept the subclass idea. But they dropped `inspect` — the keyword that would have given you exhaustive switching on the type tag.
+Simula team read Hoare's paper. They kept the subclass idea. But they dropped `inspect` — the keyword that would have given you exhaustive switching on the type tag.
 
-One keyword. Gone.
+That keyword is gone.
 
 That single omission is what Casey Muratori calls the [35-year mistake](https://youtu.be/wo84LFzx5nI). C++ inherited Simula. Java inherited C++. And for decades, the mainstream got Kay's model — the one where the mechanism is hidden and the caller just has to trust.
 
