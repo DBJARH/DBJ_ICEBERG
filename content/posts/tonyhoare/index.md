@@ -12,7 +12,7 @@ cover:
 (Image source: `https://cs.stanford.edu/people/eroberts/courses/soco/projects/2008-09/tony-hoare/images/hoare%20main.jpg` )
 
 
-> In case you like code more than prose about the code, [here is the code](https://godbolt.org/z/sb7MTeGax). That is vibed C23. Quality is average, bordering on bad. I spent some time, in between other tasks, and made what is I might claim, elegant, human optimised C23 code. ( https://godbolt.org/z/9M8oj34TT ) Those improvements need never stop, of course. 
+> In case you like code more than prose about the code, [here is the code](https://godbolt.org/z/sb7MTeGax). That is vibed C. Quality is average, bordering on bad. I spent some time, in between other tasks, and made what is I might claim, elegant, human optimised C code. ( https://godbolt.org/z/9M8oj34TT ) Those improvements need never stop, of course. 
 
 ## The Foundation Everyone Forgot — Almost
 
