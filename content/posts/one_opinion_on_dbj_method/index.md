@@ -12,7 +12,7 @@ cover:
 
 I was asked to produce a DBJ Method "one-pager" at the end of June 2026. This is my opinion, revised on 2026-09-28.
 
-> **AI Speed makes it faster. The DBJ Method makes it possible.**
+> **AI makes it fast. DBJ Method makes it possible.**
 
 The DBJ Method gives an organisation [operational efficiency in the presence of AI](https://method.dbj.org/adoption/operational_efficiency.html). The onboarding is matured: first the organisation becomes efficient without AI, then it becomes efficient through automation and AI. AI accelerates an organisation that already runs well. It does not repair one that does not.
 
