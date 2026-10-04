@@ -1,6 +1,6 @@
 ---
 version: 0.1
-title: DBJ Taxonomy Usage Guide
+title: Taxonomy Usage Guide
 description: How to use the DBJ Taxonomy as a simple classification core, with an optional Item Declaration, the Five Facets View (5F) matrix.
 chapters: ["method"]
 tags: ["taxonomy", "classification", "maturity"]
@@ -8,31 +8,9 @@ tags: ["taxonomy", "classification", "maturity"]
 
 ## The classification and an optional declaration
 
-The DBJ Taxonomy is a single tree. The top level is an ordered list of abstractions: Conceptual, Logical, Physical, Implementation. Below it sit the capabilities. Every item has exactly one place in that tree, and the place is its stable ID.
+The DBJ Taxonomy is a single tree. The top level is an ordered list of categories: Conceptual, Logical, Physical, Implementation. Below it sit the capabilities. Every item has exactly one place in that tree, and the place is its stable ID.
 
-```text
-DBJ Taxonomy
-├── Conceptual
-│   ├── Business
-│   ├── Information
-│   ├── Application
-│   └── Technology
-├── Logical
-│   ├── Data Management
-│   ├── Integration
-│   ├── Platform
-│   └── Security
-├── Physical
-│   ├── Compute
-│   ├── Infrastructure
-│   ├── Network
-│   └── Storage
-└── Implementation
-    ├── Deployment
-    ├── Development
-    ├── Monitoring
-    └── Operations
-```
+Link [**To the Core**](https://method.dbj.org/taxonomy/taxonomy_core.html#core)
 
 That is the whole core. It is deliberately small, and nothing in it is optional. Those names are the keywords.
 
@@ -51,6 +29,8 @@ Each organization decides how much goes into an Item Declaration:
 
 The matrix template: Domain × Abstraction, plus Segment, Lifecycle and Tag as free attributes.
 
+Header row are Abstractions. First column are Domains. Values in template cells are names/addresses of the cells.
+
 | | Conceptual | Logical | Physical |
 |---|---|---|---|
 | **Business** | `Business.Conceptual` | `Business.Logical` | `Business.Physical` |
@@ -58,11 +38,20 @@ The matrix template: Domain × Abstraction, plus Segment, Lifecycle and Tag as f
 | **Application** | `Application.Conceptual` | `Application.Logical` | `Application.Physical` |
 | **Technology** | `Technology.Conceptual` | `Technology.Logical` — **Platform** | `Technology.Physical` — **Infrastructure** |
 
-An example: the declaration of a document that holds the conceptual architecture of a product.
+An example: the declaration of a document that holds the conceptual architecture of a "Product X".
 
 | Item | Tree place | Segment | Matrix cell | Lifecycle | Tags |
 |---|---|---|---|---|---|
 | Conceptual architecture of Product X (document) | Conceptual › Application | Products | `Application.Conceptual` | Draft | integration, security |
+
+How to read the row:
+
+- **Item:** the thing being declared. Here, a document about Product X.
+- **Tree place:** where the item sits in the DBJ Taxonomy tree. This is the classification, and it is the only required column.
+- **Segment:** which part of the organization the item belongs to: Business, Products or Technology.
+- **Matrix cell:** the item's address in the matrix above: its Domain and its Abstraction.
+- **Lifecycle:** the stage the item is in. The organization names its own stages (here, Draft).
+- **Tags:** free words that describe the item. They never change its place in the tree.
 
 Segment and Lifecycle are attributes, not classification. Lifecycle in particular is private to the organizational unit in which a project is rotating, so a shared core cannot define it.
 
