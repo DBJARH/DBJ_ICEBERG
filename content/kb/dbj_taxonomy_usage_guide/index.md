@@ -1,7 +1,7 @@
 ---
 version: 0.1
 title: Taxonomy Usage Guide
-description: How to use the DBJ Taxonomy as a simple classification core, with an optional Item Declaration, the Five Facets View (5F) matrix.
+description: How to use the DBJ Taxonomy as a simple classification core, with an optional Item Declaration
 chapters: ["method"]
 tags: ["taxonomy", "classification", "maturity"]
 ---
@@ -22,8 +22,6 @@ An item is anything classified on a project: a document, a software product, a s
 
 Each organization decides how much goes into an Item Declaration. General recommendation is to keep it  **Minimal**: the item's place in the tree, plus one or two attributes (for example owner).
 
-## What is an Item Declaration
-
 The DBJ Taxonomy is the only classification. An Item Declaration does not classify. It adds attributes that describe an item in more detail. Each organization decides how many.
 
 
@@ -31,7 +29,7 @@ The DBJ Taxonomy is the only classification. An Item Declaration does not classi
 |---|
 | &nbsp; 
 
-| Attribute | Conceptual architecture of Product X |
+| Attribute | Value |
 |---|---|
 | Item </br>Title| Conceptual architecture of Product X |
 | DBJ Taxonomy ID | Conceptual: Business, Information |
@@ -39,7 +37,7 @@ The DBJ Taxonomy is the only classification. An Item Declaration does not classi
 | Tags | integration, security |
 | Owner | Jane |
 
-The [Taxonomy ID](https://method.dbj.org/taxonomy/taxonomy_core.html#core) is one category plus one to four of its capabilities. Only the Taxonomy ID says what the item is, amd where is it in the info space. All other attributes describe it. Using an Item Declaration to classify is a misuse of it.
+The [Taxonomy ID](https://method.dbj.org/taxonomy/taxonomy_core.html#core) is one category plus one to four of its capabilities. Only the Taxonomy ID says what the item is, and where is it in the info space. All other attributes describe it. Using an Item Declaration to classify is a misuse of it.
 
 ## Why not put all of it into the core
 
@@ -47,14 +45,14 @@ Complexity. A model with five independent facets can not be drawn as one hierarc
 
 A single tree is simpler and stricter. But simplicity is not understood immediately. It takes maturity, and organizations that never had to classify, find it hard.
 
-So 5F is an optional extension, applied after the item is classified by the tree.
+So Item Declaration is entirely an optional extension, applied after the item is classified by the taxonomy tree.
 
-## Maturity
+## Maturity leads to simplicity
 
-This is the same reasoning behind the DBJ CMM Level 5 "entry ticket". An organization must be mature enough to loop through the BPT at the speed of AI. Simplicity is the prize for that maturity, not a starting point.
+The same reasoning behind the DBJ CMM Level 5 "entry ticket". An organization (and individual) must be mature enough to loop through the BPT at the speed of AI. Simplicity is the prize for that maturity, not a starting point.
 
 ## Rule of thumb
 
 - The taxonomy tree says what an item is.
-- The Item Declaration (5F) says more about it, if required.
+- The Item Declaration says more about it, if required.
 
