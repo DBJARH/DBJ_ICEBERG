@@ -55,21 +55,6 @@ This is the same reasoning behind the DBJ CMM Level 5 "entry ticket". An organiz
 
 ## Rule of thumb
 
-- The tree says what an item is.
+- The taxonomy tree says what an item is.
 - The Item Declaration (5F) says more about it, if required.
-- Tags never change what an item is.
 
-```text
----
-title: Conceptual architecture of Product X
-taxonomy: Conceptual.Application
-segment: Products
-cell: Application.Conceptual
-lifecycle: Draft
-tags: [integration, security]
----
-```
-
-The front matter above is the Item Declaration: tree is the item's place, and the other keys are 5F attributes. Tags never change what an item is.
-
-The location is the item's taxonomy ID, so the key says so. The Title does not show it. It only names the item.
