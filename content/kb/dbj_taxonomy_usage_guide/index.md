@@ -38,20 +38,14 @@ Header row are Abstractions. First column are Domains. Values in template cells 
 | **Application** | `Application.Conceptual` | `Application.Logical` | `Application.Physical` |
 | **Technology** | `Technology.Conceptual` | `Technology.Logical` — **Platform** | `Technology.Physical` — **Infrastructure** |
 
-An example: the declaration of a document that holds the conceptual architecture of a "Product X".
+An filled in example: the declaration of a document that holds the conceptual architecture of a "Product X".
 
-| Item | Tree place | Segment | Matrix cell | Lifecycle | Tags |
-|---|---|---|---|---|---|
-| Conceptual architecture of Product X (document) | Conceptual › Application | Products | `Application.Conceptual` | Draft | integration, security |
-
-How to read the row:
-
-- **Item:** the thing being declared. Here, a document about Product X.
-- **Tree place:** where the item sits in the DBJ Taxonomy tree. This is the classification, and it is the only required column.
-- **Segment:** which part of the organization the item belongs to: Business, Products or Technology.
-- **Matrix cell:** the item's address in the matrix above: its Domain and its Abstraction.
-- **Lifecycle:** the stage the item is in. The organization names its own stages (here, Draft).
-- **Tags:** free words that describe the item. They never change its place in the tree.
+| | Conceptual | Logical | Physical |
+|---|---|---|---|
+| **Business** | Business case | &nbsp; | &nbsp; |
+| **Information** | &nbsp; | Data model | &nbsp; |
+| **Application** | Conceptual architecture | Interface specification | Source code |
+| **Technology** | &nbsp; | Platform standard | Deployment topology |
 
 Segment and Lifecycle are attributes, not classification. Lifecycle in particular is private to the organizational unit in which a project is rotating, so a shared core cannot define it.
 
