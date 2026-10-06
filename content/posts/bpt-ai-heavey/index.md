@@ -1,5 +1,5 @@
 ---
-title: "BPT Exceptions"
+title: "BPT guiding the AI activities"
 date: 2026-08-07
 description: "Example of an organization following BPT operational model; safely anchored in a mature AI dev environment"
 tags: ["DBJ", "BPT", "AI", "Method", "Operational Model", "Product", "Development"]
@@ -16,9 +16,11 @@ cover:
 
 <span style="font-size:2rem;">T</span>hink about it. Everything revolves around a "Product". Business/Industry/Investors, all actors think in terms of Products. Not Software, Architectural or some other  artifacts. After  Business decided they know WHY do the need it, product owners and business analyst are iterating to define WHAT business wants. Just then it is feasible to deploy the consistent plan to the Technology people, to decide HOW will it be done. The better information they have the less time they will spend iterating to "understand the thing". Better means detailed, articulated, with requirements managed and clarified. No ambiguities.
 
-The image above is an product development Operational Model, inside an (well behaved and organized) company. Company that has adopted and implemented the BPT Operating Model and has learned how to use an LLM, and how not to. Crucially under the [guidance of the "BPT Method"](https://method.dbj.org/kb/bpt_operational_model/engagement_architecture.html).
+The image above is an product development Operational Model, inside an (well behaved and organized) company; AI based. Company that has adopted and implemented the BPT Operating Model and has learned how to use an LLM, and how not to. Crucially under the [guidance of the "BPT Method"](https://method.dbj.org/bpt/bpt_operating_model.html).
 
-> **Note**: DBJ BPT is not a "Product Driven Development" (PDE). [DBJ BPT](https://method.dbj.org/onboarding/section-03.html) is (much) wider in scope. PDE is firmly in the Technology domain. BPT is organization  operational model. It changes the whole organization. 
+### Operating model applied
+
+> **Note**: DBJ BPT is not a "Product Driven Development" (PDE). [DBJ BPT](https://method.dbj.org/bpt/) is (much) wider in scope. PDE is firmly in the Technology domain. BPT is organization  operational model. It changes the whole organization. 
 
 Notice the three domains, each iterating with the next, to produce two main artifact  `goal.md` and the  `plan.md` . Iterations can produce more but these are two main two.
 
@@ -36,24 +38,31 @@ Notice the three domains, each iterating with the next, to produce two main arti
    1. Steps, dependencies, order. Iterating between Product and Technology team until it is agreed. 
       1. At this stage Product team has the visibility of the goal.md and can go back to Business to reconfirm the decisions or to provoke the goal.md revisiting.
 
-After seeing the product release in production, someone can say: "This is not what I wanted". At that moment, Engineering role "throws" the  BPT Exception out of the technology domain back to the Product domain. Full information on the "Product" (previous) domain is available, as it was the formal request to develop and deliver. Product then decides can it solve it, if not it rethrows the Exception back to the Business team.
+### Problems in Production
 
-1. Important BPT Model feature: each technology product review activity will be able to throw the Exception back to the Product domain.
+After seeing the product release in production, someone can say: "This is not what I wanted". Usually those are "stake holders". Roles in Business or Product domain.
+
+ At that moment (or reckoning), following the operating model. Engineering people "throw" (perhaps send mail) the  BPT Exception document, out of the Technology domain back to the Product domain. Full information on the "Product" (previous) in the Product domain is available, as it was the in the last formal request to develop and deliver. Next, Product then decides can it solve it, if not it rethrows the Exception (send mail again) back to the Business team. 
+ 
+ ### the Issue Origin will be found
+
+1. Important BPT Model feature: each technology product review activity will be able to "throw" the Exception back to the Product domain.
 2. Eventually arriving to the Business, if Product demands. 
-   1. Top accountable domain.
+   1. Business is the top accountable domain.
 3. Exception cascading is propagating with the full trace back, all the way to the business decisions and the product team decisions.
 4. This is very powerful capability of the BPT OP Model: going back to the real source of an issue. 
-   1. Outside of the confines of the technology.
+   1. the "Issue Origin" is most often outside of the confines of the technology.
 
-Design, then code. Is an mature idea.
+<!-- Design, then code. Is an mature idea.
 
 1. Origins are in the good old primordial loop
    1. Design, implement, review, repeat. 
 2. But 
-   1. tightly monitored.Simple and stoppable. 
+   1. tightly monitored.Simple and stoppable.  -->
    
+### This is not "tooling"
 
-What is critical is that domain Business and Product are sending forward fully articulated product declaration and requirements artifacts. For the Product to be factorized inside the Technology domain. That is very malleable for a mature AI development where the model is given a goal and a plan, not a wish. That is not a organization, following the prompt and pray, ai-anti-pattern.
+What is critical is that domain Business and Product are able to "send back" fully articulated product item declaration and requirements artifacts referenced. That is very malleable for a mature AI development where the "software factory" is given a goal and a plan, not a wish. That is not a organization, following the prompt and pray, ai-anti-pattern.
 
 Please note what this is not. It is not a tooling standard. It is not a LLM recommendation or choice. BPT model defines domains, named artifacts, and roles ownership at each step. 
 
@@ -65,13 +74,15 @@ There are various kinds of Products. Change the artifacts structure and the same
 
 ## Alternative: Prompt and Pray
 
-Market pressure is tremendous. After one or more failed AI demo, a clear and colossal mistake is very often made. Someone opens a chat window, types "just build the thing," and "prays". Expecting the stories are true: finished and working software product arrives.(hint: It never will)
+Market pressure is tremendous. After one or more failed AI demo, a clear and colossal mistake is very visible. Someone opens a chat window, types "just build the thing," and "prays". Expecting the stories are true: finished and working software product arrives.(hint: It never will)
+
+![alt text](prompt-and-prey.png)
 
 No defined input. No way to separate success from failure. The model produces something. Nobody can say whether it is correct, because there is nobody who can say what correct means. When it fails, the finding is "the AI model was not good enough," which was never the actual cause.
 
-This is not an AI problem. It is a legacy process undefined, just running faster. 
+This is not an AI problem. It is a legacy process undefined, just running faster. THat is organization with no operating model.
 
-### Why do we care
+**Why do we care**
 
 At least half of the organizations currently in AI post-pilot "zero ROI" mode are following the "Prompt and pray" strategy. There are licenses for tokens to spend, the AI team. They ran the pilot, no KPI of the outcome. 
 
@@ -94,7 +105,9 @@ If you want to know whether an organization is AI-ready, do not audit the toolin
 > 
 > &nbsp;
 > 
-> [CAVEAT](https://www.merriam-webster.com/dictionary/caveat): This is true but simplified DBJ BPT implementation. Organizations all have slightly different agentic harnesses, or no harnesses, or even no software products portfolio.Most have product quarterly plans, heavy JIRA managed procedures, etc. But all (and more) fit nicely into this simple and feasible operations model.
+> [CAVEAT](https://www.merriam-webster.com/dictionary/caveat): That is true albeit simplified, DBJ BPT implementation, made by AI Practitioners. Generally other organizations jump straight into engineering. All find themselves with slightly different agentic harnesses, or no harnesses, or even no software products portfolio. Most have product quarterly plans, heavy JIRA managed procedures, etc. 
+>
+> The point is they all need adopt an operating model, before failing again.
 > 
 > &nbsp;
 >
@@ -102,7 +115,7 @@ If you want to know whether an organization is AI-ready, do not audit the toolin
 
 ## Vocabulary
 
-- **BPT** — Business Process Transformation. In the DBJ Method it is an *operational model*: how the organization actually runs. Defined processes, named artifacts, clear decision rights, ownership, governed data. See the [BPT onboarding](https://method.dbj.org/onboarding/section-03.html).
+- **BPT** — Business Process Transformation. In the DBJ Method it is an *operational model*: how the organization actually runs. Defined processes, named artifacts, clear decision rights, ownership, governed data. See [The Three Domains](https://method.dbj.org/bpt/).
 - **Operational model** — the description of how an organization does its work day to day. Distinct from the business model, which is what it sells and to whom.
 - **Post-pilot mode** — the state after an AI pilot has been declared a success and rollout has been funded, but before anyone has checked whether the process that made the pilot work survives being scaled.
 <!-- - **Gate** — a point in a process that cannot be passed until a stated condition is met. Its value is entirely in being enforced. -->
