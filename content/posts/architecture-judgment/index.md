@@ -1,5 +1,5 @@
 ---
-title: "Architecture Judgment"
+title: "Enterprise Architecture is Judgment"
 version: 0.3
 date: 2026-10-06
 description: "A good Enterprise Architect (EA) delivers the judgment, not product knowledge."

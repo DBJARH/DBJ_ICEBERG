@@ -1,5 +1,5 @@
 ---
-title: "BPT Balances the Organization at AI Speed"
+title: "Organization balance at AI Speed"
 date: 2026-09-24
 description: "The software cost risk is moved from programming to specification and verification. The B-P-T operating model is the balancing mechanism."
 tags: ["BPT", "AI-speed", "verification", "operating-model"]
