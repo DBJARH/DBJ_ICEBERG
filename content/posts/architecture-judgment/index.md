@@ -12,11 +12,11 @@ cover:
 ---
 
 
-A company's executives should not need an EA to walk them through technology. Usually the EA does more than that, but imagine here that the EA does not. What the executives need is a recommendation in this form:
+A company's executives should not need an EA to walk them through technology.  What the board room needs is a recommendation.
 
 **Do this, for this reason, and here is the price of getting it wrong.**
 
-Knowing products cannot produce such a recommendation. Judgment can, and it has to begin before any design work (see [Vocabulary](#vocabulary) for the terms used).
+EA Knowing products cannot produce such a recommendation. EA Judgment can, and the C-Room has to begin asking, before any design work begins.  (see [Vocabulary](#vocabulary) for the terms used).
 
 ## Starting with the outcomes
 
