@@ -25,4 +25,4 @@ This is where ["Resilient ROI"](https://resilientroi.com/) do earn their money. 
 
 <img src="debtberg.png" width="50%" />
 
-No. Learning DBJ Method and setting up the BPT Loop does no help on its own.
+No. Learning DBJ Method and setting up the BPT Loop does not help on its own. Face the legacy. Make the "Legacy Removal" your fist product.
