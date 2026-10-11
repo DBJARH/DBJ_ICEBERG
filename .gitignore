@@ -5,5 +5,5 @@ resources/
 .hugo_build.lock
 .claude\settings.local.json
 
-# Copy of the user-scope CLAUDE.md, made by the resident agent at session start. Never tracked.
-/.colocuting/user_scope_claude.md
+# Poor human agents chat (see dbj_poor_mans_message_bus.md) — local machine only
+.colocuting/

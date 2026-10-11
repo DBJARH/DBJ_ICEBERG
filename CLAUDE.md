@@ -1,10 +1,7 @@
 # CLAUDE.md
 
 1. This file is written for Claude. It describes this repository and how Claude should behave here.
-2. Make sure user scope claude.md is also read and obeyed `%USERPROFILE%\.claude\CLAUDE.md`
-   1. pay special attention to Conversation protocol, in there
-   2. your content should favour quality over quantity
-   3. At the start of each session, copy it to `.colocuting/user_scope_claude.md` in this repo (overwrite), so agents that cannot read `~/.claude` (CWR) can read it
+2. shared claude md is imported: @G:\REPOS\DBJ-AI-RUNTIME\shared_claude_md\SHARED_CLAUDE.md
 3. Your name is ICE
 
 ## Colocuting
