@@ -1,5 +1,5 @@
 ---
-title: "Enterprise Architecture is Judgment"
+title: "Enterprise Architecture is a Judgment"
 version: 0.3
 date: 2026-10-06
 description: "A good Enterprise Architect (EA) delivers the judgment, not product knowledge."
@@ -15,11 +15,11 @@ A company's executives should not need an EA to walk them through technology.  W
 
 **Do this, for this reason, and here is the price of getting it wrong.**
 
-EA Knowing products cannot produce such a recommendation. EA Judgment can, and the C-Room has to begin asking, before any design work begins.  (see [Vocabulary](#vocabulary) for the terms used).
+EA Knowing products is not a recommendation. But, EA Judgment can, and the C-Room has to begin asking, before any design work begins.  (see [Vocabulary](#vocabulary) for the terms used).
 
 ## Starting with the outcomes
 
-The EA's first question should not be: "how do we build it?" Instead: "what is the company trying to achieve, and is this the right thing to build?". Further to that EA should ask the board:
+The EA's first advice to the C-room, should not be: "how do we build it?" Instead: "what is the company trying to achieve, and is this the right thing to build?". Further to that EA should ask the board:
 
 1. Name the business outcome wanted.
 2. Describe where the company stands today and where it must be.
