@@ -11,9 +11,9 @@ cover:
 
 That's not a joke about forever confused CEO. It's the default state of most AI hopefuls.
 
-## Slides Induced Perpetual State of Confusion
+## AI Demo Slides Induced Perpetual State of Confusion
 
-Every vendor pitch, every all-hands, every roadmap slide is full of words everyone nods at: "agentic," "AI-native," "transformation." Nobody stops the meeting to ask what they actually mean for *this* business, *this* process, *this* P&L line.
+Every "AI" vendor pitch, every all-hands, every roadmap slide is full of words everyone nods at: "agentic," "AI-native," "transformation." Nobody stops the meeting to ask what they actually mean for *this* business, *this* process, *this* P&L line.
 
 So the nodding continues. Budgets get approved. (AI) Pilot gets funded. And six months later, nobody can explain why the thing doesn't work — because nobody could explain, at the start, what "working" was supposed to look like.
 
