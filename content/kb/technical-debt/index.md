@@ -1,10 +1,11 @@
 ---
 title: Break that Iceberg and free your true value
 description: Technical debt and knowledge preservation.
+chapters: ["bpt"]
 version: 0.1
 ---
 
-<!-- # Break that Iceberg and free your true value -->
+[**The Linkedin Post that started the idea**](https://lnkd.in/p/dftMhYPt).
 
 ## Knowledge Preservation
 
@@ -16,7 +17,7 @@ version: 0.1
 
 **Refactoring is very wide and slow circle of pain, always leading back to the beginning.**
 
-### BPT Domains are regions of gravitational pull for organization roles
+### [BPT](https://method.dbj.org/bpt/) Domains are regions of gravitational pull for organization roles
 
 * Business roles are puled to the Business Domain
 * BA roles  gravitate around the Products Domain
