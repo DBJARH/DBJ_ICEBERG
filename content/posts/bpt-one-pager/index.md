@@ -14,6 +14,8 @@ I was asked to produce a DBJ Method "one-pager" at the end of June 2026. This is
 
 > **AI makes it fast. DBJ Method makes it possible.**
 
+**Distribution of efforts to deliver the product under the pressure of AI.  Might be BTP in one sentence.**
+
 The DBJ Method gives an organisation [operational efficiency in the presence of AI](https://method.dbj.org/adoption/operational_efficiency.html). The onboarding is matured: first the organisation becomes efficient without AI, then it becomes efficient through automation and AI. AI accelerates an organisation that already runs well. It does not repair one that does not.
 
 ### 1. What is in the shop window
