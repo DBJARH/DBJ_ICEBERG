@@ -2,7 +2,12 @@
 title: Break that Iceberg and free your true value
 description: Technical debt and knowledge preservation.
 chapters: ["bpt"]
-version: 0.1
+date: 2026-10-12
+author: "Dusan Jovanovic"
+featured: true
+cover:
+  image: "separating-knowledge-from-technical-debt.png"
+version: 0.5
 ---
 
 [**The Linkedin Post that started the idea**](https://lnkd.in/p/dftMhYPt).
