@@ -14,7 +14,7 @@ version: 0.5
 
 ## Knowledge Preservation
 
-![alt text](separating-knowledge-from-technical-debt.png)
+<!-- ![alt text](separating-knowledge-from-technical-debt.png) -->
 
 ### Technical Debt is Business Value imprisoned in the Iceberg of Legacy Technology.
 
