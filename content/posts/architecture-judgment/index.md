@@ -7,6 +7,8 @@ tags: ["enterprise-architecture", "judgment"]
 author: "Dusan B. Jovanovic"
 draft: false
 featured: true
+pinned: true
+aliases: ["/posts/ai-roi/"]
 cover:
   image: "lady_architect_whiteboard.png"
 ---
