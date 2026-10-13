@@ -9,6 +9,8 @@ cover:
   image: "image.png"
 ---
 
+See also: [Agentic Agile Manifesto](/posts/dbj_agentic_agile_manifesto/), [Scrum Is a Category Error for Agentic Teams](/posts/scrum-is-a-category-error-for-agents/).
+
 The other day I stumbled upon good article (again) on the BCG (Boston Consulting Group) site:
 
 > BPT vs [Agile](#agile)
