@@ -1,5 +1,5 @@
 ---
-version:0.1
+version: 0.1
 title: Types of Legacy
 description: "In most organisations four types of legacy lean on each other. And make each other even stronger."
 date: 2026-10-10
