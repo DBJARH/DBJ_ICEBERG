@@ -2,7 +2,7 @@
 title: "The human side"
 date: 2026-10-18
 description: "Imagine marching in with a grand AI transformation plan while simultaneously making the people who possess that knowledge frightened enough to withhold it, resist you, tell you what they think you want to hear, or just leave"
-tags: []
+tags: ["ai-adoption", "change-management"]
 author: "Dusan B. Jovanovic"
 cover:
   image: "image/business_value_proposition_after_the_ai_demo.png"
