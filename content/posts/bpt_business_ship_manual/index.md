@@ -15,14 +15,14 @@ cover:
 
 > What will "give" the "competitive advantage" is the **Operational model**, in order to navigate the whole organization around that huge iceberg of legacy.
 >
-> https://method.dbj.org/shop/
+> https://method.dbj.org/bpt/bpt_operating_model.html
 >
 > OP model introduction is not simple. But its worth it. Especially if organization is small(ish) and not too calcified. Just decide on one OP model, implement it and follow it. AI or no AI.
 > 
 
 Most customers have never thought about an "operational model" as something they need to know about. BPT is new to them. So let's skip the taxonomy and use an analogy:
 
-- **[BPT](https://method.dbj.org/shop/) Operational Loop = the Flight Plan.** The strategic path. How the organization spots an opportunity, builds something, and validates it. Not a software diagram.
+- **[BPT](https://method.dbj.org/bpt/bpt_operating_model.html) Operational Loop = the Flight Plan.** The strategic path. How the organization spots an opportunity, builds something, and validates it. Not a software diagram.
 - **The Autopilot.** The AI Agents Machinery that keeps execution on course through turbulence — service crashes, timeouts, retries — without the human ship pilot manually steering every adjustment.
 
 The narrative that lands well with new customers:
@@ -33,7 +33,7 @@ The narrative that lands well with new customers:
 
 ## The Ship Analogy
 
-**TOGAF is the sextant.** The Enterprise Architect is the navigator who reads it. The C-room steers the ship. **[BPT](https://method.dbj.org/shop/bpt-logic-map.html) is the set of behavioral rules in the operational manual** — how the whole crew is expected to run things, regardless of which instruments are belowdecks.
+**TOGAF is the sextant.** The Enterprise Architect is the navigator who reads it. The C-room steers the ship. **[BPT](https://method.dbj.org/bpt/bpt_operating_model.html) is the set of behavioral rules in the operational manual** — how the whole crew is expected to run things, regardless of which instruments are belowdecks.
 
 <!-- ![The TOGAF sextant, the navigator, and the C-room steering toward the BPT operational loop](image.png) -->
 

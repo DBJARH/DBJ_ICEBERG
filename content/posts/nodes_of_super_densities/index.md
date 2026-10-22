@@ -9,7 +9,7 @@ cover:
   image: "human_agent_driver.png"
 ---
 
-Do you prefer the calm and ordered [B-P-T operational model](https://method.dbj.org/onboarding/section-03.html) to "Accidental Nodes of Super Density"?
+Do you prefer the calm and ordered [B-P-T operational model](https://method.dbj.org/bpt/bpt_operating_model.html) to "Accidental Nodes of Super Density"?
 
 > We prefer the order of B-P-T
 

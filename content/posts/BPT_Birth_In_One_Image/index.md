@@ -25,7 +25,7 @@ It's between people who can say what a process actually does and people who are 
 
 **The Operational Model Was Always Missing, AI Speed Just Made it Obvious**
 
-The [BPT](https://method.dbj.org/onboarding/section-03.html) OP model, part of the [DBJ Method](https://method.dbj.org/), doesn't add more vocabulary to nod at. If you cant say it in BPT, you dot understand it. You'renot  just nodding any more. 
+The [BPT](https://method.dbj.org/bpt/bpt_operating_model.html) OP model, part of the [DBJ Method](https://method.dbj.org/), doesn't add more vocabulary to nod at. If you cant say it in BPT, you dot understand it. You'renot  just nodding any more. 
 
 AI doesn't expose who has the best operational model. AI exposes who actually knows what that  means. 
 

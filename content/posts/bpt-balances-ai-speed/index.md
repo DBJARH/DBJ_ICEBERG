@@ -48,7 +48,7 @@ Without effective operating model, the new bottleneck sits at the edges: Busines
 
 **2. Each end of the chain has an owner.** Specification belongs to Products. Acceptance belongs to Product and the Business. Neither is left to engineers to guess at. The risk and cost is carried by the domains that can actually reduce it.
 
-**3. Mismatches travel back to their origin.** Originating these days from the Software Factory, mismatches arrive at AI speed and in greater numbers. Without a trace, every one of them looks like a Technology failure. [BPT Exceptions](https://method.dbj.org/bpt/bpt_exceptions.html) inform on the mismatch upstream with the full trace, and the [Business Decision Record](https://method.dbj.org/bpt/bdr.html) holds the *why*. The focus is on the source, not at the cheapest place to blame.
+**3. Mismatches travel back to their origin.** Originating these days from the Software Factory, mismatches arrive at AI speed and in greater numbers. Without a trace, every one of them looks like a Technology failure. [BPT Exceptions](https://method.dbj.org/bpt/bpt_exceptions.html) inform on the mismatch upstream with the full trace, and the [Business Decision Record](https://method.dbj.org/adoption/bdr.html) holds the *why*. The focus is on the source, not at the cheapest place to blame.
 
 **4. The growing middle is governed, not improvised.** . In the DBJ Method, the [DBJ ADM](https://method.dbj.org/adm/dbj_adm.html) governs that layer from above.
 

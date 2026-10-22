@@ -68,7 +68,7 @@ For readers who want the engineering framing rather than the governance one.
 
 ### The same three, in BPT terms
 
-![DBJ Taxonomy](https://method.dbj.org/assets/dbj-methodology-clogs.png)
+![DBJ Taxonomy](https://method.dbj.org/visuals/dbj_bpt/dbj-bpt-opmodel-clogs.png)
 
 - **WFL2026** — the implementation artifact. [Dapr](https://dapr.io/), [Temporal](https://temporal.io/) and relatives: code-first durable orchestration for distributed systems, promising persistent state, survived crashes, managed retries. It exists because modern applications are constellations of microservices and AI agents landing in production as containers, and something has to track where each one is *right now*. Lives entirely in **Technology (T)**. Optional.
 - **The analytical workflow** — [Cawemo](https://cawemo.com/), [BPMN](https://www.omg.org/spec/BPMN/). A description used to align stakeholders, belonging to **Product (P)**, produced by business analysts in a form the T domain can consume. **Business (B)** does not need this tool; TOGAF's Business Architecture is one segment among eight, and workflow is barely in it.

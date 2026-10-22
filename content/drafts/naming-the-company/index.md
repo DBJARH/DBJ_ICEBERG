@@ -11,7 +11,7 @@ cover:
 version: 1.2
 ---
 
-There is a company to be named. Its only product is operating method + advice: how a business applies the [DBJ Method](https://method.dbj.org/shop/). Not delivery, not staffing, not a platform. Advice on structure, sold to organizations that already feel the weight of the AI Hype upon them.
+There is a company to be named. Its only product is operating method + advice: how a business applies the [DBJ Method](https://method.dbj.org/). Not delivery, not staffing, not a platform. Advice on structure, sold to organizations that already feel the weight of the AI Hype upon them.
 
 The name has to survive being said out loud to a CEO who is late, sceptical, and has heard "transformation" too many times.
 
