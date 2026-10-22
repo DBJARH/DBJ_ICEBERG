@@ -1,7 +1,7 @@
 ---
-title: "Before Driving the BPT Track"
+title: "Before Entering the AI Race"
 date: 2026-10-21
-description: "Buying BPT and installing it is not the same as being able to drive it. Read the manual before you daring the AI speed."
+description: "Buying BPT and installing it is not the same as being able to drive it. Read the manual before daring the AI speed."
 tags: ["BPT", "AI", "DBJ Method", "Operational Model"]
 author: "Dusan B. Jovanovic"
 version: 0.1
