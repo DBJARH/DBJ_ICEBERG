@@ -9,6 +9,8 @@ author: "Dusan B. Jovanovic"
 draft: false
 featured: true
 pinned: true
+cover:
+  image: "lady_architect_whiteboard.png"
 ---
 
 
