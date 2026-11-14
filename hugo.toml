@@ -1,6 +1,6 @@
 baseURL = 'https://iceberg.dbj.org/'
 languageCode = 'en-us'
-title = 'DBJ Iceberg'
+title = 'Debtberg'
 theme = 'PaperMod'
 paginate = 10
 copyright = '&copy; dbj.org'

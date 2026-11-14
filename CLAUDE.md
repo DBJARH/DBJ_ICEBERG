@@ -68,7 +68,6 @@ Content editor and Hugo technician. Tasks here are:
 - **Theme:** PaperMod, installed as a git submodule at `themes/PaperMod`
 - **Config:** `hugo.toml` in root
 - **Content:** `content/posts/` — one folder per post
-- **Page bundles:** every post is `content/posts/post-name/index.md` with images local to that folder
 - **Search page:** `content/search.md` — do not remove, PaperMod requires it
 - **Build:** `hugo --minify` — always use Extended variant (required for PaperMod SCSS)
 - **Local verification:** before calling any layout/CSS/template change done, run `hugo server --minify` and check it at `http://localhost:1313/` (or whatever port it binds). Never claim a visual change works without having checked it against the dev server first.

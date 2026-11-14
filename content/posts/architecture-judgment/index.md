@@ -9,8 +9,8 @@ draft: false
 featured: true
 pinned: false
 aliases: ["/posts/ai-roi/"]
-# cover:
-#  image: "../legacy_types/debtberg-1200x600.png"
+cover:
+  image: "debtberg.png"
 ---
 
 A company's executives should not need an EA to walk them through the business.  What the board room needs is a advice how to survive the technology decision.
