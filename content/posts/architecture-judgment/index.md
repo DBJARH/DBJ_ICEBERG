@@ -2,7 +2,7 @@
 title: "Enterprise Architecture is a Judgment"
 version: 0.3
 date: 2026-10-06
-description: "A good Enterprise Architect (EA) delivers the judgment, not product knowledge."
+description: "A good Enterprise Architect (EA) delivers the judgment about balance, not product knowledge."
 tags: ["enterprise-architecture", "judgment"]
 author: "Dusan B. Jovanovic"
 draft: false
@@ -10,10 +10,10 @@ featured: true
 pinned: false
 aliases: ["/posts/ai-roi/"]
 cover:
-  image: "lady_architect_whiteboard.png"
+  image: "../legacy_types/debtberg-1200x600.png"
 ---
 
-A company's executives should not need an EA to walk them through technology.  What the board room needs is a recommendation.
+A company's executives should not need an EA to walk them through the business.  What the board room needs is a advice how to survive the technology decision.
 
 **Do this, for this reason, and here is the price of getting it wrong.**
 
