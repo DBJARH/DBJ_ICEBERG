@@ -1,5 +1,5 @@
 {{- with .cxt}} {{/* Apply proper context from dict */}}
-{{- $defaultCover := "/default-cover-image/ai-or-iceberg.png" }}
+{{- $defaultCover := "/default-cover-image/default_cover_image.png" }}
 {{- $hasCover := or .Params.cover.image $defaultCover }}
 {{- if (and $hasCover (not $.isHidden)) }}
 <figure class="entry-cover">

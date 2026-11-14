@@ -7,7 +7,7 @@
       {{- else if .Params.cover.image }}
       <img loading="lazy" src="{{ .Params.cover.image | absURL }}" alt="{{ .Params.cover.alt | default .Title }}">
       {{- else }}
-      <img loading="lazy" src="{{ "/default-cover-image/ai-or-iceberg.png" | absURL }}" alt="{{ .Title }}">
+      <img loading="lazy" src="{{ "/default-cover-image/default_cover_image.png" | absURL }}" alt="{{ .Title }}">
       {{- end }}
     </div>
     <div class="home-grid-title">{{ .Title }}</div>
