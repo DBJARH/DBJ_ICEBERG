@@ -21,7 +21,7 @@ EA Knowing products is not a recommendation. But, EA Judgment can, and the C-Roo
 
 ## Starting with the outcomes
 
-The EA's first advice to the C-room, should not be: "how do we build it?" Instead: "what is the company trying to achieve, and is this the right thing to build?". Further to that EA should ask the board:
+The C-room first ask to the EA, should not be: "how do we build it?" Instead, allow EA to ask: "what is the company trying to achieve, and is this the right thing to build?". Further to that EA should also ask the board:
 
 1. Name the business outcome wanted.
 2. Describe where the company stands today and where it must be.
