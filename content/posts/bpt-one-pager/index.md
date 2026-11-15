@@ -14,7 +14,7 @@ I was asked to produce a DBJ Method "one-pager" at the end of June 2026. This is
 
 > **AI makes it fast. DBJ Method makes it possible.**
 
-**Distribution of efforts to deliver the product under the pressure of AI.  Might be BTP in one sentence.**
+**Distribution of efforts to deliver the product under the pressure of AI.** .  The BPt in one sentence.
 
 The DBJ Method gives an organisation [operational efficiency in the presence of AI](https://method.dbj.org/adoption/operational_efficiency.html). The onboarding is matured: first the organisation becomes efficient without AI, then it becomes efficient through automation and AI. AI accelerates an organisation that already runs well. It does not repair one that does not.
 
@@ -51,8 +51,8 @@ The TOGAF ADM (Architecture Development Method) is an endless loop of nine phase
 The [DBJ ADM](https://method.dbj.org/adm/dbj_adm.html) cuts it to five steps: Strategy & Motivation, Business, Application, Technology, Implementation & Migration. Each step produces one written deliverable, and Requirements Management sits at the hub.
 
 *   The Business is at the helm of the wheel. Enterprise Architecture is "just" the navigator.
-*   The wheel authorises delivery. It never delivers. The BPT loop delivers.
-*   The wheel turns only at DBJ CMM L5. Below that, there is nothing to steer.
+*   The wheel authorizes delivery. It never delivers. The BPT loop delivers.
+*   The wheel starts only at DBJ CMM L3. Below that, there is nothing to steer.
 
 TOGAF gives structural integrity but stays underneath. Organization roles never see its complexity directly.
 
