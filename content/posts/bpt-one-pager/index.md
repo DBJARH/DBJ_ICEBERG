@@ -16,8 +16,6 @@ I was asked to produce a DBJ Method "one-pager" at the end of June 2026. This is
 
 **Distribution of efforts to deliver the product under the pressure of AI.** .  The BPt in one sentence.
 
-The DBJ Method gives an organisation [operational efficiency in the presence of AI](https://method.dbj.org/adoption/operational_efficiency.html). The onboarding is matured: first the organisation becomes efficient without AI, then it becomes efficient through automation and AI. AI accelerates an organisation that already runs well. It does not repair one that does not.
-
 ### 1. What is in the shop window
 
 Two things: the **DBJ CMM** and the **BPT**. The first is a mandate on people, the second an organisational structure.
@@ -70,11 +68,15 @@ If I am to self-critique the *application* of the DBJ Method, the friction lies 
 
 To "buy" what the DBJ Method is selling, a legacy organisation's the board room, must accept that software is not a series of projects to be finished, but products to be delivered. The board must also accept that the organisation is measured by what its people are now able to deliver, not by what they delivered last quarter. Also, adopters have to authorise the Architecture authority to say "No" until the boundaries are drawn. In most legacy companies the loudest voices (sales, marketing) sit on the opposing feature side. Giving a quiet, overarching architecture function the power to block them takes executive backbone that is rare.
 
-### Summary
+### AI? Not yet.
 
-The idea behind the DBJ Method is a **highly disciplined, almost ascetic approach to the (AI-enabled) organisation**. It strips away the buzzwords, rejects the feature-factory mindset, and demands mature people before any delivery and before any AI. It is Enterprise Architecture stripped of its enterprise bloat, and weaponised for companies drowning in their own unplanned, AI-driven not-growth.
+The DBJ Method gives an organisation [operational efficiency in the presence of AI](https://method.dbj.org/adoption/operational_efficiency.html). After the onboarding the organisation becomes efficient without AI, then it becomes efficient through automation and AI. AI accelerates an organisation that already runs well. AI does not repair legacy organizations.
 
-I know the DBJ Method is brilliant. But it requires ruthless commitment and discipline to actually work.
+The very first effort hast to be removal of the Technical Debt and Legacy processes. Adding AI solution on top of technical debt will only mean more technical debt. Now is the perfect time to remove it. The team is ready and wheels are turning.
+
+The idea behind the DBJ Method is a **highly disciplined, almost ascetic approach to the (AI-enabled) organisation**. It strips away the buzzwords, rejects the feature-factory mindset, and demands mature people before any delivery and before any AI. It is Enterprise Architecture stripped of its enterprise bloat, and weaponized for companies drowning in their own unplanned, not-AI-driven not-growth.
+
+The DBJ Method might be brilliant. But it requires ruthless commitment and discipline to actually work.
 
 ![Operational efficiency at AI speeds: the BPT loop with domain storage and its prerequisites](bpt-meta-loop-complex.png)
 
