@@ -1,6 +1,7 @@
 ---
 title: "Important: Resemblance Is Not Lineage"
 date: 2026-07-18
+version: 0.1
 draft: false
 description: "Someone claimed DBJ Taxonomy maps to Zachman's layers. It doesn't"
 tags: ["DBJ", "Taxonomy", "Zachman", "TOGAF"]

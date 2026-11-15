@@ -1,6 +1,7 @@
 ---
 title: "The Danger-Kruger Peak"
 date: 2026-06-13
+version: 0.1
 description: "AI is needed and used most by those who do not understand the importance of learning and self-development"
 tags: ["agents", "architecture", "DBJ Method", "AI"]
 author: "Dusan B. Jovanovic"

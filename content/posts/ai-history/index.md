@@ -1,6 +1,7 @@
 ---
 title: "Neocognitron: AI Lore From 1979"
 date: 2026-02-05
+version: 0.1
 description: "Kunihiko Fukushima's Neocognitron in 1979, WABOT-1 in 1973, and the deep roots of what is being sold as new."
 tags: ["AI", "history"]
 author: "Dusan B. Jovanovic"

@@ -1,6 +1,7 @@
 ---
 title: "Remember the Unicorn?"
 date: 2026-06-09
+version: 0.1
 description: "AI slop doesn't kill quality work. It makes it invisible. That's worse."
 tags: ["AI", "content", "quality"]
 author: "Dusan B. Jovanovic"

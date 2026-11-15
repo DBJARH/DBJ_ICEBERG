@@ -1,6 +1,7 @@
-﻿---
+---
 title: "Feature, Not a Bug"
 date: 2026-05-27
+version: 0.1
 description: "LLMs compound prediction errors into hallucinations — and you pay for the noise bundled with the signal."
 tags: ["AI", "LLM", "hallucination"]
 author: "Dusan B. Jovanovic"

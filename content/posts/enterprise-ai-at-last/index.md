@@ -1,6 +1,7 @@
 ---
 title: "Enterprise AI, at Last"
 date: 2026-08-02
+version: 0.1
 description: "EU vendor on-premises model normalises LLM infrastructure the same way RDBMS was normalised in the 1990s. The procurement model is finally familiar to the C-Room"
 tags: ["AI", "enterprise-architecture", "sovereignty", "LLM"]
 author: "Dusan B. Jovanovic"

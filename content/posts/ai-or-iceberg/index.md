@@ -1,6 +1,7 @@
 ---
 title: "AI or Iceberg: EA as Navigator"
 date: 2026-03-06
+version: 0.1
 description: "Clear roles, clear communication, safe sailing. How DBJ.METHOD addresses the structural risks AI amplifies."
 tags: ["enterprise-architecture", "AI", "TOGAF", "governance"]
 author: "Dusan B. Jovanovic"

@@ -1,8 +1,9 @@
 ---
 title: "The .taxonomy File"
 date: 2026-08-01
+version: 0.1
 description: "A dotfile that tells tools and agents where a folder sits in the company information space."
-tags: ["taxonomy", "engineering", "agents"]
+tags: ["Taxonomy", "engineering", "agents"]
 author: "Dusan B. Jovanovic"
 cover:
     image: dbj_taxonomy_officer.png

@@ -1,6 +1,7 @@
 ---
 title: "Fake It Until You Make It: Coding Monkeys vs. AI Architects"
 date: 2026-06-08
+version: 0.1
 description: "One team ships broken code hoping it works. The other won't write a line without four weeks of spec. Both are wrong."
 tags: ["AI", "software-development", "enterprise-architecture"]
 author: "Dusan B. Jovanovic"

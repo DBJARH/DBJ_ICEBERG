@@ -1,6 +1,7 @@
 ---
 title: "BPT Birth In One Image"
 date: 2026-06-21
+version: 0.1
 description: "Every executive nods along to AI buzzwords. Few ask what they mean. BPT is born so that the nodding stops."
 tags: ["BPT", "AI", "DBJ Method", "Operational Model"]
 author: "Dusan B. Jovanovic"
@@ -29,7 +30,7 @@ The [BPT](https://method.dbj.org/bpt/bpt_operating_model.html) OP model, part of
 
 AI doesn't expose who has the best operational model. AI exposes who actually knows what that  means. 
 
-Get that right side image part right first, in your organization. It is not "one week" introm but do deploy the [BPT Operational Model](https://method.dbj.org/bpt). With all the crew on the [CMM Level 5](https://method.dbj.org/cmm#levels), as a precondition. The horizon will widen dramaticaly.
+Get that right side image part right first, in your organization. It is not "one week" introm but do deploy the [BPT Operational Model](https://method.dbj.org/bpt). With all the crew on the [CMM Level 5](https://method.dbj.org/cmm/dbj_cmm.html#levels), as a precondition. The horizon will widen dramaticaly.
 
 Funny as it seems, that right side of this image is the one that is a true picture of three roles enjoying the BPT OP model. While having the coffee in the pause of confusing presentation.
 

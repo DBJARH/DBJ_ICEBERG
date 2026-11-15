@@ -3,7 +3,7 @@ title: "Why DBJ Method"
 version: 0.1
 date: 2026-10-22
 description: "Why the DBJ Method exists, what problem it solves, and how its motivation compares to TOGAF's."
-tags: ["DBJ Method", "togaf", "enterprise-architecture"]
+tags: ["DBJ Method", "TOGAF", "enterprise-architecture"]
 chapters: ["method"]
 author: "Dusan B. Jovanovic"
 draft: false

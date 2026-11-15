@@ -1,6 +1,7 @@
 ---
 title: "Agile BPT"
 date: 2026-07-16
+version: 0.1
 draft: false
 description: "Are BPT adopters Agile?"
 tags: ["BPT", "agile", "BCG"]

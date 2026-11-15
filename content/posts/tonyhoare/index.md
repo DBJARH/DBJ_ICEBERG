@@ -1,6 +1,7 @@
 ---
 title: "A Tribute to C.A.R. Hoare"
 date: 2026-02-01
+version: 0.1
 description: "The paper everyone forgot — almost. On Hoare's 1966 record handling"
 tags: ["software-history", "architecture", "rust", "C"]
 author: "Dusan B. Jovanovic"

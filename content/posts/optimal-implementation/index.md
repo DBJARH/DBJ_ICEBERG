@@ -1,6 +1,7 @@
 ---
 title: "What You Are Looking For Is Optimal Implementation"
 date: 2026-06-07
+version: 0.1
 description: "A senior engineer writes it once. An AI agent generates until it stumbles upon something. These are not the same thing."
 tags: ["AI", "software-development", "enterprise-architecture"]
 author: "Dusan B. Jovanovic"

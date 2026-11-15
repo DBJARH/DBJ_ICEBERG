@@ -1,6 +1,7 @@
 ---
 title: "Durable Execution Is Not a Workflow"
 date: 2026-07-30
+version: 0.1
 description: "It solves one narrow problem — software forgets everything when it crashes. It borrowed the word \"workflow\" on the way, and that has cost more clarity than the technology is worth."
 tags: ["workflow", "durable execution", "architecture"]
 author: "Dusan B. Jovanovic"

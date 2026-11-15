@@ -1,6 +1,7 @@
 ---
 title: "AI on an Old Operating Model"
 date: 2026-06-04
+version: 0.1
 description: "AI-readiness is an operating model question, not a technology question. Bolting AI onto a 2003 operating model does not produce transformation — it accelerates dysfunction."
 tags: ["AI", "BPT", "operating-model", "enterprise-architecture", "DBJ Method"]
 author: "Dusan B. Jovanovic"

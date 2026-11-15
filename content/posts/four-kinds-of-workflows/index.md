@@ -1,6 +1,7 @@
 ---
 title: "Workflow Species"
 date: 2026-07-30
+version: 0.1
 description: "\"Workflow\" names (at least) three different things your organization owns. Confusing them is why engineering tools get mistaken for strategy."
 tags: ["BPT", "architecture", "DBJ Method", "workflow"]
 author: "Dusan B. Jovanovic"

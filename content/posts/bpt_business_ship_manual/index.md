@@ -1,6 +1,7 @@
 ---
 title: "The Business Ship Manual"
 date: 2026-06-15
+version: 0.1
 description: "BPT explained through one analogy: the bridge, the engine room, and the operational manual the whole ship runs on."
 tags: ["BPT", "architecture", "DBJ Method", "workflow"]
 author: "Dusan B. Jovanovic"

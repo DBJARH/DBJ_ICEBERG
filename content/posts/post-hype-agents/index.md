@@ -1,14 +1,13 @@
 ---
 title: "Post-Hype Agents"
 date: 2026-06-01
+version: 0.1
 description: "A pragmatic, engineering-first definition of agentic architectures — policy-controlled, deterministic-adjacent task handlers, not autonomous magic."
 tags: ["agents", "architecture", "DBJ Method", "AI"]
 author: "Dusan B. Jovanovic"
 cover:
   image: "post-hype-agents.png"
 ---
-
-# Post Hype Agents
 
 This document defines a pragmatic, engineering-first approach to "Agentic" architectures, aligning them with the rigorous standards of the **DBJ Method** as established at **DBJ.ORG**. 
 

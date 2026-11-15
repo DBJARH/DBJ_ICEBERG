@@ -1,6 +1,7 @@
 ---
 title: "Why revisit it now?"
 date: 2026-07-19
+version: 0.1
 draft: false
 description: "Revisiting a 2019 idea: VALSTAT, a value-and-status alternative to C++ error handling — and why the AND still holds up."
 tags: ["C++", "VALSTAT", "Error Handling", "DBJ"]

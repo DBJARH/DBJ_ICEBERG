@@ -1,6 +1,7 @@
 ---
 title: "Do we have the right set of skills"
 date: 2026-07-01
+version: 0.1
 description: "Skill is a runtime artifact, not a deployment one — and that's the key theme keeping the whole agent harness non-deterministic."
 tags: ["agents", "architecture", "AI"]
 author: "Dusan B. Jovanovic"

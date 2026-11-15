@@ -1,6 +1,7 @@
 ---
 title: 'SuperPlane: The Bridge Over the "Glue Abyss"'
 date: 2026-07-13
+version: 0.1
 description: "An open-source event-driven control plane for platform engineering — and what it gets right about operational workflows."
 tags: ["platform engineering", "open source", "AI", "DevOps"]
 author: "Dusan B. Jovanovic"

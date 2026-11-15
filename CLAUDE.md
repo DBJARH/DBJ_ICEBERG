@@ -9,6 +9,18 @@
 - agent to agent and human, communication artefacts are in this folder: .colocuting
 - description is here https://github.com/DBJARH/dbj_theoria_mundi_de_architectorum/blob/main/harness_2_harness_over_devenv/dbj_poor_mans_message_bus.md
 
+## DBJ_VERTICAL_KANBAN (v_kanban)
+
+Open items that must not stop the work go to `.colocuting/v_kanban.md`, tracked in git. It is private: outside `content/`, never published. The detail stays where it is; the kanban only links to it, with paths relative to the file (`../content/...`). Items are solved in a later release.
+
+1. One single table, three columns: `UID_TIMESTAMP`, `status`, `comments`.
+2. `UID_TIMESTAMP` is `NNN-YYYY-MMM-DD`, e.g. `001-2026-SEP-21`: a running number plus the date the item was raised. Never reused.
+3. `status` comes from the kanban's own front matter: the `statuses` list, with the markup to copy in the comment above it. Do not keep a second copy of that list here.
+4. `comments` holds the detail: one or two sentences, with links to the files and lines concerned.
+5. Vertical: future is up, past is down. `tbd` rows on top, then `doing`, then `done`.
+6. Any agent adds a row when it finds something it must not decide alone. Rows are rearranged live, on request.
+7. **Mandate.** Every agent uses `.colocuting/v_kanban.md` to track changes, audits, findings, discrepancies and questions for DBJ. Do not create separate audit, report or notes files for them.
+
 ## What This Repo Is
 
 **DBJ_ICEBERG** is the specialised KB and blog of DBJ Method — EA AI ROI advice for SMEs navigating AI adoption. Decoupled from method.dbj.org, integral to it.

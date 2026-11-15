@@ -1,6 +1,7 @@
 ---
 title: "Accidental Nodes of Super Densities"
 date: 2026-06-23
+version: 0.1
 description: "We need to prove this can not be a software product team. Or do we?"
 tags: ["AI", "Team", "New Shape of Things", "B-P-T role is not clear. Or is it not?"]
 author: "Dusan B. Jovanovic"

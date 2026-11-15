@@ -1,6 +1,7 @@
 ---
 title: "Most Valuable Architecture"
 date: 2026-02-27
+version: 0.1
 description: "CMM → MVA → AI → ROI. Stop funding experiments. Start building equity."
 tags: ["enterprise-architecture", "AI", "technical-debt", "ROI"]
 author: "Dusan B. Jovanovic"
