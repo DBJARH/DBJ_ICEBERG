@@ -9,9 +9,11 @@ cover:
     image: dbj_taxonomy_officer.png
 ---
 
-DBJ Taxonomy defines the language for coordinates of the infospace. Content nobody can locate is content nobody finds.
+> HINT: This is a just a conceptual suggestion
 
-> Taxonomy defines the locations on the map the business holds firmly in its hand.
+DBJ Taxonomy defines the language for location coordinates of the organization infospace. Content nobody can locate is content nobody finds.
+
+> Taxonomy defines the locations on the map the business holds firmly in its possession.
 >
 > **Taxonomy is the language used for programming infospace navigation instruments**
 
