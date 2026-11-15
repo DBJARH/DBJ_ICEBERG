@@ -6,4 +6,7 @@ resources/
 .claude\settings.local.json
 
 # Poor human agents chat (see dbj_poor_mans_message_bus.md) — local machine only
-.colocuting/
+.colocuting/*
+# except these two: tracked so ICE and Claude can message through git
+!.colocuting/v_kanban.md
+!.colocuting/transcript.json
