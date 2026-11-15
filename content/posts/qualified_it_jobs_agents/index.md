@@ -1,8 +1,7 @@
 ---
-title: "Lack of skills"
+title: "Lack of Enterprise Architecture Skills"
 date: 2026-08-03
 version: 0.1
-aliases: ["/posts/quaified_it_jobs_agents/"]
 description: "IT industry lacks Enterprise Architecture skills"
 tags: ["hiring", "skills", "enterprise-architecture"]
 author: "Dusan B. Jovanovic"
