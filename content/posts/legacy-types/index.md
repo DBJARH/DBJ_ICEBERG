@@ -6,7 +6,7 @@ date: 2026-10-10
 tags: ["legacy", "technical", "debt"]
 author: "Dusan B. Jovanovic"
 cover:
-  image: "debterg-1200x600.png"
+  image: "debtberg-1200x600.png"
 ---
 
 Tech debt is not the only debt. There are four kinds, and they prop each other up.
@@ -18,11 +18,11 @@ Tech debt is not the only debt. There are four kinds, and they prop each other u
 
 Bolt AI on top and none of this goes away. AI inherits all four debts and makes the fallout faster. A shiny new platform won't save you.
 
-This is where ["Resilient ROI"](https://resilientroi.com/) do earn their money. Not by demanding poor engineers (who else?) clear every debt first . But by telling business leaders which debts they can live with (and for how long), which one kills the AI investment.And what will it actually costs to service the rest of company landscape.
+This is where ["Resilient ROI"](https://resilientroi.com/) earn their money. Not by demanding poor engineers (who else?) clear every debt first . But by telling business leaders which debts they can live with (and for how long), which one kills the AI investment.And what will it actually costs to service the rest of company landscape.
 
 ---
 
 
 <img src="debtberg.png" width="50%" />
 
-No. Learning DBJ Method and setting up the BPT Loop does not help on its own. Face the legacy. Make the "Legacy Removal" your fist product.
+No. Learning DBJ Method and setting up the BPT Loop does not help on its own. Face the legacy. Make the "Legacy Removal" your first product.

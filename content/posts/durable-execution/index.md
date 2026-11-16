@@ -70,7 +70,7 @@ For most of the computing history this was called a **long-running transactions*
 - **[Sagas](https://sigmodrecord.org/1987/12/09/sagas/)** (1987) — Garcia-Molina and Salem, SIGMOD. A long transaction is broken into steps, each with a compensating action to undo it, because holding database locks for hours is not viable. This is still the reference model for the problem.
 - **TP monitors** — [CICS](https://www.ibm.com/products/cics-transaction-server), [Tuxedo](https://www.oracle.com/middleware/technologies/tuxedo.html) and relatives ran long-lived, recoverable business transactions in production for decades, with transaction logs and automatic restart. 
 - **[WS-BPEL](https://docs.oasis-open.org/wsbpel/2.0/OS/wsbpel-v2.0-OS.html) / WS-Transaction** (early 2000s) — the same idea in the web-services era. Business Process Execution Language: an OASIS standard (2.0 ratified 2007) in which the process is declared as an XML document and handed to an engine to execute. The engine owns the state, the retries and the recovery — exactly the guarantee durable execution sells today.
-- **Java EE, BPEL engines, Camunda** — the enterprise lineage the [taxonomy table]({{< relref "/posts/four-kinds-of-workflows" >}}#the-two-axes) already lists under durable `macroflow` as we call it in this doc.
+- **Java EE, BPEL engines, Camunda** — the enterprise lineage the [taxonomy table]({{< relref "/posts/four-kinds-of-workflows" >}}#the-two-axes) already lists under durable `macroflow` (our private label for the business-process kind, see [below](#on-coining-a-better-word)).
 
 ### None of that was called "durable execution"
 
@@ -96,7 +96,7 @@ What practitioners actually use circa 2026:
 - **"workflow-as-code"** — to contrast with visual/BPMN modeling
 
 
-![alt text](durablexecution.png)
+![Durable execution](durablexecution.png)
 
 The conclusion this post already rests on: **"durable execution"** is the closest thing to an industry-standard term for this narrow scope, and it is worth adopting rather than coining past. But: it is not a workflow.
 

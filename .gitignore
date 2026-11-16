@@ -9,4 +9,5 @@ resources/
 .colocuting/*
 # except these two: tracked so ICE and Claude can message through git
 !.colocuting/v_kanban.md
+!.colocuting/v_kanban_backup_*.md
 !.colocuting/transcript.json

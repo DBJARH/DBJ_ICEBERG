@@ -24,7 +24,7 @@ SuperPlane is an open-source attempt to fix that at the source: a control plane 
 
 **The 'significant others'** [GitHub Actions](https://github.com/features/actions) is per-repo with no approval gates. [Argo](https://argoproj.github.io/workflows/) is Kubernetes-native and data-pipeline-focused. [Temporal](https://temporal.io/) is powerful but developer-facing — you write code, not a workflow graph. 
 
-SuperPlane targets the operator who needs to model a process spanning multiple systems without hand-rolling a distributed state machine.  Thanks to SuperPlane, the person actually running the process, and just documenting it.
+SuperPlane targets the operator who needs to model a process spanning multiple systems without hand-rolling a distributed state machine.  With SuperPlane, the person actually running the process models it, instead of only documenting it.
 
 **Simplicity**. Container-first: Go/TypeScript/Postgres, Apache 2.0. One Docker command to try it locally; single-host or Kubernetes for production.
 

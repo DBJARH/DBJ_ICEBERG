@@ -3,7 +3,7 @@ title: "The .taxonomy File"
 date: 2026-08-01
 version: 0.1
 description: "A dotfile that tells tools and agents where a folder sits in the company information space."
-tags: ["Taxonomy", "engineering", "agents"]
+tags: ["DBJ Taxonomy", "engineering", "agents"]
 author: "Dusan B. Jovanovic"
 cover:
     image: dbj_taxonomy_officer.png
@@ -17,7 +17,7 @@ DBJ Taxonomy defines the language for location coordinates of the organization i
 >
 > **Taxonomy is the language used for programming infospace navigation instruments**
 
-The `.taxonomy` file connects the abstract taxonomy to actual content. It declares a taxonomy location using the [DBJ Core Taxonomy](https://method.dbj.org/taxonomy_core.html#core) key-words. Any kind of content: repositories of documents, images, specifications.
+The `.taxonomy` file connects the abstract taxonomy to actual content. It declares a taxonomy location using the [DBJ Core Taxonomy](https://method.dbj.org/taxonomy/taxonomy_core.html#core) key-words. Any kind of content: repositories of documents, images, specifications.
 
 ## Format
 

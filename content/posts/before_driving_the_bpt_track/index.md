@@ -3,6 +3,7 @@ title: "Before Entering the AI Race"
 date: 2026-10-21
 description: "Buying BPT and installing it is not the same as being able to drive it. Read the manual before daring the AI speed."
 tags: ["BPT", "AI", "DBJ Method", "Operational Model"]
+chapters: ["bpt"]
 author: "Dusan B. Jovanovic"
 version: 0.1
 cover:
@@ -15,7 +16,7 @@ Buying the car is the easy part. Anyone can procure a BPT platform, an AI subscr
 
 ![Who owns the racing AI?](media/who-owns-the-racing-ai.jpg)
 
-AI  speed engine with no named driver is a liability sitting in the annual report, not an asset on the market. If "Owner" is still "TBD" when someone turns the key, the manual's first chapter was never opened. Operating method ownership isn't a detail to backfill slide set once the pilot is already running — it's the precondition for everything after it, per the [BPT Operating Model](https://method.dbj.org/bpt/bpt_operating_model.html).
+AI  speed engine with no named driver is a liability sitting in the annual report, not an asset on the market. If "Owner" is still "TBD" when someone turns the key, the manual's first chapter was never opened. Operating method ownership isn't a detail to backfill once the pilot is already running — it's the precondition for everything after it, per the [BPT Operating Model](https://method.dbj.org/bpt/bpt_operating_model.html).
 
 ## An Automated Chef Still Needs a Human Made Recipe
 
@@ -37,4 +38,4 @@ This is what driving without the racing track looks like at speed: a capable eng
 
 ## Somebody Forgot the Fast Lane Manual
 
-It's the difference between arriving at AI speed and finding out, the hard way; what's waiting at the end needs the manual. Read the [BPT Operating Model](https://method.dbj.org/bpt/bpt_operating_model.html) before the next AI pilot — not after it stays on the starting line,
+It's the difference between arriving at AI speed and finding out, the hard way; what's waiting at the end needs the manual. Read the [BPT Operating Model](https://method.dbj.org/bpt/bpt_operating_model.html) before the next AI pilot — not after the pilot is already stuck on the starting line.

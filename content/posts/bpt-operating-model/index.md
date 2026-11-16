@@ -3,7 +3,8 @@ title: "AI on an Old Operating Model"
 date: 2026-06-04
 version: 0.1
 description: "AI-readiness is an operating model question, not a technology question. Bolting AI onto a 2003 operating model does not produce transformation — it accelerates dysfunction."
-tags: ["AI", "BPT", "operating-model", "enterprise-architecture", "DBJ Method"]
+tags: ["AI", "BPT", "Operational Model", "enterprise-architecture", "DBJ Method"]
+chapters: ["bpt"]
 author: "Dusan B. Jovanovic"
 cover:
   image: "old-cart-new-engine.png"
@@ -19,11 +20,11 @@ AI-readiness is not a technology procurement question. It is not about which mod
 
 AI-readiness is an **operating model question**.
 
-The DBJ Method is explicit on this: before an organization can extract value from AI, it must be able to absorb AI. That requires processes that are defined, measurable, and owned. It requires decision rights that are clear. It requires data that is governed and trusted. None of that is delivered by the AI vendor. All of it is the product of deliberate operating model work — Business Process Transformation.
+The DBJ Method is explicit on this: before an organization can extract value from AI, it must be able to absorb AI. That requires processes that are defined, measurable, and owned. It requires decision rights that are clear. It requires data that is governed and trusted. None of that is delivered by the AI vendor. All of it is the product of deliberate operating model work, the BPT operating model.
 
 ## BPT Is the Prerequisite
 
-Business Process Transformation is not modernization for its own sake. It is the structural work that makes an organization capable of operating differently. It answers the questions that AI cannot answer for you:
+BPT (Business, Product, Technology) is not modernization for its own sake. It is the structural work that makes an organization capable of operating differently. It answers the questions that AI cannot answer for you:
 
 - Which processes are worth automating, and which are broken in ways that automation will only make faster?
 - Who owns the output when an AI system produces it?

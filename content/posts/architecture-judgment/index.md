@@ -13,15 +13,15 @@ cover:
   image: "debtberg.png"
 ---
 
-A company's executives should not need an EA to walk them through the business.  What the board room needs is a advice how to survive the technology decision.
+A company's executives should not need an EA to walk them through the business.  What the board room needs is advice on how to survive the technology decision.
 
 **Do this, for this reason, and here is the price of getting it wrong.**
 
-EA Knowing products is not a recommendation. But, EA Judgment can, and the C-Room has to begin asking, before any design work begins.  (see [Vocabulary](#vocabulary) for the terms used).
+Knowing products is not a recommendation. Judgment is one, and the C-Room has to begin asking for it before any design work begins.  (see [Vocabulary](#vocabulary) for the terms used).
 
 ## Starting with the outcomes
 
-The C-room first ask to the EA, should not be: "how do we build it?" Instead, allow EA to ask: "what is the company trying to achieve, and is this the right thing to build?". Further to that EA should also ask the board:
+The first question the C-room asks the EA should not be: "how do we build it?" Instead, allow EA to ask: "what is the company trying to achieve, and is this the right thing to build?". Further to that EA should also ask the board:
 
 1. Name the business outcome wanted.
 2. Describe where the company stands today and where it must be.
@@ -34,7 +34,7 @@ The C-room first ask to the EA, should not be: "how do we build it?" Instead, al
 
 Only after that does the central work begin. The EA lays out the candidate paths, estimates what each costs, lists its risks and what it gives up, and follows each choice through to its consequences.
 
-Then the EA should commits to one path and explain why.
+Then the EA should commit to one path and explain why.
 
 > **The AI Context:** the options include "do not use AI here" and "use something cheaper than AI". Each AI option carries its own costs (compute, data preparation, people) and risks (wrong answers, data leaks), and they must be weighed like any other.
 

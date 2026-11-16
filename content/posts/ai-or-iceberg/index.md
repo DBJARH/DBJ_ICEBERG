@@ -47,4 +47,4 @@ Before entering the BPT continuous product loop.
 
 Without EA strategic guidance, AI will custom-build what should be bought off the shelf. In the DBJ Method, Enterprise Architecture is the meta-layer governing the BPT Loop:  Business, Product, Technology in continuous cycle.
 
-Under the DBJ EA guidance, the client organization's decides *why* gets built and then *what*. Only then AI-assisted engineering accelerates the *how*, within those rails.
+Under the DBJ EA guidance, the client organization decides *why* gets built and then *what*. Only then AI-assisted engineering accelerates the *how*, within those rails.

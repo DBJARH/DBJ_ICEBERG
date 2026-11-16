@@ -2,7 +2,7 @@
 title: "A Tribute to C.A.R. Hoare"
 date: 2026-02-01
 version: 0.1
-description: "The paper everyone forgot — almost. On Hoare's 1966 record handling"
+description: "The paper everyone forgot — almost. On Hoare's 1965 record handling"
 tags: ["software-history", "architecture", "rust", "C"]
 author: "Dusan B. Jovanovic"
 draft: false
@@ -25,7 +25,7 @@ This concept was highly influential and was directly implemented in the programm
 
 He wasn't thinking about objects sending messages to each other. He was thinking about something much simpler: data with a type tag, and code that switches on that tag. Example (Pascal-style Variant Record):
 
-```javascript
+```pascal
 type
   ShapeTag = (Circle, Square, Triangle);
   Shape = record

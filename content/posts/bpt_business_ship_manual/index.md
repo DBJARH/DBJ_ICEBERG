@@ -4,6 +4,7 @@ date: 2026-06-15
 version: 0.1
 description: "BPT explained through one analogy: the bridge, the engine room, and the operational manual the whole ship runs on."
 tags: ["BPT", "architecture", "DBJ Method", "workflow"]
+chapters: ["bpt"]
 author: "Dusan B. Jovanovic"
 cover:
   image: "ai-or-iceberg.png"
@@ -38,7 +39,7 @@ The narrative that lands well with new customers:
 
 <!-- ![The TOGAF sextant, the navigator, and the C-room steering toward the BPT operational loop](image.png) -->
 
-To be allowed on the bridge, crew must pass the DBJ CMM course. Based on TOGAF CMM, but adjusted for the business, So that the whole ship operates at CMM Level 5 — not just the navigator.
+To be allowed on the bridge, crew must pass the DBJ CMM course. Based on TOGAF CMM, but adjusted for the business, so that the whole ship operates at CMM L3 or above, with L5 as the target — not just the navigator.
 
 <!-- Below deck, in the **Technology engine room**, is where the technical artifact live: services, microservices and agents it coordinates, encrypted comms, stateful storage, modern low level "workflows as code". None of it is visible from the bridge, and none of it should need to be. -->
 

@@ -4,7 +4,7 @@ date: 2026-07-18
 version: 0.1
 draft: false
 description: "Someone claimed DBJ Taxonomy maps to Zachman's layers. It doesn't"
-tags: ["DBJ", "Taxonomy", "Zachman", "TOGAF"]
+tags: ["DBJ Method", "DBJ Taxonomy", "Zachman", "TOGAF"]
 author: "Dusan B. Jovanovic"
 cover:
   image: "some_shape_different_origin.png"
@@ -22,7 +22,7 @@ Sounds credible. Sadly, it isn't true.
 
 ## What's actually described by the DBJ Taxonomy
 
-[method.dbj.org/taxonomy_core.html](https://method.dbj.org/taxonomy_core.html) is organized around a small hierarchy with four top-level categories.
+[method.dbj.org/taxonomy_core.html](https://method.dbj.org/taxonomy/taxonomy_core.html) is organized around a small hierarchy with four top-level categories.
 
 Nowhere does it cite Zachman. Nowhere does it claim to map onto Zachman's rows and columns (Scope / Business / System / Technology / Component × What / How / Where / Who / When / Why). There's no stated lineage at all.
 
@@ -36,7 +36,6 @@ Nowhere does it cite Zachman. Nowhere does it claim to map onto Zachman's rows a
 
 Any taxonomy that goes from strategy down to implementation will *look* vaguely Zachman-shaped, because that progression is common sense, not a proprietary structure someone has to borrow. Resemblance in shape isn't evidence of structural similarity.
 
-![alt text](some_shape_different_origin.png)
 
 ## Important closer near-miss: TOGAF
 
@@ -66,12 +65,12 @@ It's tempting — for credibility, or just to sound rigorous — to describe DBJ
 
 (aka: "terms used above")
 
-<a id="taxonomy"></a>**DBJ Taxonomy** — the category structure defined at [method.dbj.org/taxonomy_core.html](https://method.dbj.org/taxonomy_core.html), organizing DBJ Method artifacts under top-level categories and capabilities.
+<a id="taxonomy"></a>**DBJ Taxonomy** — defined in the [Taxonomy chapter](https://method.dbj.org/taxonomy/).
 
 <a id="zachman"></a>**Zachman Framework** — an enterprise architecture classification scheme organizing artifacts across five perspectives (Scope, Business, System, Technology, Component) and six interrogatives (What, How, Where, Who, When, Why). Origin: John Zachman, 1987.
 
 <a id="togaf"></a>**TOGAF** — The Open Group Architecture Framework, a detailed enterprise architecture methodology and set of tools, including the Architecture Development Method (ADM). DBJ Methodology encapsulates TOGAF underneath and exposes a simpler interface via DBJ Taxonomy.
 
-<a id="adm"></a>**ADM** — Architecture Development Method, TOGAF's core iterative cycle of phases (Preliminary, Vision, Business, Information Systems, Technology, Opportunities, Migration, Governance, Change Management). DBJ's ADM derivative maps DBJ Taxonomy categories directly onto these phases.
+<a id="adm"></a>**ADM** — Architecture Development Method, TOGAF's core iterative cycle of phases (Preliminary, Vision, Business, Information Systems, Technology, Opportunities, Migration, Governance, Change Management). See [DBJ ADM](https://method.dbj.org/adm/dbj_adm.html) for DBJ's derivative.
 
 <a id="encapsulation-isnot-referencing"></a>**Encapsulation is not Referencing** — DBJ encapsulation hides TOGAF's full apparatus behind DBJ's own DBJ Method surface. Callers only ever see DBJ (Taxonomy) names, never ADM (TOGAF) phases directly. Referencing would instead cite TOGAF terms alongside or in place of DBJ's own, which is exactly the loose "maps to Zachman" move this post is arguing against.

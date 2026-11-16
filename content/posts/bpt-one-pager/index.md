@@ -3,7 +3,7 @@ title: "DBJ Method One-Pager"
 date: 2026-09-28
 version: 0.2
 description: "A commissioned one-page opinion on the DBJ Method: what it demands, why it works, and where organisations might struggle."
-tags: ["EA", "TOGAF", "architecture", "DBJ Method"]
+tags: ["enterprise-architecture", "TOGAF", "architecture", "DBJ Method"]
 chapters: ["bpt", "cmm", "adm"]
 author: "Dusan B. Jovanovic"
 cover:
@@ -14,7 +14,7 @@ I was asked to produce a DBJ Method "one-pager" at the end of June 2026. This is
 
 > **AI makes it fast. DBJ Method makes it possible.**
 
-**Distribution of efforts to deliver the product under the pressure of AI.** .  The BPt in one sentence.
+**Distribution of efforts to deliver the product under the pressure of AI.** The BPT in one sentence.
 
 ### 1. What is in the shop window
 
@@ -23,7 +23,7 @@ Two things: the **DBJ CMM** and the **BPT**. The first is a mandate on people, t
 Adopters are not buying a framework. They are buying a blueprint of how the company operates:
 
 *   **The Architecture authority.** Small, empowered, and never delivering. It defines principles, governs transitions and measures alignment. It navigates; the Business steers.
-*   **The domain teams.** There is no single team. Each of the three domains, Business, Products and Technology, holds one or many teams, so an adopter has at least three.
+*   **The domain teams.** There is no single team. Each of the three domains, Business, Product and Technology, holds one or many teams, so an adopter has at least three.
 
 ### 2. Two steps, mandated
 
@@ -34,7 +34,7 @@ AI is an very fast business arena. Players have to be well trained, before they 
 
 ### 3. B-P-T: one loop
 
-Business-Products-Technology is the central theme of the DBJ Method. It is the operating model: three decoupled domains acting together in an endless loop, aimed at a fast, safe and feasible stream of delivered products. The Business declares the product, Products defines it, Technology implements it.
+Business-Product-Technology is the central theme of the DBJ Method. It is the operating model: three decoupled domains acting together in an endless loop, aimed at a fast, safe and feasible stream of delivered products. The Business declares the product, Product defines it, Technology implements it.
 
 ![The B-P-T loop](bpt-loop.png)
 
@@ -46,7 +46,7 @@ The metaphor works because it gently forces management to see their responsibili
 
 The TOGAF ADM (Architecture Development Method) is an endless loop of nine phases (Preliminary, A to H). Companies look at it and give up.
 
-The [DBJ ADM](https://method.dbj.org/adm/dbj_adm.html) cuts it to five steps: Strategy & Motivation, Business, Application, Technology, Implementation & Migration. Each step produces one written deliverable, and Requirements Management sits at the hub.
+The [DBJ ADM](https://method.dbj.org/adm/dbj_adm.html) cuts it down to a short wheel with Requirements Management at the hub.
 
 *   The Business is at the helm of the wheel. Enterprise Architecture is "just" the navigator.
 *   The wheel authorizes delivery. It never delivers. The BPT loop delivers.
@@ -66,11 +66,11 @@ The DBJ Method quietly points out that this is treating a structural fracture wi
 
 If I am to self-critique the *application* of the DBJ Method, the friction lies in the required management maturity. That is also the dark cloud on the horizon of AI adoption.
 
-To "buy" what the DBJ Method is selling, a legacy organisation's the board room, must accept that software is not a series of projects to be finished, but products to be delivered. The board must also accept that the organisation is measured by what its people are now able to deliver, not by what they delivered last quarter. Also, adopters have to authorise the Architecture authority to say "No" until the boundaries are drawn. In most legacy companies the loudest voices (sales, marketing) sit on the opposing feature side. Giving a quiet, overarching architecture function the power to block them takes executive backbone that is rare.
+To "buy" what the DBJ Method is selling, a legacy organisation's board room must accept that software is not a series of projects to be finished, but products to be delivered. The board must also accept that the organisation is measured by what its people are now able to deliver, not by what they delivered last quarter. Also, adopters have to authorise the Architecture authority to say "No" until the boundaries are drawn. In most legacy companies the loudest voices (sales, marketing) sit on the opposing feature side. Giving a quiet, overarching architecture function the power to block them takes executive backbone that is rare.
 
 ### AI? Not yet.
 
-The very first effort hast to be removal of the Technical Debt and Legacy processes. Adding AI solution on top of technical debt will only mean more technical debt. Now is the perfect time to remove it. The team is ready and wheels are turning.
+The very first effort has to be the removal of the Technical Debt and legacy processes. Adding AI solution on top of technical debt will only mean more technical debt. Now is the perfect time to remove it. The team is ready and wheels are turning.
 
 The idea behind the DBJ Method is a **highly disciplined, almost ascetic approach to the (AI-enabled) organisation**. It strips away the buzzwords, rejects the feature-factory mindset, and demands mature people before any delivery and before any AI. It is Enterprise Architecture stripped of its enterprise bloat, and weaponized for companies drowning in their own unplanned, not-AI-driven not-growth.
 

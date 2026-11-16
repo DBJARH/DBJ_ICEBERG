@@ -5,6 +5,7 @@ version: 0.1
 draft: false
 description: "Are BPT adopters Agile?"
 tags: ["BPT", "agile", "BCG"]
+chapters: ["bpt"]
 author: "Dusan B. Jovanovic"
 cover:
   image: "image.png"
@@ -22,7 +23,7 @@ https://www.bcg.com/publications/2024/why-companies-get-agile-right-wrong
 
 [BCG](#bcg)'s finding: **only about half** of companies claiming high agile maturity actually achieved transformation goals with real business impact — while in the same time 47% adopt the practices but get none of the benefit.
 
-Naturally those accused of "operating under the illusion of agility", will be (very) weary of adopting "yet another ideology" on top of or instead of agile.
+Naturally those accused of "operating under the illusion of agility", will be (very) wary of adopting "yet another ideology" on top of or instead of agile.
 
 Here is a simple clarification. 
 
@@ -52,4 +53,4 @@ Agile without clear and simple Op model like BPT = fast execution of an unclear 
 
 <a id="agile"></a>**Agile** — an iterative approach to software delivery built on short cycles, working software over documentation, and responding to change over following a plan. Origin: [agilemanifesto.org](https://agilemanifesto.org/).
 
-<a id="bpt"></a>**BPT** — Business-Product-Tech, DBJ Method's operating model for segmenting the landscape and aligning ownership across business, product, and tech. See [BPT operating model](/posts/bpt-operating-model/).
+<a id="bpt"></a>**BPT** — defined in the [BPT chapter](https://method.dbj.org/bpt/).

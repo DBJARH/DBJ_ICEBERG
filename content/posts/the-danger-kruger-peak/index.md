@@ -2,7 +2,7 @@
 title: "The Danger-Kruger Peak"
 date: 2026-06-13
 version: 0.1
-description: "AI is needed and used most by those who do not understand the importance of learning and self-development"
+description: "The less competence you bring, the more AI seems to lift you, until the ladder ends"
 tags: ["agents", "architecture", "DBJ Method", "AI"]
 author: "Dusan B. Jovanovic"
 cover:
@@ -44,4 +44,4 @@ This isn't a worry about individual users being fooled by a chatbot. It's a stru
 
 The fix isn't to climb slower. It's to make sure someone on the team has already finished the climb — so when the ladder ends, someone notices.
 
-![](ai_vs_competence.jpg)
+![AI lift versus competence curve](ai_vs_competence.jpg)

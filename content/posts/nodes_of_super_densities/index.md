@@ -3,7 +3,7 @@ title: "Accidental Nodes of Super Densities"
 date: 2026-06-23
 version: 0.1
 description: "We need to prove this can not be a software product team. Or do we?"
-tags: ["AI", "Team", "New Shape of Things", "B-P-T role is not clear. Or is it not?"]
+tags: ["AI", "BPT", "Team"]
 author: "Dusan B. Jovanovic"
 draft: false
 cover:
@@ -26,7 +26,7 @@ AI or not AI. Is that a sustainable operating model for an organization?
 - How does this map to infrastructure?
 - How is landscape of these Team Clumps controlled? And planned.
 
-**We might be wrong. **
+**We might be wrong.**
 
 > Is the chaos we see, just a superior AI landscape from your point of view?
 

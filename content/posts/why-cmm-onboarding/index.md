@@ -4,6 +4,7 @@ date: 2026-02-23
 version: 0.1
 description: "Transformation fails without measurable organizational readiness. CMM onboarding establishes the foundations before any work begins."
 tags: ["CMM", "TOGAF", "enterprise-architecture", "onboarding"]
+chapters: ["cmm"]
 author: "Dusan B. Jovanovic"
 draft: false
 cover:
@@ -37,7 +38,7 @@ DBJ establishes capability maturity foundations using a two-phase approach.
 
 ### Phase A: Assessing Current State
 
-DBJ Enterprise Architects evaluate organizational maturity using ACMM Levels L0–L5. This phase evaluates five structural elements present in every organization:
+DBJ Enterprise Architects evaluate organizational maturity using the Levels L0–L5 of the [DBJ CMM](https://method.dbj.org/cmm/dbj_cmm.html), which is derived from TOGAF's ACMM. This phase evaluates five structural elements present in every organization:
 
 - **Governance** — decision-making authority, policies, oversight
 - **Skilled Resource Pool** — people and available competencies
@@ -50,7 +51,7 @@ The organization's DBJ CMM level is the minimum score across all five elements �
 Assessment activities:
 - Establishes shared vocabulary through Common Taxonomy
 - Identifies capability gaps via ACMM scorecard across all five elements
-- Defines achievable initial target state (L3 — Defined)
+- Defines the starting level (L3 — Defined) and the target (L5)
 
 **Outcome:** ACMM baseline assessment with EA-guided improvement roadmap
 
@@ -62,7 +63,7 @@ DBJ Enterprise Architects guide, document and implement architecture processes, 
 - Deploys architecture-driven communication practices
 - Embeds Common Taxonomy as organizational standard
 
-**Outcome:** Organization operating at CMM L3 across all five elements — the entry threshold for the DBJ BPT methodology
+**Outcome:** Organization operating at CMM L3 across all five elements — the entry threshold for the DBJ BPT methodology. L5 across all five elements is the required target.
 
 ## Why This Matters
 

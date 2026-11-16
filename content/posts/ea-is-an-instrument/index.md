@@ -3,7 +3,7 @@ title: "EA Is an Instrument"
 date: 2026-05-31
 version: 0.1
 description: "EA does not redesign itself around the thing it is measuring. For 50 years, EA has matured into a vital tool that tells you whether a business is truly aligned with its technology."
-tags: ["EA", "AI", "enterprise-architecture"]
+tags: ["enterprise-architecture", "AI"]
 author: "Dusan B. Jovanovic"
 cover:
   image: "ea-is-an-instrument.png"
@@ -17,5 +17,3 @@ This is completely upside down. EA will not change because of AI; to suggest oth
 P.S. Go down that road, and everything has to bend to AI — not just ITIL, PRINCE2, and Six Sigma, but medicine, math, and physics, too.
 
 P.P.S. An LLM is just an online chatbot — nothing more, nothing less. "AI" is just marketing, and marketing is just a pseudo-science designed to manipulate public attention.
-
-Solid reductio ad absurdum on the "X must adapt to AI" genre. The instrument does not redesign itself around the thing it is measuring.

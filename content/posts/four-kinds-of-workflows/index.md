@@ -4,6 +4,7 @@ date: 2026-07-30
 version: 0.1
 description: "\"Workflow\" names (at least) three different things your organization owns. Confusing them is why engineering tools get mistaken for strategy."
 tags: ["BPT", "architecture", "DBJ Method", "workflow"]
+chapters: ["bpt"]
 author: "Dusan B. Jovanovic"
 cover:
   image: "dbj_bpt_left_to_right.png"
@@ -23,7 +24,7 @@ That is the whole idea. Steps, order, a record of position, and a rule for what 
 
 Every modern use of the word is a descendant of that slip, but they have drifted so far apart that they now name different things owned by different people:
 
-1. **The operational loop.** The rhythm by which your organization decides what to build and confirms it was worth building. In [DBJ Method](https://method.dbj.org/index) this is [BPT](https://method.dbj.org/bpt). It is governance — the "what" and the "why." It is not a diagram and not code, and it is the only one of the three the board actually owns.
+1. **The operational loop.** The rhythm by which your organization decides what to build and confirms it was worth building. In [DBJ Method](https://method.dbj.org/) this is [BPT](https://method.dbj.org/bpt). It is governance — the "what" and the "why." It is not a diagram and not code, and it is the only one of the three the board actually owns.
 
 2. **The description.** A business analyst's diagram of a process, drawn so that stakeholders agree on what the process *is* before anyone builds it. This is the Product domain's tool. It exists to be read by humans and handed to engineers.
 
@@ -69,9 +70,9 @@ For readers who want the engineering framing rather than the governance one.
 
 ### The same three, in BPT terms
 
-![DBJ Taxonomy](https://method.dbj.org/visuals/dbj_bpt/dbj-bpt-opmodel-clogs.png)
+![The BPT operating model](https://method.dbj.org/visuals/dbj_bpt/dbj-bpt-opmodel-clogs.png)
 
-- **WFL2026** — the implementation artifact. [Dapr](https://dapr.io/), [Temporal](https://temporal.io/) and relatives: code-first durable orchestration for distributed systems, promising persistent state, survived crashes, managed retries. It exists because modern applications are constellations of microservices and AI agents landing in production as containers, and something has to track where each one is *right now*. Lives entirely in **Technology (T)**. Optional.
+- **WFL2026** — our label for the implementation artifact, the plumbing above. [Dapr](https://dapr.io/), [Temporal](https://temporal.io/) and relatives: code-first durable orchestration for distributed systems, promising persistent state, survived crashes, managed retries. It exists because modern applications are constellations of microservices and AI agents landing in production as containers, and something has to track where each one is *right now*. Lives entirely in **Technology (T)**. Optional.
 - **The analytical workflow** — [Cawemo](https://cawemo.com/), [BPMN](https://www.omg.org/spec/BPMN/). A description used to align stakeholders, belonging to **Product (P)**, produced by business analysts in a form the T domain can consume. **Business (B)** does not need this tool; TOGAF's Business Architecture is one segment among eight, and workflow is barely in it.
 - **BPT** — not a workflow at all. The governance structure that deliberately decouples B from T with P as the bridge.
 

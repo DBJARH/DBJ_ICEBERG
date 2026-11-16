@@ -4,7 +4,7 @@ date: 2026-07-19
 version: 0.1
 draft: false
 description: "Revisiting a 2019 idea: VALSTAT, a value-and-status alternative to C++ error handling — and why the AND still holds up."
-tags: ["C++", "VALSTAT", "Error Handling", "DBJ"]
+tags: ["C++", "VALSTAT", "Error Handling", "DBJ Method"]
 author: "Dusan B. Jovanovic"
 cover:
   image: "So little C++ so much good.png"
