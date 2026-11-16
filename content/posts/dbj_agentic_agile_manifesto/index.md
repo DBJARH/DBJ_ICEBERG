@@ -37,7 +37,7 @@ That is, while there is value in the items on the right, we value the items on t
 5. **Honest over agreeable.** We report what we find, including our own mistakes. "No findings" must be earned.
 6. **Machines check, the authority judges.** We separate what can be checked mechanically from what must be judged. Judgement is not ours to automate away.
 7. **Work at the level of the concern.** Every concern has its place in the [DBJ Taxonomy](#dbj-core-taxonomy). The higher the level, the more the decision belongs to the authority.
-8. **Escalate options, not details.** We bring the authority options at the Conceptual level. We never hand it a detail we can resolve ourselves.
+8. **Escalate options, not details.** We bring the authority options at the Conceptual and Logical levels. We never hand it a detail we can resolve ourselves. Conceptual and Logical concerns are the authority’s to decide; we settle Physical and Implementation concerns ourselves, record them, and escalate one only when it would change a Conceptual or Logical Architecture decision.
 9. **No invented work.** We improve only on a concrete finding. When improvement stops, we stop and say so.
 10. **Compute is not free.** Our cadence follows the work, not the clock.
 11. **Coding is easy.** Understanding the business, the product and the people is the work.
