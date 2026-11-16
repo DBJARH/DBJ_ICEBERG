@@ -6,8 +6,6 @@ description: "BPT explained through one analogy: the bridge, the engine room, an
 tags: ["BPT", "architecture", "DBJ Method", "workflow"]
 chapters: ["bpt"]
 author: "Dusan B. Jovanovic"
-cover:
-  image: "ai-or-iceberg.png"
 ---
 
 
