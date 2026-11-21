@@ -28,10 +28,12 @@ The DBJ Method exists to provide a single, unifying, and open standard for steer
 In short, the DBJ Method exists to demystify architecture and decision-making in the AI era—enabling organizations to build open, efficient systems that respond faster to business demands while reducing risk through a structured, maturity-aware, and decision-recorded approach.
 
 
-## And for those close to the subject
+<details markdown="1">
+<summary><b>And for those close to the subject</b></summary>
 
-### Why TOGAF
+**Why TOGAF?**
 
+TOGAF exists to provide a single, unifying, and open industry standard framework for developing enterprise architectures.
 
 TOGAF exists to provide a single, unifying, and open industry standard framework for developing enterprise architectures. It was created to solve the problem of inconsistent, ad-hoc IT architecture practices by offering a common language and a proven, repeatable method that aligns IT with business needs.
 
@@ -46,4 +48,6 @@ TOGAF began as a customer-driven initiative in 1994 to address a fragmented IT i
 - **Remains Neutral and Adaptable:** It is designed to be vendor, tool, and technology-neutral. It does not prescribe specific deliverables; instead, it can be adapted to work alongside other frameworks (like Zachman or FEAF) or tailored for specific use cases, including agile enterprises and digital transformation.
 
 In short, TOGAF exists to demystify architecture development, enabling organizations to build open, efficient systems that respond faster to business demands while reducing costs and risks.
+
+</details>
 
