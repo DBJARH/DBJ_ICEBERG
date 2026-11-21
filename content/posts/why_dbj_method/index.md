@@ -20,15 +20,17 @@ The DBJ Method exists to provide a single, unifying, and open standard for steer
 
 🛠️ What Problem It Solves
 
-· Holds It All Together: Enterprise complexity fragments across business, process, and technology (the B ↔ P ↔ T Operating Model). DBJ provides a Taxonomy and Bridge to keep these domains aligned rather than siloed.
-· Gets Teams Ready: It includes a Capability Maturity Model (DBJ CMM) and a Bridge to AI / TOGAF CMM, so organizations can assess readiness and evolve deliberately—not ad-hoc.
-· Steers at the Speed of AI: Its core is the DBJ ADM (Architecture Decision Method) and The Wheel—an iterative, multi-applicable cycle for requirements management and runtime decisions (BPT Cycles, BPT Runtime, Exceptions). This replaces slow, document-heavy governance with fast, decision-centric steering.
-· Provides a Neutral, Adaptable Method: Like TOGAF, it is vendor- and tool-neutral, but explicitly designed for operational efficiency with AI, Business Decision Records (BDR), and practical adoption paths (DBJ Method Engagement).
+- **Holds It All Together:** Enterprise complexity fragments across business, process, and technology (the B ↔ P ↔ T Operating Model). DBJ provides a Taxonomy and Bridge to keep these domains aligned rather than siloed.
+- **Gets Teams Ready:** It includes a Capability Maturity Model (DBJ CMM) and a Bridge to AI / TOGAF CMM, so organizations can assess readiness and evolve deliberately—not ad-hoc.
+- **Steers at the Speed of AI:** Its core is the DBJ ADM (Architecture Decision Method) and The Wheel—an iterative, multi-applicable cycle for requirements management and runtime decisions (BPT Cycles, BPT Runtime, Exceptions). This replaces slow, document-heavy governance with fast, decision-centric steering.
+- **Provides a Neutral, Adaptable Method:** Like TOGAF, it is vendor- and tool-neutral, but explicitly designed for operational efficiency with AI, Business Decision Records (BDR), and practical adoption paths (DBJ Method Engagement).
 
 In short, the DBJ Method exists to demystify architecture and decision-making in the AI era—enabling organizations to build open, efficient systems that respond faster to business demands while reducing risk through a structured, maturity-aware, and decision-recorded approach.
 
 
-## Why TOGAF
+## And for those close to the subject
+
+### Why TOGAF
 
 
 TOGAF exists to provide a single, unifying, and open industry standard framework for developing enterprise architectures. It was created to solve the problem of inconsistent, ad-hoc IT architecture practices by offering a common language and a proven, repeatable method that aligns IT with business needs.
@@ -39,9 +41,9 @@ TOGAF began as a customer-driven initiative in 1994 to address a fragmented IT i
 
 🛠️ What Problem It Solves
 
-· Standardizes the Process: Enterprise architecture is complex and involves many stakeholders. TOGAF standardizes and de-risks the development process by providing a best-practice framework, ensuring consistency and giving due consideration to both current and future needs.
-· Provides a Proven Method: Its core is the Architecture Development Method (ADM), a reliable, iterative process for defining business needs and creating architectures that meet them.
-· Remains Neutral and Adaptable: It is designed to be vendor, tool, and technology-neutral. It does not prescribe specific deliverables; instead, it can be adapted to work alongside other frameworks (like Zachman or FEAF) or tailored for specific use cases, including agile enterprises and digital transformation.
+- **Standardizes the Process:** Enterprise architecture is complex and involves many stakeholders. TOGAF standardizes and de-risks the development process by providing a best-practice framework, ensuring consistency and giving due consideration to both current and future needs.
+- **Provides a Proven Method:** Its core is the Architecture Development Method (ADM), a reliable, iterative process for defining business needs and creating architectures that meet them.
+- **Remains Neutral and Adaptable:** It is designed to be vendor, tool, and technology-neutral. It does not prescribe specific deliverables; instead, it can be adapted to work alongside other frameworks (like Zachman or FEAF) or tailored for specific use cases, including agile enterprises and digital transformation.
 
 In short, TOGAF exists to demystify architecture development, enabling organizations to build open, efficient systems that respond faster to business demands while reducing costs and risks.
 
